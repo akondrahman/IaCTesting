@@ -18,3 +18,4 @@ Mehedi Hassan (Lead) , Akond Rahman
 4. Not collecting facts from remote host
 5. Mishandled privilege escalation
 6. Localhost testing
+7. Not cleaning the test tnv
