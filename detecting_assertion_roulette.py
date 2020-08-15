@@ -17,7 +17,7 @@ def main():
     print(detectAssertionRoulette("test_code_for_parsing.py"))
 
 
-# In[105]:
+# In[121]:
 
 
 def detectAssertionRoulette(script_name):
@@ -39,12 +39,27 @@ def detectAssertionRoulette(script_name):
                     for body_item in node.body:
                         #checking if the function body has any assert statement
                         #and keeping the count of that
-                        if isinstance(body_item, ast.Expr):
+                        if isinstance(body_item, ast.Expr) :
                             ops = body_item.value.func.attr
                             if ops.startswith('assert'):
                                 fn['countAssert'] = fn['countAssert'] + 1
+                                
+                                
+                        #finding Assert inside a if condition of a With block
+                        if isinstance(body_item, ast.With):
+                            for with_body_item in body_item.body:
+                                if isinstance( with_body_item, ast.If):
+                                    if_with_body_items = with_body_item.body
+                                    for if_with_body_item in if_with_body_items:
+                                        ops2 = if_with_body_item.value.func.attr
+                                        if ops2.startswith('assert'):
+                                            fn['countAssert'] = fn['countAssert'] + 1
+                                        
+                                                                           
+                        #finding plain Asserts        
                         if isinstance(body_item, ast.Assert):
-                            fn['countAssert'] = fn['countAssert'] + 1                    
+                            fn['countAssert'] = fn['countAssert'] + 1            
+                            
                     if fn['countAssert'] >1:
                         fn['hasSmell'] = True
                         
@@ -53,7 +68,7 @@ def detectAssertionRoulette(script_name):
         return fns
 
 
-# In[108]:
+# In[124]:
 
 
 if __name__ == "__main__":
