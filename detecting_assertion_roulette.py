@@ -10,14 +10,14 @@ import inspect
 import astor
 
 
-# In[67]:
+# In[155]:
 
 
 def main():
-    print(detectAssertionRoulette("test_code_for_parsing.py"))
+    print(detectAssertionRoulette("test_manage.py"))
 
 
-# In[121]:
+# In[156]:
 
 
 def detectAssertionRoulette(script_name):
@@ -40,9 +40,13 @@ def detectAssertionRoulette(script_name):
                         #checking if the function body has any assert statement
                         #and keeping the count of that
                         if isinstance(body_item, ast.Expr) :
-                            ops = body_item.value.func.attr
-                            if ops.startswith('assert'):
-                                fn['countAssert'] = fn['countAssert'] + 1
+                            try:
+                                ops = body_item.value.func.attr
+                                if ops.startswith('assert'):
+                                    fn['countAssert'] = fn['countAssert'] + 1
+                            except:
+                                pass
+                            
                                 
                                 
                         #finding Assert inside a if condition of a With block
@@ -51,9 +55,13 @@ def detectAssertionRoulette(script_name):
                                 if isinstance( with_body_item, ast.If):
                                     if_with_body_items = with_body_item.body
                                     for if_with_body_item in if_with_body_items:
-                                        ops2 = if_with_body_item.value.func.attr
-                                        if ops2.startswith('assert'):
-                                            fn['countAssert'] = fn['countAssert'] + 1
+                                        try:
+                                            ops2 = if_with_body_item.value.func.attr
+                                            if ops2.startswith('assert'):
+                                                fn['countAssert'] = fn['countAssert'] + 1
+                                        except:
+                                            pass
+                                        
                                         
                                                                            
                         #finding plain Asserts        
@@ -68,7 +76,7 @@ def detectAssertionRoulette(script_name):
         return fns
 
 
-# In[124]:
+# In[157]:
 
 
 if __name__ == "__main__":
@@ -79,4 +87,16 @@ if __name__ == "__main__":
 
 
 #https://stackoverflow.com/questions/54092879/how-to-find-out-if-the-source-code-of-a-function-contains-a-loop
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
