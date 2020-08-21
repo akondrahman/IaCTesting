@@ -46,6 +46,29 @@ In the above two examples we can see that multiple mention of assertion without 
 ###### Definition 
 ....Will Be Updated Later....
 
+Example 01:
+https://github.com/akondrahman/IaCTesting/blob/cc4e78aa7af6c3b6ccf5c86e03936b991f4cd36b/categ_ansible_test_code.txt#L5833
+
+```
+TARGET_DIR = path.join(os.getcwd(), 'tests', 'inventory')
+BASE_ENV_DIR = INV_DIR
+CONFIGS_DIR = path.join(os.getcwd(), 'etc', 'openstack_deploy')
+CONFD = os.path.join(CONFIGS_DIR, 'conf.d')
+AIO_CONFIG_FILE = path.join(CONFIGS_DIR, 'openstack_user_config.yml.aio')
+USER_CONFIG_FILE = path.join(TARGET_DIR, 'openstack_user_config.yml')
+```
+For example in the above variable setup/definition we are seeing that files from external directory is being read.
+
+Example 02:
+https://github.com/akondrahman/IaCTesting/blob/cc4e78aa7af6c3b6ccf5c86e03936b991f4cd36b/categ_ansible_test_code.txt#L7587
+
+```
+[testenv]
+usedevelop = True
+install_command =
+    pip install -c{env:UPPER_CONSTRAINTS_FILE:https://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt} {opts} {packages}
+```
+In the above snippet, we are seeing that files from internet is being downloaded for preparing test environment.
 
 3. Violation of execute and verify
 4. Not collecting facts from remote host
