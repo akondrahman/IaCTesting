@@ -75,3 +75,4 @@ In the above snippet, we are seeing that files from internet is being downloaded
 5. Mishandled privilege escalation
 6. Localhost testing
 7. Not cleaning the test tnv
+8. Sensitive data leakage
