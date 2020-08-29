@@ -74,5 +74,23 @@ In the above snippet, we are seeing that files from internet is being downloaded
 4. Not collecting facts from remote host
 5. Mishandled privilege escalation
 6. Localhost testing
-7. Not cleaning the test tnv
+##### Not cleaning the test tnv
+###### Definition 
+....Will Be Updated Later....
+Example 01:
+https://github.com/akondrahman/IaCTesting/blob/b82895f06f85108a76ca27fc3d83cc7c4da4b65b/categ_ansible_test_code.txt#L7480
+
+```
+    def tearDown(self):
+        test_inventory.cleanup()
+ ```
+ 
+ ```
+def cleanup():
+    for f_name in CLEANUP:
+        f_file = path.join(TARGET_DIR, f_name)
+        if os.path.exists(f_file):
+            os.remove(f_file)
+```
+In this example, test script is actually calling a cleanup() function which is ultimately removing the test files from the redirectory. But in any scenarios we see that set environment has not been properly cleaned up after testing is completed or before starting testing.
 8. Sensitive data leakage
