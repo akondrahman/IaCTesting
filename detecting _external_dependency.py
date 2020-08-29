@@ -1,18 +1,40 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[99]:
+# In[1]:
 
 
 import tokenize
 import ast
+
+
+# In[26]:
+
+
+def main():
+    dependencies = detectExternalDependency('test_code_for_parsing.py')
+#     dependencies = []
+    
+    if len(dependencies) == 0:
+        print("No external dependency found")
+        return 0
+    else :
+        print("Some external dependencies has been identified. Please check the following line numbers")
+        
+        for dependency in dependencies:
+            print(dependency['lineNo'] )
+            
+
+
+# In[27]:
+
 
 def parse_file(filename):
     with tokenize.open(filename) as f:
         return ast.parse(f.read(), filename=filename)
 
 
-# In[100]:
+# In[28]:
 
 
 
@@ -36,7 +58,7 @@ def filename_and_lineno_to_def(filename, lineno):
         return candidate.name
 
 
-# In[95]:
+# In[29]:
 
 
 def detectExternalDependency(filename):
@@ -62,10 +84,17 @@ def detectExternalDependency(filename):
     return externalDependencies
 
 
-# In[103]:
+# In[30]:
 
 
 print(detectExternalDependency('test_code_for_parsing.py'))
+
+
+# In[31]:
+
+
+if __name__ == "__main__":
+    main()
 
 
 # In[ ]:
