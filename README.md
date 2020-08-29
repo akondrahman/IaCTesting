@@ -94,4 +94,8 @@ def cleanup():
             os.remove(f_file)
 ```
 In this example, test script is actually calling a cleanup() function which is ultimately removing the test files from the redirectory. But in any scenarios we see that set environment has not been properly cleaned up after testing is completed or before starting testing.
-8. Sensitive data leakage
+
+##### Sensitive Data Leakage
+###### Definition 
+....Will Be Updated Later....
+
