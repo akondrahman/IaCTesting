@@ -58,12 +58,12 @@ def filename_and_lineno_to_def(filename, lineno):
         return candidate.name
 
 
-# In[29]:
+# In[33]:
 
 
 def detectExternalDependency(filename):
     #keywords which have been observed in the sample code 
-    lookups = ['path.join', 'http://', 'https://', 'open (', 'mysql']
+    lookups = ['path.join', 'http://', 'https://', 'open (', 'mysql', 'import_playbook']
     
     externalDependencies = []
     
@@ -84,13 +84,13 @@ def detectExternalDependency(filename):
     return externalDependencies
 
 
-# In[30]:
+# In[34]:
 
 
 print(detectExternalDependency('test_code_for_parsing.py'))
 
 
-# In[31]:
+# In[35]:
 
 
 if __name__ == "__main__":
