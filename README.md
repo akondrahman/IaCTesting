@@ -70,7 +70,15 @@ install_command =
 ```
 In the above snippet, we are seeing that files from internet is being downloaded for preparing test environment.
 
-3. Violation of execute and verify
+##### Violation of execute and verify
+
+###### Definition 
+....Will Be Updated Later....
+
+Example 01:
+
+
+
 4. Not collecting facts from remote host
 5. Mishandled privilege escalation
 6. Localhost testing
