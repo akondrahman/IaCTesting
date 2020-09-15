@@ -9,3 +9,5 @@ Mehedi Hassan (Lead) , Akond Rahman
 ### Details 
 
 > Coming soon 
+
+> First step, detect testing anti-patterns 
