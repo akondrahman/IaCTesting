@@ -1,40 +1,39 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[39]:
-
-
-import nltk
 from nltk.corpus import stopwords 
 from nltk.tokenize import word_tokenize 
 import yaml
 
 
 # In[83]:
+def getCoef(taskCoefficient):
+    return taskCoefficient['coeff']
 
 
-with open('test.yml', 'r') as f:
-    playbook = yaml.load(f)
+def consolidateTaskNames(playbook):
+    stringsToVerify = ['verify', 'check', 'assert', 'ensure']
+    taskNames = []
+    taskNamesVerify = []
+    totalTasks = {}
 
-tasks = consolidateTaskNames(playbook)
-verifierTasks = tasks['verifierTasks']
-allTasks = tasks['tasks']
-
-# print(verifierTasks)
-taskCombo = []
-
-for verifierTask in verifierTasks:
-    taskPair = {}
-#     print(verifierTask)
-    bestMatch = findTheBestMatchingTask(verifierTask, allTasks)
-    taskPair['preperationTask'] = bestMatch['taskName']
-    taskPair['verifierTask'] = verifierTask
-    taskCombo.append(taskPair)
     
-print(taskCombo)
+    for role in playbook:
+        try:
+            tasks = role['tasks']
+            for task in tasks:
+                taskNames.append(task['name'])
+                res = any(ele in str(task['name']).lower()                           for ele in stringsToVerify) 
+                if(res):
+                    taskNamesVerify.append(task['name'])        
+        
+        except:
+            print("task not found under this role: " + role['name'])
+    
+    totalTasks['tasks'] = taskNames
+    totalTasks['verifierTasks'] = taskNamesVerify
+    
+    return totalTasks
 
 
-# In[43]:
+
 
 
 def returnCosineSimilarity(str1, str2):
@@ -65,41 +64,7 @@ def returnCosineSimilarity(str1, str2):
     cosine = c / float((sum(l1)*sum(l2))**0.5) 
 
     return cosine
-    
-    
 
-
-# In[84]:
-
-
-def consolidateTaskNames(playbook):
-    stringsToVerify = ['verify', 'check', 'assert', 'ensure']
-    stringToPrepare = ['find', 'show',]
-    taskNames = []
-    taskNamesVerify = []
-    roleNames = []
-    totalTasks = {}
-
-    
-    for role in playbook:
-        try:
-            tasks = role['tasks']
-            for task in tasks:
-                taskNames.append(task['name'])
-                res = any(ele in str(task['name']).lower()                           for ele in stringsToVerify) 
-                if(res):
-                    taskNamesVerify.append(task['name'])        
-        
-        except:
-            print("task not found under this role: " + role['name'])
-    
-    totalTasks['tasks'] = taskNames
-    totalTasks['verifierTasks'] = taskNamesVerify
-    
-    return totalTasks
-
-
-# In[85]:
 
 
 def findTheBestMatchingTask(verifierTask, allTasks):
@@ -118,9 +83,23 @@ def findTheBestMatchingTask(verifierTask, allTasks):
     return taskCoefficients[0]
 
 
-# In[86]:
 
+with open('test.yml', 'r') as f:
+    playbook = yaml.load(f)
 
-def getCoef(taskCoefficient):
-    return taskCoefficient['coeff']
+tasks = consolidateTaskNames(playbook)
+verifierTasks = tasks['verifierTasks']
+allTasks = tasks['tasks']
 
+# print(verifierTasks)
+taskCombo = []
+
+for verifierTask in verifierTasks:
+    taskPair = {}
+#     print(verifierTask)
+    bestMatch = findTheBestMatchingTask (verifierTask, allTasks)
+    taskPair['preperationTask'] = bestMatch['taskName']
+    taskPair['verifierTask'] = verifierTask
+    taskCombo.append(taskPair)
+    
+print(taskCombo)

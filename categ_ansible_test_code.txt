@@ -721,7 +721,8 @@ C:\Users\mehedi.md.hasan\PythonWorkspace\OSTK_ANSI\ostk-ansi\ansible-role-system
       yum: "btrfs-progs"
       zypper: "btrfsprogs"
 
------------> Does not follow a 'prepare' and 'verify' principle 
+-----------> Does not follow a 'prepare' and 'verify' principle 
+
 
 
 
@@ -1065,7 +1066,8 @@ commands =
     {[testenv:docs]commands}
 
 
------------> We need to skip .ini files 
+-----------> We need to skip .ini files 
+
 
 ===========Repository Name===========
 ansible-role-systemd_networkd
@@ -1126,7 +1128,8 @@ neutron_provider_networks:
   network_vxlan_ranges: "1:1000"
 
 
------------> We need to skip YML files that has no 'name:' tag ... 'name' reflects a playbook executing some steps 
+-----------> We need to skip YML files that has no 'name:' tag ... 'name' reflects a playbook executing some steps 
+
 
 
 ===========Repository Name===========
@@ -1716,7 +1719,8 @@ def test__validate_yaml(schema):
                 _validate_yaml(schema, workload_config["data"])
             assert "SchemaError" in str(exception_data)
 
---------------> Dependence on external config data (from browbeat.config import load_browbeat_config)
+--------------> Dependence on external config data (from browbeat.config import load_browbeat_config)
+
 
 
 ===========Repository Name===========
@@ -4370,7 +4374,8 @@ class TestGetLogger(base.IronicLibTestCase):
         CONF.clear_override('prepend_host', group='metrics')
         CONF.clear_override('prepend_host_reverse', group='metrics')
 
-
+
+
 
 
 ===========Repository Name===========
@@ -5784,7 +5789,8 @@ if __name__ == '__main__':
 
 
 --------------> Assertion roulette .... Multiple asserts in one test case (test function e.g., test_rereading_files()) .... 
---------------> Dependence on external config data (from test_inventory import make_config)
+--------------> Dependence on external config data (from test_inventory import make_config)
+
 
 ===========Repository Name===========
 openstack-ansible
@@ -7433,7 +7439,8 @@ if __name__ == "__main__":
 
 
 -------------------> Assertion roulette .... test_release_used_ip
--------------------> Need to skip Python files overall 
+-------------------> Need to skip Python files overall 
+
 
 ===========Repository Name===========
 openstack-ansible
