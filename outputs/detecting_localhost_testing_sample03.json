@@ -1,0 +1,27 @@
+{
+   "local":[
+      {
+         "roleName":"Test networkd",
+         "hostName":"localhost",
+         "isLocalHost":1,
+         "taskNames":[
+            "Interface check",
+            "Bond check",
+            "Bridge check",
+            "Bridge check"
+         ]
+      },
+      {
+         "roleName":"Playbook for role testing with cleanup",
+         "hostName":"localhost",
+         "isLocalHost":1,
+         "taskNames":[
+            "Interface check",
+            "Bridge check"
+         ]
+      }
+   ],
+   "remote":[
+      
+   ]
+}

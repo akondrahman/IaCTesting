@@ -12,7 +12,9 @@ import yaml
 
 def findHostType(playbook):
     
-    taskNames = []
+    roleNames = {}
+    localTestRoles = []
+    remoteTestRoles = []
     
     for role in playbook:
         try:
@@ -21,20 +23,50 @@ def findHostType(playbook):
             name = role['name']
             hostmapping['roleName'] = name
             hostmapping['hostName'] = hosts
-            hostmapping['isLocalHost'] = False
+
             if hosts == 'localhost':
-                hostmapping['isLocalHost'] = True
+                hostmapping['isLocalHost'] = 1
                 
-            taskNames.append(hostmapping)
+                
+                try:
+                    tasks = role['tasks']
+                except:
+                    tasks = role ['post_tasks']
+                    
+                taskNames = []
+                for task in tasks:
+                    taskNames.append(task['name'])
+                    
+                hostmapping['taskNames'] = taskNames
+                localTestRoles.append(hostmapping)
+                    
+            else :
+                hostmapping['isLocalHost'] = 0
+                
+                try:
+                    tasks = role['tasks']
+                except:
+                    tasks = role ['post_tasks']
+                
+                taskNames = []
+                for task in tasks:
+                    taskNames.append(task['name'])
+                
+                hostmapping['taskNames'] = taskNames
+                remoteTestRoles.append(hostmapping)
+                
+
             
 
         except:
             print("Task not found under this role")
-    return taskNames
+    
+    roleNames['local'] = localTestRoles
+    roleNames['remote'] = remoteTestRoles
+    
+    return roleNames
 
             
-
-
 
 
 with open('test.yml', 'r') as f:
@@ -42,4 +74,7 @@ with open('test.yml', 'r') as f:
 
 
 print(findHostType(playbook))
+#hostIdentifier = findHostType(playbook)
+
+
 

@@ -1,0 +1,16 @@
+{
+   "local":[
+      {
+         "roleName":"Playbook for role testing",
+         "hostName":"localhost",
+         "isLocalHost":1,
+         "taskNames":[
+            "Ensure mount are mounted",
+            "Ensure swap is enabled"
+         ]
+      }
+   ],
+   "remote":[
+      
+   ]
+}

@@ -1,0 +1,48 @@
+{
+   "local":[
+      {
+         "roleName":"Prepare web server on localhost to serve python packages",
+         "hostName":"localhost",
+         "isLocalHost":1,
+         "taskNames":[
+            "Set venv_build_archive_path and venv_install_source_path",
+            "Install EPEL gpg keys",
+            "Install the EPEL repository",
+            "Install distro packages",
+            "Enable and start nginx"
+         ]
+      }
+   ],
+   "remote":[
+      {
+         "roleName":"Verify not using a build host",
+         "hostName":"container1",
+         "isLocalHost":0,
+         "taskNames":[
+            "Execute venv install",
+            "refresh local facts",
+            "Show the ansible_local facts",
+            "Verify that the facts were set",
+            "Find files/folders on targets",
+            "Compile the folder list from the targets",
+            "Show the files/folder from the targets",
+            "Verify the folder list from the targets"
+         ]
+      },
+      {
+         "roleName":"Verify using a build host",
+         "hostName":"container2:container3",
+         "isLocalHost":0,
+         "taskNames":[
+            "Execute venv install",
+            "refresh local facts",
+            "Show the ansible_local facts",
+            "Verify that the facts were set",
+            "Find files/folders on targets",
+            "Compile the folder list from the targets",
+            "Show the files/folder from the targets",
+            "Verify the folder list from the targets"
+         ]
+      }
+   ]
+}
