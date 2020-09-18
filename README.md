@@ -81,7 +81,62 @@ Example 01:
 
 4. Not collecting facts from remote host
 5. Mishandled privilege escalation
-6. Localhost testing
+
+##### Localhost testing
+
+###### Definition 
+....Will Be Updated Later....
+
+Example 01:
+https://github.com/akondrahman/IaCTesting/blob/fc4e7ab85bf04234869f00d4e4e173c4d488bab1/categ_ansible_test_code.txt#L308
+```
+- name: Prepare web server on localhost to serve python packages
+  hosts: localhost
+  connection: local
+  become: yes
+  any_errors_fatal: yes
+  tasks:
+    - name: Set venv_build_archive_path and venv_install_source_path
+      set_fact:
+        venv_build_host_wheel_path: >-
+          {%- if ansible_distribution == "Ubuntu" %}
+          {%-   set _path = "/var/www/html" %}
+          {%- elif ansible_distribution == "CentOS" %}
+          {%-   set _path = "/usr/share/nginx/html" %}
+          {%- else %}
+          {%-   set _path = "/srv/www/htdocs" %}
+          {%- endif %}
+          {{- _path }}
+
+    
+```
+ 
+Example 02:
+https://github.com/akondrahman/IaCTesting/blob/fc4e7ab85bf04234869f00d4e4e173c4d488bab1/categ_ansible_test_code.txt#L369
+```
+- name: Verify not using a build host
+  hosts: "container1"
+  remote_user: root
+  any_errors_fatal: yes
+  vars:
+    venv_pip_packages:
+      - "Jinja2==2.10"
+    venv_install_destination_path: "/openstack/venvs/test-venv"
+  tasks:
+
+    - name: Execute venv install
+      include_role:
+        name: "python_venv_build"
+        private: yes
+      vars:
+        venv_facts_when_changed:
+          - section: "{{ inventory_hostname }}"
+            option: "test"
+            value: True
+ ```
+
+In the first example we can see that the role *Prepare web server on localhost to serve python packages* is running the task in localhost environment. Whereas in the second example we can see that role *Verify not using a build host* has executed the task in container1 environment. So example 1 has antipattern of testing only in localhost.
+
 ##### Not cleaning the test tnv
 ###### Definition 
 ....Will Be Updated Later....
