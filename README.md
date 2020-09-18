@@ -10,9 +10,9 @@ Mehedi Hassan (Lead) , Akond Rahman
 
 > Coming soon 
 
-#### Categories which will be focussed:
+### Categories which will be focussed:
 
-##### Assertion Roulette
+#### Assertion Roulette
 ###### Definition 
 ....Will Be Updated Later....
 
@@ -42,7 +42,7 @@ https://github.com/akondrahman/IaCTesting/blob/18b98460e0c059ad79aee81f2359f3d5d
 In the above two examples we can see that multiple mention of assertion without proper debug message. So if any of those fails it will not be identifiable which one failed and why failed.
 
 
-##### External dependency
+#### External dependency
 ###### Definition 
 ....Will Be Updated Later....
 
@@ -70,7 +70,7 @@ install_command =
 ```
 In the above snippet, we are seeing that files from internet is being downloaded for preparing test environment.
 
-##### Violation of execute and verify
+#### Violation of execute and verify
 
 ###### Definition 
 ....Will Be Updated Later....
@@ -82,7 +82,7 @@ Example 01:
 4. Not collecting facts from remote host
 5. Mishandled privilege escalation
 
-##### Localhost testing
+#### Localhost testing
 
 ###### Definition 
 ....Will Be Updated Later....
@@ -137,7 +137,7 @@ https://github.com/akondrahman/IaCTesting/blob/fc4e7ab85bf04234869f00d4e4e173c4d
 
 In the first example we can see that the role *Prepare web server on localhost to serve python packages* is running the task in localhost environment. Whereas in the second example we can see that role *Verify not using a build host* has executed the task in container1 environment. So example 1 has antipattern of testing only in localhost.
 
-##### Not cleaning the test tnv
+#### Not cleaning the test tnv
 ###### Definition 
 ....Will Be Updated Later....
 
@@ -158,12 +158,12 @@ def cleanup():
 ```
 In this example, test script is actually calling a cleanup() function which is ultimately removing the test files from the redirectory. But in any scenarios we see that set environment has not been properly cleaned up after testing is completed or before starting testing.
 
-##### Sensitive Data Leakage
+#### Sensitive Data Leakage
 ###### Definition 
 ....Will Be Updated Later....
 
 
-##### Skipping the Linter
+#### Skipping the Linter
 ###### Definition 
 ....Will Be Updated Later....
 
