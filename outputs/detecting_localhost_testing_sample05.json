@@ -1,0 +1,25 @@
+{
+   "local":[
+      {
+         "roleName":"Ensuring host vars",
+         "hostName":"localhost",
+         "isLocalHost":1,
+         "taskNames":[
+            "Ensuring tintin has milou",
+            "Ensuring security_package_state is overridden"
+         ]
+      }
+   ],
+   "remote":[
+      {
+         "roleName":"Ensuring group vars",
+         "hostName":"hosts",
+         "isLocalHost":0,
+         "taskNames":[
+            "Ensuring existing group vars are well applied",
+            "Ensuring babar is well defined",
+            "Ensuring lxc_hosts_package_state is well overridden"
+         ]
+      }
+   ]
+}
