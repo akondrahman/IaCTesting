@@ -107,3 +107,32 @@ In this example, test script is actually calling a cleanup() function which is u
 ###### Definition 
 ....Will Be Updated Later....
 
+
+##### Skipping the Linter
+###### Definition 
+....Will Be Updated Later....
+
+Example 01:
+https://github.com/akondrahman/IaCTesting/blob/fc4e7ab85bf04234869f00d4e4e173c4d488bab1/categ_ansible_test_code.txt#L811
+
+```
+    - name: Export NFS
+      command: exportfs -rav
+      tags:
+        - skip_ansible_lint
+ ```
+ 
+Example 02:
+https://github.com/akondrahman/IaCTesting/blob/fc4e7ab85bf04234869f00d4e4e173c4d488bab1/categ_ansible_test_code.txt#L905
+
+```
+    - name: Ensure mount are mounted
+      command: grep -w '{{ item }}' /proc/mounts
+      with_items:
+        - /var/lib/sparse-file
+        - /var/lib/test
+      tags:
+        - skip_ansible_lint
+ ```
+
+In the above two examples, we are seeing that a special tag has been added in the task named *skip_ansible_lint*. Essentially this tag tells the ansible_lint module not to perform linting on this task. This can sometime lead to non-standard coding convention or opens the door of coding loophole. 
