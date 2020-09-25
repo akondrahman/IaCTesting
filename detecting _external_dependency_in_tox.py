@@ -24,7 +24,7 @@ def main():
 #print(configs.sections())
 def hasExternalDependencyInTox(configs):
     hasDependency = False
-    keySubstrings = ['install', 'command']
+    keySubstrings = ['install', 'command', 'deps']
 #    valueSubstrings = ['https', 'http']
     for config in configs.sections():
         print(config)

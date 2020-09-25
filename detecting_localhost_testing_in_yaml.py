@@ -8,8 +8,17 @@ Created on Thu Sep 17 00:25:23 2020
 import yaml
 
 
+def main():
+    with open('test.yml', 'r') as f:
+        playbook = yaml.load(f)
+    
+    testEnvironments = findHostType(playbook)
+#    print (testEnvironments)
 
-
+    if len(testEnvironments['remote']) < 1:
+        print("No remote Test Has been found")
+    
+    
 def findHostType(playbook):
     
     roleNames = {}
@@ -69,12 +78,6 @@ def findHostType(playbook):
             
 
 
-with open('test.yml', 'r') as f:
-    playbook = yaml.load(f)
 
-
-print(findHostType(playbook))
-#hostIdentifier = findHostType(playbook)
-
-
-
+if __name__ == "__main__":
+    main()
