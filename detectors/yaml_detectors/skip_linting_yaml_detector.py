@@ -6,8 +6,8 @@ Created on Thu Oct  8 23:53:01 2020
 """
 
 
-from antipattern_detector import  AntiPatternDetector
-from antipattern import AntiPattern, AntiPatternLogger
+#from antipattern_detector import  AntiPatternDetector
+from antipattern import AntiPattern, AntiPatternLogger, AntiPatternDetector
 
 class SkipLintingYamlDetector(AntiPatternDetector ):
     

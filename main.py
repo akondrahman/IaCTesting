@@ -16,6 +16,9 @@ def main():
     
     files = Util().get_files(base_dir)
 #    print(files['yaml'])
+    
+#    quit()
+    
     iac_testing_antipatterns = IaCTestingAntipatterns(files)
 #    
     iac_testing_antipatterns.get_anti_pattern_list()

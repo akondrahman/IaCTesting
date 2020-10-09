@@ -8,11 +8,24 @@ Created on Fri Oct  9 00:54:14 2020
 from abc import ABC, abstractmethod
 from util import Util
 
+
+class AntiPatternDetector(ABC):
+    def __init__(self):
+        pass
+    
+    @abstractmethod
+    def detect_anti_pattern(self, *args):
+        pass
+    
+
 class AntiPatternObserver(ABC):
     @abstractmethod
     def write_anti_pattern_to_file(self, *args):
         pass
     
+
+
+
     
 class AntiPatternObservable():
     

@@ -3,8 +3,9 @@
 Created on Thu Oct  8 19:13:49 2020
 
 @author: mehedi.md.hasan
-"""
+import, var_files,pip_install_upper_constraints_proto 
 
+"""
 import os, yaml
 
 class Util:
@@ -23,12 +24,15 @@ class Util:
        
         if extension == ".py":
             self.__python_files.append(file_path)
+#            print(f'Python file: {file_path}')
         
         if extension in [".yml", ".yaml"]:
             self.__yaml_files.append(file_path)
+#            print(f'YML file: {file_path}')
 
         if extension == ".ini":
             self.__tox_files.append(file_path)
+#            print(f'Tox file: {file_path}')
         
         
         
@@ -60,16 +64,29 @@ class Util:
         self.__files["yaml"] = self.__yaml_files
         self.__files["tox"] = self.__tox_files
         
+#        print (f'Pyhon files: {self.__files["python"]}')
+#        print (f'\n ==\n Yaml files: {self.__files["yaml"]}')
+#        print (f'\n == \n Tox files: {self.__files["tox"]}')
+        
+#        print(self.__files)
         return self.__files
     
-    def get_playbook(yaml_file_path):
+    def get_playbook( yaml_file_path):
         with open(yaml_file_path, 'r') as f:
             playbook = yaml.load(f)
         
         return playbook
     
-    def write_to_file(anti_pattern_name, filepath):
+    def write_to_file( anti_pattern_name, filepath):
         print(f'{filepath} has {anti_pattern_name}')
+        
+    
+    def is_substring(substrings, long_string):
+        
+        for substring in substrings:
+            if substring in long_string:
+                return True
+        return False
 
 
 #ut = Util()
