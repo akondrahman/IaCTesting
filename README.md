@@ -191,3 +191,13 @@ https://github.com/akondrahman/IaCTesting/blob/fc4e7ab85bf04234869f00d4e4e173c4d
  ```
 
 In the above two examples, we are seeing that a special tag has been added in the task named *skip_ansible_lint*. Essentially this tag tells the ansible_lint module not to perform linting on this task. This can sometime lead to non-standard coding convention or opens the door of coding loophole. 
+
+
+
+#### Unit testing anti-pattern catalogues
+
+1. Stack Overflow: https://stackoverflow.com/questions/333682/unit-testing-anti-patterns-catalogue
+2. https://www.yegor256.com/2018/12/11/unit-testing-anti-patterns.html
+3. https://arxiv.org/ftp/arxiv/papers/1703/1703.10882.pdf
+4. https://github.com/TestSmells/TestSmellDetector
+5. https://julien.danjou.info/finding-definitions-from-a-source-file-and-a-line-number-in-python/
