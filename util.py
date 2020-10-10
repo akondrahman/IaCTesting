@@ -6,7 +6,7 @@ Created on Thu Oct  8 19:13:49 2020
 import, var_files,pip_install_upper_constraints_proto 
 
 """
-import os, yaml
+import os, yaml, re, configparser, ast, tokenize
 
 class Util:
     
@@ -77,17 +77,33 @@ class Util:
         
         return playbook
     
+    def get_tox_configs(tox_file_path):
+        configs = configparser.ConfigParser()
+        configs.read(tox_file_path)
+        return configs
+    
+    def get_python_tokenized_file(filename):
+        with tokenize.open(filename) as f:
+            return ast.parse(f.read(), filename=filename)
+    
+        
+    
     def write_to_file( anti_pattern_name, filepath):
         print(f'{filepath} has {anti_pattern_name}')
         
     
-    def is_substring(substrings, long_string):
+    def is_substring( substrings, long_string):
         
-        for substring in substrings:
-            if substring in long_string:
-                return True
-        return False
-
+        return any (sstr in long_string for sstr in substrings)
+        
+#        for substring in substrings:
+#            if substring in long_string:
+#                return True
+#        return False
+#        
+    def has_pattern_regex(pattern, long_string):
+        return re.search(pattern, long_string) != None
+        
 
 #ut = Util()
 #print(ut.get_playbook(r'C:\Users\mehedi.md.hasan\PythonWorkspace\OSTK_ANSI\ostk-ansi\ansible-role-python_venv_build\tasks\python_venv_install.yml'))

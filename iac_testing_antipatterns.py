@@ -9,6 +9,13 @@ from detectors.yaml_detectors.skip_linting_yaml_detector import SkipLintingYamlD
 from detectors.yaml_detectors.localhost_testing_yaml_detector import LocalhostTestingYamlDetector
 from detectors.yaml_detectors.assertion_roulette_yaml_detector import AssertionRouletteYamlDetector
 from detectors.yaml_detectors.external_dependency_yaml_detector import ExternalDependencyYamlDetector
+from detectors.yaml_detectors.test_env_not_cleaned_yaml_detector import TestEnvNotCleanedYamlDetector
+
+from detectors.tox_detectors.external_dependency_tox_detector import ExternalDependencyToxDetector
+
+from detectors.py_detectors.test_env_not_cleaned_python_detector import TestEnvNotCleanedPythonDetector
+from detectors.py_detectors.external_dependency_python_detector import ExternalDependencyPythonDetector
+
 
 from util import Util
 
@@ -20,15 +27,18 @@ class IaCTestingAntipatterns:
         self.__local_host_testing_yaml_detector = LocalhostTestingYamlDetector()
         self.__assertion_roulette_yaml_detector = AssertionRouletteYamlDetector()
         self.__external_dependency_yaml_detector = ExternalDependencyYamlDetector()
-
+        self.__test_env_not_cleaned_yaml_detector = TestEnvNotCleanedYamlDetector()
         
+        self.__external_dependency_tox_detector = ExternalDependencyToxDetector()
+        
+        self.__test_env_not_cleaned_python_detector = TestEnvNotCleanedPythonDetector()
+        self.__external_dependency_python_detector = ExternalDependencyPythonDetector()
     
     def get_anti_pattern_list(self):
         
-#        python_files = files['python']
+        python_files = self.__files['python']
         yaml_files = self.__files['yaml']
-#        print(yaml_files)
-#        tox_files = files['tox']
+        tox_files = self.__files['tox']
         
         for yaml_file in yaml_files:
             playbook = Util.get_playbook(yaml_file)
@@ -42,11 +52,21 @@ class IaCTestingAntipatterns:
             self.__local_host_testing_yaml_detector.detect_anti_pattern(playbook, yaml_file)
             self.__assertion_roulette_yaml_detector.detect_anti_pattern(playbook, yaml_file)
             self.__external_dependency_yaml_detector.detect_anti_pattern(playbook, yaml_file)
+            self.__test_env_not_cleaned_yaml_detector.detect_anti_pattern(playbook, yaml_file)
              
             
             
+        for tox_file in tox_files:
+            configs = Util.get_tox_configs(tox_file)
             
+            self.__external_dependency_tox_detector.detect_anti_pattern(configs, tox_file)
+        
+        
+        for python_file in python_files:
+            parsed_file = Util.get_python_tokenized_file(python_file)
             
+            self.__test_env_not_cleaned_python_detector.detect_anti_pattern(parsed_file, python_file)
+            self.__external_dependency_python_detector.detect_anti_pattern(parsed_file, python_file)
         
     
     

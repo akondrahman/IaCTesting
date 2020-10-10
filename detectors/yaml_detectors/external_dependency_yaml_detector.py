@@ -66,7 +66,7 @@ class ExternalDependencyYamlDetector(AntiPatternDetector ):
     
     def __find_external_dependency(self, playbook):
         imported_roles = self.__find_roles_using_import(playbook)
-        url_roles = self.__find_roles_using_url(playbook)
+#        url_roles = self.__find_roles_using_url(playbook)
         
 #        
         if len(imported_roles)>0  :
