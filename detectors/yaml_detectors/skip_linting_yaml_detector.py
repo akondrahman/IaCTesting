@@ -13,7 +13,7 @@ class SkipLintingYamlDetector(AntiPatternDetector ):
     
     def __init__(self):
        
-        self.__has_anti_pattern = 0
+        self.__anti_pattern_count = 0
     
     def __find_tags(self, playbook):
         
@@ -42,11 +42,13 @@ class SkipLintingYamlDetector(AntiPatternDetector ):
     
     
     def __find_skip_lint(self, tags):
-        
+        has_skip_linting = False
         for tag in tags:
             if tag == 'skip_ansible_lint':      
-                return 1
-            return 0
+                has_skip_linting = True
+                self.__anti_pattern_count +=1
+        
+        return has_skip_linting
     
 
         
@@ -64,6 +66,7 @@ class SkipLintingYamlDetector(AntiPatternDetector ):
             anti_pattern.add_observer(antipattern_logger)
             anti_pattern.name = "Skip_Ansible_Lint"
             anti_pattern.path = file_path
+            anti_pattern.antipattern_count = self.__anti_pattern_count
             
         
         

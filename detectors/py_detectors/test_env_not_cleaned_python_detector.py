@@ -13,18 +13,20 @@ class TestEnvNotCleanedPythonDetector(AntiPatternDetector ):
     
     def __init__(self):
        
-        self.__has_anti_pattern = 0
+        self.__anti_pattern_count = 0
     
     def __find_clean_up_func(self, parsed_file):
-        
+        has_clean_up = False
         for item in ast.walk(parsed_file):
             if isinstance(item, (ast.FunctionDef, ast.AsyncFunctionDef)):
                 name = item.name
 #                print(f'function_name is {name}')
                 if name.startswith(('tearDown', 'teardown', 'tear_down','cleanUp', 'cleanup', 'clean_up')):
-                    return True
+                    has_clean_up = True
+                else:
+                    self.__anti_pattern_count +=1
         
-        return False
+        return has_clean_up
                     
                         
     
@@ -38,3 +40,4 @@ class TestEnvNotCleanedPythonDetector(AntiPatternDetector ):
             anti_pattern.add_observer(antipattern_logger)
             anti_pattern.name = "No_ENV_CleanUp"
             anti_pattern.path = file_path
+            anti_pattern.antipattern_count = self.__anti_pattern_count

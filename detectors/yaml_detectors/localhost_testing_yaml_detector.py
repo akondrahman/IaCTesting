@@ -11,7 +11,7 @@ class LocalhostTestingYamlDetector(AntiPatternDetector ):
     
     def __init__(self):
        
-        self.__has_anti_pattern = 0
+        self.__anti_pattern_count = 0
     
     def __find_host_type(self, playbook):
         
@@ -46,7 +46,8 @@ class LocalhostTestingYamlDetector(AntiPatternDetector ):
     
     def __find_local_only_test(self, role_names):
         
-       if len(role_names['remote'])< 1:
+       self.__anti_pattern_count = len(role_names) 
+       if len(role_names)< 1:
            return 1
        else:
            return 0
@@ -66,4 +67,5 @@ class LocalhostTestingYamlDetector(AntiPatternDetector ):
             anti_pattern.add_observer(antipattern_logger)
             anti_pattern.name = "Local_Only_Test"
             anti_pattern.path = file_path
+            anti_pattern.antipattern_count = self.__anti_pattern_count
             

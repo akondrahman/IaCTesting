@@ -14,7 +14,7 @@ class ExternalDependencyPythonDetector(AntiPatternDetector ):
     
     def __init__(self):
        
-        self.__has_anti_pattern = 0
+        self.__anti_pattern_count = 0
     
    
     
@@ -27,13 +27,15 @@ class ExternalDependencyPythonDetector(AntiPatternDetector ):
                 dependent_obj = {}
                 
                 if not line.lstrip().startswith('#') and self.__find_external_pattern(line):
-                    print(f'+++{line}+++')
+#                    print(f'+++{line}+++')
                     func_name = self.__filename_and_lineno_to_def(parsed_file, num)
                     dependent_obj['file_name'] = file_path
                     dependent_obj['func_name'] = func_name
                     external_dependencies.append(dependent_obj)
         
-        print(f'===={external_dependencies}====')
+#        print(f'===={external_dependencies}====')
+        self.__anti_pattern_count = len(external_dependencies)
+        
         return external_dependencies
         
     
@@ -75,6 +77,7 @@ class ExternalDependencyPythonDetector(AntiPatternDetector ):
             anti_pattern.add_observer(antipattern_logger)
             anti_pattern.name = "External_Dependency"
             anti_pattern.path = file_path
+            anti_pattern.antipattern_count = self.__anti_pattern_count
             
 
 

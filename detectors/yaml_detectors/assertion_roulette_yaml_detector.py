@@ -11,7 +11,7 @@ class AssertionRouletteYamlDetector(AntiPatternDetector ):
     
     def __init__(self):
        
-        self.__has_anti_pattern = 0
+        self.__anti_pattern_count = 0
     
     def __find_assertion_roulette(self, playbook):
         
@@ -27,6 +27,7 @@ class AssertionRouletteYamlDetector(AntiPatternDetector ):
                         asserts = task['assert']['that']
                         if len(asserts) > 1:
                             has_assertion_roulette = True
+                            self.__anti_pattern_count += 1
         
             except:
                 continue
@@ -47,4 +48,5 @@ class AssertionRouletteYamlDetector(AntiPatternDetector ):
             anti_pattern.add_observer(antipattern_logger)
             anti_pattern.name = "Assertion_Roulette"
             anti_pattern.path = file_path
+            anti_pattern.antipattern_count = self.__anti_pattern_count
             

@@ -88,8 +88,8 @@ class Util:
     
         
     
-    def write_to_file( anti_pattern_name, filepath):
-        print(f'{filepath} has {anti_pattern_name}')
+    def write_to_file( anti_pattern_name, filepath, antipattern_count):
+        print(f'{filepath} has {antipattern_count} no of suspected {anti_pattern_name}  antipattern of IaC Testing')
         
     
     def is_substring( substrings, long_string):
@@ -104,7 +104,3 @@ class Util:
     def has_pattern_regex(pattern, long_string):
         return re.search(pattern, long_string) != None
         
-
-#ut = Util()
-#print(ut.get_playbook(r'C:\Users\mehedi.md.hasan\PythonWorkspace\OSTK_ANSI\ostk-ansi\ansible-role-python_venv_build\tasks\python_venv_install.yml'))
-##

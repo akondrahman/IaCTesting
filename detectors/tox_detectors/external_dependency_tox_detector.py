@@ -11,10 +11,10 @@ from util import Util
 
 class ExternalDependencyToxDetector(AntiPatternDetector ):
 
-
+    
     def __init__(self):
        
-        self.__has_anti_pattern = 0
+        self.__anti_pattern_count = 0
 
     def __find_external_dependency(self, configs):
 
@@ -31,6 +31,9 @@ class ExternalDependencyToxDetector(AntiPatternDetector ):
 #                    print(configs[config][key]+ "\n\n")
                     if self.__find_all_external_dependencies(str(configs[config][key])):
                         external_dependencies.append(config)
+        
+        self.__anti_pattern_count = len(external_dependencies)
+        
         return external_dependencies
           
     
@@ -57,10 +60,11 @@ class ExternalDependencyToxDetector(AntiPatternDetector ):
             
        
     def detect_anti_pattern(self, configs, file_path):
-        
+        self.__anti_pattern_count = len(self.__find_external_dependency(configs))
         if (len(self.__find_external_dependency(configs))>0):
             anti_pattern = AntiPattern()
             antipattern_logger = AntiPatternLogger()
             anti_pattern.add_observer(antipattern_logger)
             anti_pattern.name = "External_Dependency"
             anti_pattern.path = file_path
+            anti_pattern.antipattern_count = self.__anti_pattern_count

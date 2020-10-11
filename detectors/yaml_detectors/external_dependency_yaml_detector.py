@@ -14,7 +14,7 @@ class ExternalDependencyYamlDetector(AntiPatternDetector ):
     
     def __init__(self):
        
-        self.__has_anti_pattern = 0
+        self.__anti_pattern_count = 0
     
     def __find_roles_using_import(self, playbook):
         
@@ -62,7 +62,7 @@ class ExternalDependencyYamlDetector(AntiPatternDetector ):
         else:
             return False
     
-    
+    # TODO: Need to add url detection
     
     def __find_external_dependency(self, playbook):
         imported_roles = self.__find_roles_using_import(playbook)
@@ -70,6 +70,7 @@ class ExternalDependencyYamlDetector(AntiPatternDetector ):
         
 #        
         if len(imported_roles)>0  :
+            self.__anti_pattern_count = len (imported_roles)
             return True
         else:
             return False
@@ -88,4 +89,5 @@ class ExternalDependencyYamlDetector(AntiPatternDetector ):
             anti_pattern.add_observer(antipattern_logger)
             anti_pattern.name = "External_Dependency"
             anti_pattern.path = file_path
+            anti_pattern.antipattern_count= self.__anti_pattern_count
             
