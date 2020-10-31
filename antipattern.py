@@ -85,5 +85,6 @@ class AntiPattern(AntiPatternObservable):
 
 
 class AntiPatternLogger(AntiPatternObserver):
-        def write_anti_pattern_to_file(self, anti_pattern_name, file_path, antipattern_count):
-            Util.write_to_file(anti_pattern_name, file_path, antipattern_count)
+    def write_anti_pattern_to_file(self, anti_pattern_name, file_path, antipattern_count):
+        util_class = Util()
+        util_class.write_to_file(anti_pattern_name, file_path, antipattern_count)
