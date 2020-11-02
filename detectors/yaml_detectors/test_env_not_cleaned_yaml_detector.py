@@ -49,6 +49,7 @@ class TestEnvNotCleanedYamlDetector(AntiPatternDetector ):
         if len(cleaned_up_roles)<1:
 #            print("Antipattern found")
 #            print(f'boolean ==={self.__find_skip_lint()}====')
+            self.__anti_pattern_count = 1
             anti_pattern = AntiPattern()
             antipattern_logger = AntiPatternLogger()
             anti_pattern.add_observer(antipattern_logger)

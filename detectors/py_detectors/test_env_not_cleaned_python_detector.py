@@ -23,8 +23,7 @@ class TestEnvNotCleanedPythonDetector(AntiPatternDetector ):
 #                print(f'function_name is {name}')
                 if name.startswith(('tearDown', 'teardown', 'tear_down','cleanUp', 'cleanup', 'clean_up')):
                     has_clean_up = True
-                else:
-                    self.__anti_pattern_count +=1
+
         
         return has_clean_up
                     
@@ -35,6 +34,7 @@ class TestEnvNotCleanedPythonDetector(AntiPatternDetector ):
         if not self.__find_clean_up_func(parsed_file):
 #            print("Antipattern found")
 #            print(f'boolean ==={self.__find_skip_lint()}====')
+            self.__anti_pattern_count = 1
             anti_pattern = AntiPattern()
             antipattern_logger = AntiPatternLogger()
             anti_pattern.add_observer(antipattern_logger)
