@@ -15,6 +15,7 @@ from detectors.tox_detectors.external_dependency_tox_detector import ExternalDep
 
 from detectors.py_detectors.test_env_not_cleaned_python_detector import TestEnvNotCleanedPythonDetector
 from detectors.py_detectors.external_dependency_python_detector import ExternalDependencyPythonDetector
+from detectors.py_detectors.assertion_roulette_python_detector import AssertionRoulettePythonDetector
 
 
 from util import Util
@@ -33,6 +34,7 @@ class IaCTestingAntipatterns:
         
         self.__test_env_not_cleaned_python_detector = TestEnvNotCleanedPythonDetector()
         self.__external_dependency_python_detector = ExternalDependencyPythonDetector()
+        self.__assertion_roulette_python_detector = AssertionRoulettePythonDetector()
     
     def get_anti_pattern_list(self):
         
@@ -67,6 +69,7 @@ class IaCTestingAntipatterns:
             
             self.__test_env_not_cleaned_python_detector.detect_anti_pattern(parsed_file, python_file)
             self.__external_dependency_python_detector.detect_anti_pattern(parsed_file, python_file)
+            self.__assertion_roulette_python_detector.detect_anti_pattern(parsed_file, python_file)
         
     
     
