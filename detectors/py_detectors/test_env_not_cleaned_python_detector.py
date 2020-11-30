@@ -29,7 +29,7 @@ class TestEnvNotCleanedPythonDetector(AntiPatternDetector ):
                     
                         
     
-    def detect_anti_pattern(self, parsed_file, file_path):
+    def detect_anti_pattern(self, parsed_file, file_path, project_name):
         
         if not self.__find_clean_up_func(parsed_file):
 #            print("Antipattern found")
@@ -40,4 +40,5 @@ class TestEnvNotCleanedPythonDetector(AntiPatternDetector ):
             anti_pattern.add_observer(antipattern_logger)
             anti_pattern.name = "No_ENV_CleanUp"
             anti_pattern.path = file_path
+            anti_pattern.project_name = project_name
             anti_pattern.antipattern_count = self.__anti_pattern_count

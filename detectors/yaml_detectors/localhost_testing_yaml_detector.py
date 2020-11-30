@@ -55,7 +55,7 @@ class LocalhostTestingYamlDetector(AntiPatternDetector ):
         
         
     
-    def detect_anti_pattern(self, playbook, file_path):
+    def detect_anti_pattern(self, playbook, file_path, project_name):
         role_names = self.__find_host_type(playbook)
 #        print(f'{file_path}====={tags}======')
         
@@ -67,5 +67,6 @@ class LocalhostTestingYamlDetector(AntiPatternDetector ):
             anti_pattern.add_observer(antipattern_logger)
             anti_pattern.name = "Local_Only_Test"
             anti_pattern.path = file_path
+            anti_pattern.project_name = project_name
             anti_pattern.antipattern_count = self.__anti_pattern_count
             

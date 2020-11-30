@@ -42,7 +42,7 @@ class TestEnvNotCleanedYamlDetector(AntiPatternDetector ):
         
         
     
-    def detect_anti_pattern(self, playbook, file_path):
+    def detect_anti_pattern(self, playbook, file_path, project_name):
         cleaned_up_roles = self.__find_cleaned_up_roles(playbook)
 #        print(f'{file_path}====={tags}======')
         
@@ -55,4 +55,5 @@ class TestEnvNotCleanedYamlDetector(AntiPatternDetector ):
             anti_pattern.add_observer(antipattern_logger)
             anti_pattern.name = "No_ENV_CleanUp"
             anti_pattern.path = file_path
+            anti_pattern.project_name = project_name
             anti_pattern.antipattern_count = self.__anti_pattern_count

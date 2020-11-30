@@ -22,7 +22,8 @@ from util import Util
 
 class IaCTestingAntipatterns:
     
-    def __init__(self, files):
+    def __init__(self, files, project_name):
+        self._project_name = project_name
         self.__files = files
         self.__skip_linting_yaml_detector = SkipLintingYamlDetector()
         self.__local_host_testing_yaml_detector = LocalhostTestingYamlDetector()
@@ -50,26 +51,26 @@ class IaCTestingAntipatterns:
             if playbook == None:
                 continue
             
-            self.__skip_linting_yaml_detector.detect_anti_pattern(playbook, yaml_file)
-            self.__local_host_testing_yaml_detector.detect_anti_pattern(playbook, yaml_file)
-            self.__assertion_roulette_yaml_detector.detect_anti_pattern(playbook, yaml_file)
-            self.__external_dependency_yaml_detector.detect_anti_pattern(playbook, yaml_file)
-            self.__test_env_not_cleaned_yaml_detector.detect_anti_pattern(playbook, yaml_file)
+            self.__skip_linting_yaml_detector.detect_anti_pattern(playbook, yaml_file, self._project_name)
+            self.__local_host_testing_yaml_detector.detect_anti_pattern(playbook, yaml_file, self._project_name)
+            self.__assertion_roulette_yaml_detector.detect_anti_pattern(playbook, yaml_file, self._project_name)
+            self.__external_dependency_yaml_detector.detect_anti_pattern(playbook, yaml_file, self._project_name)
+            self.__test_env_not_cleaned_yaml_detector.detect_anti_pattern(playbook, yaml_file, self._project_name)
              
             
             
         for tox_file in tox_files:
             configs = Util.get_tox_configs(tox_file)
             
-            self.__external_dependency_tox_detector.detect_anti_pattern(configs, tox_file)
+            self.__external_dependency_tox_detector.detect_anti_pattern(configs, tox_file, self._project_name)
         
         
         for python_file in python_files:
             parsed_file = Util.get_python_tokenized_file(python_file)
             
-            self.__test_env_not_cleaned_python_detector.detect_anti_pattern(parsed_file, python_file)
-            self.__external_dependency_python_detector.detect_anti_pattern(parsed_file, python_file)
-            self.__assertion_roulette_python_detector.detect_anti_pattern(parsed_file, python_file)
+            self.__test_env_not_cleaned_python_detector.detect_anti_pattern(parsed_file, python_file, self._project_name)
+            self.__external_dependency_python_detector.detect_anti_pattern(parsed_file, python_file, self._project_name)
+            self.__assertion_roulette_python_detector.detect_anti_pattern(parsed_file, python_file, self._project_name)
         
     
     

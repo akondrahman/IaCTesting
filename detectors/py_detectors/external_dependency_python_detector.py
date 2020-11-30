@@ -69,7 +69,7 @@ class ExternalDependencyPythonDetector(AntiPatternDetector ):
            
         
     
-    def detect_anti_pattern(self, parsed_file, file_path):
+    def detect_anti_pattern(self, parsed_file, file_path, project_name):
         
         if len(self.__find_external_dependencies(file_path, parsed_file))>0:
             anti_pattern = AntiPattern()
@@ -77,6 +77,7 @@ class ExternalDependencyPythonDetector(AntiPatternDetector ):
             anti_pattern.add_observer(antipattern_logger)
             anti_pattern.name = "External_Dependency"
             anti_pattern.path = file_path
+            anti_pattern.project_name = project_name
             anti_pattern.antipattern_count = self.__anti_pattern_count
             
 

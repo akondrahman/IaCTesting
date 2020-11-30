@@ -89,19 +89,20 @@ class Util:
     
         
     
-    def write_to_file(self,anti_pattern_name, test_file_name, anti_pattern_count):
+    def write_to_file(self,anti_pattern_name, test_file_name, anti_pattern_count, project_name):
         print(f'{test_file_name} has {anti_pattern_name} upto {anti_pattern_count} times')
-        headers = ['file_name','Skip_Ansible_Lint', 'Local_Only_Test', 'Assertion_Roulette', 'External_Dependency', 'No_ENV_CleanUp' ]
-        if path.exists("output.csv") and (time.time() - os.path.getctime("output.csv"))<3600:
+        headers = ['project_name','file_name','Skip_Ansible_Lint', 'Local_Only_Test', 'Assertion_Roulette', 'External_Dependency', 'No_ENV_CleanUp' ]
+        outfile = project_name + "_output.csv"
+        if path.exists(outfile) and (time.time() - os.path.getctime(outfile))<3600:
             print (f'appending in current output file')
-            self.update_csv_line_panda(r'output.csv', test_file_name, anti_pattern_name, anti_pattern_count)
+            self.update_csv_line_panda(outfile,project_name, test_file_name, anti_pattern_name, anti_pattern_count)
             
                 
         else:
             print("Creating a new csv file")
             try:
-                self.__create_new_output_file(headers, 'output.csv')
-                self.update_csv_line_panda(r'output.csv', test_file_name, anti_pattern_name, anti_pattern_count)
+                self.__create_new_output_file(headers, outfile)
+                self.update_csv_line_panda(outfile, project_name, test_file_name, anti_pattern_name, anti_pattern_count)
                 
                 
             except:
@@ -137,17 +138,28 @@ class Util:
         last_row = df.shape[0] - 1
         return df.loc[last_row, :]
     
-    def update_csv_line_panda(self, output_file_name, test_file_name, column_name, new_value):
+    def update_csv_line_panda(self, output_file_name, project_name, test_file_name, column_name, new_value):
         df = pandas.read_csv(output_file_name, index_col='file_name')
         try:
             print(pandas.isnull(df.loc[test_file_name, column_name]))
             print("old line is being appended")
             df.at[test_file_name, column_name] = new_value
+             
         except:
             print("new line is being created")
-            df.loc[test_file_name, : ] = 0
+            df.loc[test_file_name, 1:6 ] = 0
+            df.loc[test_file_name, 'project_name'] = project_name
+            
+            
             df.at[test_file_name, column_name] = new_value
 #        df.at[test_file_name, column_name] = new_value
         df.to_csv(output_file_name)
         
-        
+    
+## Tox automation detector
+    def tox_commands_detector(configs):
+        for config in configs.sections():
+            print(f'\nsection name: {config}')
+            for key in configs[config]:
+                if key == 'commands':
+                    print(configs[config][key])

@@ -81,7 +81,7 @@ class ExternalDependencyYamlDetector(AntiPatternDetector ):
        
         
     
-    def detect_anti_pattern(self, playbook, file_path):
+    def detect_anti_pattern(self, playbook, file_path, project_name):
         
         if (self.__find_external_dependency(playbook)):
             anti_pattern = AntiPattern()
@@ -89,5 +89,6 @@ class ExternalDependencyYamlDetector(AntiPatternDetector ):
             anti_pattern.add_observer(antipattern_logger)
             anti_pattern.name = "External_Dependency"
             anti_pattern.path = file_path
+            anti_pattern.project_name = project_name
             anti_pattern.antipattern_count= self.__anti_pattern_count
             

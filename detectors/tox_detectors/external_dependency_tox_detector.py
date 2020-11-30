@@ -59,7 +59,7 @@ class ExternalDependencyToxDetector(AntiPatternDetector ):
         
             
        
-    def detect_anti_pattern(self, configs, file_path):
+    def detect_anti_pattern(self, configs, file_path, project_name):
         self.__anti_pattern_count = len(self.__find_external_dependency(configs))
         if (len(self.__find_external_dependency(configs))>0):
             anti_pattern = AntiPattern()
@@ -67,4 +67,5 @@ class ExternalDependencyToxDetector(AntiPatternDetector ):
             anti_pattern.add_observer(antipattern_logger)
             anti_pattern.name = "External_Dependency"
             anti_pattern.path = file_path
+            anti_pattern.project_name = project_name
             anti_pattern.antipattern_count = self.__anti_pattern_count

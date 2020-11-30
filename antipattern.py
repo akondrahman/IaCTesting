@@ -52,12 +52,17 @@ class AntiPattern(AntiPatternObservable):
         super().__init__()
         self._name = None
         self._path = None
+        self._project_name = None
         self._antipattern_count = 0
         
     
     @property
     def name(self):
         return self._name
+    
+    @property
+    def project_name(self):
+        return self._project_name
     
     @property
     def path(self):
@@ -70,6 +75,10 @@ class AntiPattern(AntiPatternObservable):
     
     def name (self, name):
         self._name = name
+    
+    @project_name.setter
+    def project_name(self, project_name):
+        self._project_name = project_name
         
     @path.setter
     def path(self, path):
@@ -79,12 +88,12 @@ class AntiPattern(AntiPatternObservable):
     @antipattern_count.setter
     def antipattern_count(self, antipattern_count):
         self._antipattern_count = antipattern_count
-        self.notify_observer(self._name,self._path, self._antipattern_count)
+        self.notify_observer(self._name,self._path, self._antipattern_count, self._project_name)
         
         
 
 
 class AntiPatternLogger(AntiPatternObserver):
-    def write_anti_pattern_to_file(self, anti_pattern_name, file_path, antipattern_count):
+    def write_anti_pattern_to_file(self, anti_pattern_name, file_path, antipattern_count, project_name):
         util_class = Util()
-        util_class.write_to_file(anti_pattern_name, file_path, antipattern_count)
+        util_class.write_to_file(anti_pattern_name, file_path, antipattern_count, project_name)

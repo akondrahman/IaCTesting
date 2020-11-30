@@ -54,7 +54,7 @@ class SkipLintingYamlDetector(AntiPatternDetector ):
         
         
     
-    def detect_anti_pattern(self, playbook, file_path):
+    def detect_anti_pattern(self, playbook, file_path, project_name):
         tags = self.__find_tags(playbook)
 #        print(f'{file_path}====={tags}======')
         
@@ -66,6 +66,7 @@ class SkipLintingYamlDetector(AntiPatternDetector ):
             anti_pattern.add_observer(antipattern_logger)
             anti_pattern.name = "Skip_Ansible_Lint"
             anti_pattern.path = file_path
+            anti_pattern.project_name = project_name
             anti_pattern.antipattern_count = self.__anti_pattern_count
             
         
