@@ -7,20 +7,20 @@ Created on Thu Oct  8 23:29:10 2020
 from util import Util
 from iac_testing_antipatterns import IaCTestingAntipatterns
 
-#def main(base_dir, project_name):
-def main():
+def main(base_dir, project_name):
+#def main():
     
 #    print(str(sys.argv[1]))
 #    print(str(sys.argv[2]))
     
     
-    base_dir= input("Please enter the directory: ")
-    print("\n")
+#    base_dir= input("Please enter the directory: ")
+#    print("\n")
     
 #    base_dir = str(sys.argv[1])
 #    print(base_dir)
     
-    project_name = input ("Please enter the project name: ")
+#    project_name = input ("Please enter the project name: ")
 #    project_name = str(sys.argv[2])
 #    print(project_name)
     
@@ -35,5 +35,5 @@ def main():
 #    
     iac_testing_antipatterns.get_anti_pattern_list()
 #    
-if __name__ == "__main__":
-    main()
+#if __name__ == "__main__":
+#    main()

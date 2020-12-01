@@ -19,7 +19,7 @@ cursor = db_conn.cursor()
 def get_all_github_repo_id():
     
     try:
-        cursor.execute('select * from final_repos where id =2937')
+        cursor.execute('select * from final_repos')
         rows = cursor.fetchall()
     except:
         print(Exception)
