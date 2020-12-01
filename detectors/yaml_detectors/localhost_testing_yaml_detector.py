@@ -46,8 +46,9 @@ class LocalhostTestingYamlDetector(AntiPatternDetector ):
     
     def __find_local_only_test(self, role_names):
         
-       self.__anti_pattern_count = len(role_names) 
-       if len(role_names)< 1:
+        
+       if len(role_names['remote'])< 1:
+           self.__anti_pattern_count = len(role_names['local'])
            return 1
        else:
            return 0
@@ -59,7 +60,7 @@ class LocalhostTestingYamlDetector(AntiPatternDetector ):
         role_names = self.__find_host_type(playbook)
 #        print(f'{file_path}====={tags}======')
         
-        if (self.__find_local_only_test(role_names)):
+        if (self.__find_local_only_test(role_names) == 1):
 #            print("Antipattern found")
 #            print(f'boolean ==={self.__find_skip_lint()}====')
             anti_pattern = AntiPattern()
