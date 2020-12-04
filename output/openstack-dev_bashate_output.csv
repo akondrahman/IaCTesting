@@ -1,0 +1,4 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\openstack-dev\bashate\bashate\tests\base.py,openstack-dev_bashate,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack-dev\bashate\bashate\tests\test_bashate.py,openstack-dev_bashate,0.0,0.0,12.0,0.0,1.0
+C:\mined_repos\openstack-dev\bashate\bashate\tests\__init__.py,openstack-dev_bashate,0.0,0.0,0.0,0.0,1.0

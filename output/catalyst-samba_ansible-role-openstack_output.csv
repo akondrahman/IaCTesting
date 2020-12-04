@@ -1,0 +1,6 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\catalyst-samba\ansible-role-openstack\tests\test.yml,catalyst-samba_ansible-role-openstack,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\catalyst-samba\ansible-role-openstack\tests\test_absent.yml,catalyst-samba_ansible-role-openstack,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\catalyst-samba\ansible-role-openstack\tests\test_infra.yml,catalyst-samba_ansible-role-openstack,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\catalyst-samba\ansible-role-openstack\tests\test_servers_expand_default.yml,catalyst-samba_ansible-role-openstack,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\catalyst-samba\ansible-role-openstack\tests\test_servers_expand_with_var.yml,catalyst-samba_ansible-role-openstack,0.0,0.0,0.0,0.0,1.0

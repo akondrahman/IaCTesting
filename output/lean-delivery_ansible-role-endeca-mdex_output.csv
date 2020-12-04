@@ -1,0 +1,2 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\lean-delivery\ansible-role-endeca-mdex\molecule\resources\tests\test_default.py,lean-delivery_ansible-role-endeca-mdex,0,0,1,0,1

@@ -1,0 +1,5 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\infOpen\ansible-role-ntp\tests\playbook.yml,infOpen_ansible-role-ntp,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\infOpen\ansible-role-ntp\tests\test_filter_plugins.py,infOpen_ansible-role-ntp,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\infOpen\ansible-role-ntp\tests\__init__.py,infOpen_ansible-role-ntp,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\infOpen\ansible-role-ntp\molecule\default\tests\test_installation.py,infOpen_ansible-role-ntp,0.0,0.0,3.0,0.0,1.0

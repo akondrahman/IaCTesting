@@ -1,0 +1,8 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\skydive-project\skydive\tests\bookinfo\bookinfo-ibmcloud-image-policy.yaml,skydive-project_skydive,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\skydive-project\skydive\tests\bookinfo\bookinfo-netpol-deny.yaml,skydive-project_skydive,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\skydive-project\skydive\tests\bookinfo\bookinfo-netpol-details.yaml,skydive-project_skydive,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\skydive-project\skydive\tests\bookinfo\bookinfo-netpol-ratings.yaml,skydive-project_skydive,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\skydive-project\skydive\tests\bookinfo\bookinfo-netpol-reviews-v1.yaml,skydive-project_skydive,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\skydive-project\skydive\tests\bookinfo\bookinfo-netpol-reviews-v2.yaml,skydive-project_skydive,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\skydive-project\skydive\tests\bookinfo\bookinfo-netpol-reviews-v3.yaml,skydive-project_skydive,0.0,0.0,0.0,0.0,1.0

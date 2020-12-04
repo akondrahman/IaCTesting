@@ -1,0 +1,2 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\inverse-inc\ansible-role-gitlab-buildpkg-tools\molecule\default\tests\test_default.py,inverse-inc_ansible-role-gitlab-buildpkg-tools,0,0,1,0,1

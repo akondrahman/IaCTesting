@@ -1,0 +1,3 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\alsim\yadd\roles\apache\tests\test.yml,alsim_yadd,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\alsim\yadd\roles\users\tests\test.yml,alsim_yadd,0.0,0.0,0.0,0.0,1.0

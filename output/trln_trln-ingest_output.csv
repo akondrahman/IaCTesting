@@ -1,0 +1,5 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\trln\trln-ingest\ansible\roles\rvm.ruby\tests\assertions.yml,trln_trln-ingest,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\trln\trln-ingest\ansible\roles\rvm.ruby\tests\docker-compose.yml,trln_trln-ingest,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\trln\trln-ingest\ansible\roles\rvm.ruby\tests\root.yml,trln_trln-ingest,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\trln\trln-ingest\ansible\roles\rvm.ruby\tests\user.yml,trln_trln-ingest,0.0,0.0,0.0,0.0,1.0

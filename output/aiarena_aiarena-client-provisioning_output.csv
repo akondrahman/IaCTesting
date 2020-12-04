@@ -1,0 +1,6 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\aiarena\aiarena-client-provisioning\aiarena-client-configure\tests\test.yml,aiarena_aiarena-client-provisioning,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\aiarena\aiarena-client-provisioning\aiarena-clones\tests\test.yml,aiarena_aiarena-client-provisioning,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\aiarena\aiarena-client-provisioning\aiarena-delete-clones\tests\test.yml,aiarena_aiarena-client-provisioning,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\aiarena\aiarena-client-provisioning\aiarena-snapshot-clones\tests\test.yml,aiarena_aiarena-client-provisioning,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\aiarena\aiarena-client-provisioning\aiarena-vm\tests\test.yml,aiarena_aiarena-client-provisioning,0.0,0.0,0.0,0.0,1.0

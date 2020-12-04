@@ -1,0 +1,14 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\podarok\csua\tests\local_setup\tests.yml,podarok_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\podarok\csua\tests\local_setup\roles\ansible-behat-selenium2\defaults\main.yml,podarok_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\podarok\csua\tests\local_setup\roles\ansible-behat-selenium2\tasks\chrome.yml,podarok_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\podarok\csua\tests\local_setup\roles\ansible-behat-selenium2\tasks\debug.yml,podarok_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\podarok\csua\tests\local_setup\roles\ansible-behat-selenium2\tasks\main.yml,podarok_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\podarok\csua\tests\local_setup\roles\ansible-behat-selenium2\tasks\selenium.yml,podarok_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\podarok\csua\puphpet\ansible\roles\ansible-role-apache\tests\test.yml,podarok_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\podarok\csua\puphpet\ansible\roles\ansible-role-memcached\tests\test.yml,podarok_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\podarok\csua\puphpet\ansible\roles\ansible-role-mysql\tests\test.yml,podarok_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\podarok\csua\puphpet\ansible\roles\ansible-role-php\tests\test.yml,podarok_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\podarok\csua\puphpet\ansible\roles\ansible-role-php-pecl\tests\test.yml,podarok_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\podarok\csua\puphpet\ansible\roles\ansible-role-php-xdebug\tests\test.yml,podarok_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\podarok\csua\puphpet\ansible\roles\ansible-role-php-xhprof\tests\test.yml,podarok_csua,0.0,0.0,0.0,0.0,1.0

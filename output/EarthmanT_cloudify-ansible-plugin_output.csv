@@ -1,0 +1,8 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\EarthmanT\cloudify-ansible-plugin\cloudify_ansible\tests\test_tasks.py,EarthmanT_cloudify-ansible-plugin,0.0,0.0,1.0,0.0,1.0
+C:\mined_repos\EarthmanT\cloudify-ansible-plugin\cloudify_ansible\tests\test_utils.py,EarthmanT_cloudify-ansible-plugin,0.0,0.0,1.0,2.0,0.0
+C:\mined_repos\EarthmanT\cloudify-ansible-plugin\cloudify_ansible\tests\test_workflow.py,EarthmanT_cloudify-ansible-plugin,0.0,0.0,0.0,5.0,1.0
+C:\mined_repos\EarthmanT\cloudify-ansible-plugin\cloudify_ansible\tests\__init__.py,EarthmanT_cloudify-ansible-plugin,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\EarthmanT\cloudify-ansible-plugin\cloudify_ansible_sdk\tests\test_from_file.py,EarthmanT_cloudify-ansible-plugin,0.0,0.0,2.0,0.0,1.0
+C:\mined_repos\EarthmanT\cloudify-ansible-plugin\cloudify_ansible_sdk\tests\test_hosts.py,EarthmanT_cloudify-ansible-plugin,0.0,0.0,3.0,0.0,1.0
+C:\mined_repos\EarthmanT\cloudify-ansible-plugin\cloudify_ansible_sdk\tests\__init__.py,EarthmanT_cloudify-ansible-plugin,0.0,0.0,0.0,2.0,0.0

@@ -1,0 +1,14 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\drupal-ukraine\csua\tests\local_setup\tests.yml,drupal-ukraine_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\drupal-ukraine\csua\tests\local_setup\roles\ansible-behat-selenium2\defaults\main.yml,drupal-ukraine_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\drupal-ukraine\csua\tests\local_setup\roles\ansible-behat-selenium2\tasks\chrome.yml,drupal-ukraine_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\drupal-ukraine\csua\tests\local_setup\roles\ansible-behat-selenium2\tasks\debug.yml,drupal-ukraine_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\drupal-ukraine\csua\tests\local_setup\roles\ansible-behat-selenium2\tasks\main.yml,drupal-ukraine_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\drupal-ukraine\csua\tests\local_setup\roles\ansible-behat-selenium2\tasks\selenium.yml,drupal-ukraine_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\drupal-ukraine\csua\puphpet\ansible\roles\ansible-role-apache\tests\test.yml,drupal-ukraine_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\drupal-ukraine\csua\puphpet\ansible\roles\ansible-role-memcached\tests\test.yml,drupal-ukraine_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\drupal-ukraine\csua\puphpet\ansible\roles\ansible-role-mysql\tests\test.yml,drupal-ukraine_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\drupal-ukraine\csua\puphpet\ansible\roles\ansible-role-php\tests\test.yml,drupal-ukraine_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\drupal-ukraine\csua\puphpet\ansible\roles\ansible-role-php-pecl\tests\test.yml,drupal-ukraine_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\drupal-ukraine\csua\puphpet\ansible\roles\ansible-role-php-xdebug\tests\test.yml,drupal-ukraine_csua,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\drupal-ukraine\csua\puphpet\ansible\roles\ansible-role-php-xhprof\tests\test.yml,drupal-ukraine_csua,0.0,0.0,0.0,0.0,1.0

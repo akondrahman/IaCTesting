@@ -1,0 +1,10 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\wunderkraut\WunderMachina\tests\test-php56.yml,wunderkraut_WunderMachina,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\wunderkraut\WunderMachina\tests\test-php70.yml,wunderkraut_WunderMachina,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\wunderkraut\WunderMachina\tests\test.yml,wunderkraut_WunderMachina,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\wunderkraut\WunderMachina\playbook\roles\ansible-blockinfile\tests\test-basic.yml,wunderkraut_WunderMachina,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\wunderkraut\WunderMachina\playbook\roles\ansible-blockinfile\tests\test-block.yml,wunderkraut_WunderMachina,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\wunderkraut\WunderMachina\playbook\roles\ansible-blockinfile\tests\test-follow.yml,wunderkraut_WunderMachina,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\wunderkraut\WunderMachina\playbook\roles\ansible-blockinfile\tests\test-insertab.yml,wunderkraut_WunderMachina,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\wunderkraut\WunderMachina\playbook\roles\ansible-blockinfile\tests\test-replace.yml,wunderkraut_WunderMachina,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\wunderkraut\WunderMachina\playbook\roles\ansible-blockinfile\tests\test-state.yml,wunderkraut_WunderMachina,0.0,0.0,0.0,0.0,1.0

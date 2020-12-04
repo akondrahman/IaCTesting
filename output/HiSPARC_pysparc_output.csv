@@ -1,0 +1,16 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\test_config.py,HiSPARC_pysparc,0.0,0.0,4.0,0.0,0.0
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\test_events.py,HiSPARC_pysparc,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\test_ftdi_chip.py,HiSPARC_pysparc,0.0,0.0,5.0,0.0,1.0
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\test_gps_messages.py,HiSPARC_pysparc,0.0,0.0,8.0,0.0,1.0
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\test_hardware.py,HiSPARC_pysparc,0.0,0.0,5.0,0.0,1.0
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\test_messages.py,HiSPARC_pysparc,0.0,0.0,3.0,0.0,0.0
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\test_messages_acceptance.py,HiSPARC_pysparc,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\test_pylibftdi.py,HiSPARC_pysparc,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\test_storage.py,HiSPARC_pysparc,0.0,0.0,16.0,0.0,1.0
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\test_upload_config_events_acceptance.py,HiSPARC_pysparc,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\test_util.py,HiSPARC_pysparc,0.0,0.0,1.0,0.0,1.0
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\__init__.py,HiSPARC_pysparc,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\muonlab\test_muonlab_ii.py,HiSPARC_pysparc,0.0,0.0,13.0,0.0,1.0
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\muonlab\test_pylibftdi_hardware.py,HiSPARC_pysparc,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\HiSPARC\pysparc\pysparc\tests\muonlab\__init__.py,HiSPARC_pysparc,0.0,0.0,0.0,0.0,1.0

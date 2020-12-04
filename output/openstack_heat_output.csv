@@ -1,0 +1,14 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\openstack\heat\heat\tests\templates\Neutron.yaml,openstack_heat,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\heat\heat\tests\templates\WordPress_Single_Instance.yaml,openstack_heat,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\heat\contrib\heat_docker\heat_docker\tests\fake_docker_client.py,openstack_heat,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\heat\contrib\heat_docker\heat_docker\tests\test_docker_container.py,openstack_heat,0.0,0.0,19.0,2.0,1.0
+C:\mined_repos\openstack\heat\contrib\heat_docker\heat_docker\tests\__init__.py,openstack_heat,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\heat\heat\tests\common.py,openstack_heat,0.0,0.0,0.0,4.0,1.0
+C:\mined_repos\openstack\heat\heat\tests\fakes.py,openstack_heat,0.0,0.0,0.0,1.0,1.0
+C:\mined_repos\openstack\heat\heat\tests\generic_resource.py,openstack_heat,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\heat\heat\tests\test_attributes.py,openstack_heat,0.0,0.0,10.0,0.0,1.0
+C:\mined_repos\openstack\heat\heat\tests\test_auth_password.py,openstack_heat,0.0,0.0,1.0,1.0,1.0
+C:\mined_repos\openstack\heat\heat\tests\test_auth_url.py,openstack_heat,0.0,0.0,4.0,0.0,1.0
+C:\mined_repos\openstack\heat\heat\tests\test_common_auth_plugin.py,openstack_heat,0.0,0.0,2.0,4.0,1.0
+C:\mined_repos\openstack\heat\heat\tests\test_common_context.py,openstack_heat,0.0,0.0,0.0,0.0,1.0

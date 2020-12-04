@@ -1,0 +1,3 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\ernestas-poskus\ansible-prometheus\tests\playbook.yml,ernestas-poskus_ansible-prometheus,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\ernestas-poskus\ansible-prometheus\tests\test.yml,ernestas-poskus_ansible-prometheus,0.0,0.0,0.0,0.0,1.0

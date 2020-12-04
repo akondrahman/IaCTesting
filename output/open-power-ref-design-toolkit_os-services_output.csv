@@ -1,0 +1,6 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\open-power-ref-design-toolkit\os-services\tests\genesis.yml,open-power-ref-design-toolkit_os-services,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\open-power-ref-design-toolkit\os-services\tests\test_get_env_vars.py,open-power-ref-design-toolkit_os-services,0.0,0.0,0.0,8.0,0.0
+C:\mined_repos\open-power-ref-design-toolkit\os-services\tests\test_user_config_generator.py,open-power-ref-design-toolkit_os-services,0.0,0.0,35.0,6.0,1.0
+C:\mined_repos\open-power-ref-design-toolkit\os-services\tests\test_validate_config.py,open-power-ref-design-toolkit_os-services,0.0,0.0,15.0,2.0,0.0
+C:\mined_repos\open-power-ref-design-toolkit\os-services\tests\__init__.py,open-power-ref-design-toolkit_os-services,0.0,0.0,0.0,0.0,1.0

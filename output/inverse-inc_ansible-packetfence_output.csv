@@ -1,0 +1,3 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\inverse-inc\ansible-packetfence\packetfence\roles\packetfence_install\tests\api_calls.yml,inverse-inc_ansible-packetfence,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\inverse-inc\ansible-packetfence\packetfence\roles\packetfence_install\tests\sources.yml,inverse-inc_ansible-packetfence,0.0,0.0,0.0,0.0,1.0

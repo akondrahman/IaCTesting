@@ -1,0 +1,5 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\pintostack\core\provisioning\roles\ansible-marathon\tests\main.yml,pintostack_core,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\pintostack\core\provisioning\roles\ansible-marathon\tests\playbook.yml,pintostack_core,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\pintostack\core\provisioning\roles\ansible-mesos\tests\main.yml,pintostack_core,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\pintostack\core\provisioning\roles\ansible-mesos\tests\playbook.yml,pintostack_core,0.0,0.0,0.0,0.0,1.0

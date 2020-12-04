@@ -1,0 +1,2 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\tarantool\ansible-cartridge\molecule\default\tests\test_cartridge.py,tarantool_ansible-cartridge,0,0,3,3,1

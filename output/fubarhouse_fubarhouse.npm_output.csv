@@ -1,0 +1,2 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\fubarhouse\fubarhouse.npm\tests\playbook.yml,fubarhouse_fubarhouse.npm,0,0,0,0,1

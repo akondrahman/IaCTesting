@@ -1,0 +1,3 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\ArdanaCLM\ardana-service\tests\test_data\empty_section\cloudConfig.yml,ArdanaCLM_ardana-service,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\ArdanaCLM\ardana-service\tests\test_data\empty_section\data\empty.yml,ArdanaCLM_ardana-service,0.0,0.0,0.0,0.0,1.0

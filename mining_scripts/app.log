@@ -1,0 +1,1388 @@
+root - ERROR - starting to download repo no 20 named 2015-Middleware-Keynote/demo-ansible
+root - ERROR - completed the download of repo 20
+root - ERROR - starting to download repo no 20 named 2015-Middleware-Keynote/demo-ansible
+root - ERROR - Could not create any directory named C:\mined_repos\2015-Middleware-Keynote
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://github.com/2015-Middleware-Keynote/demo-ansible/
+  stderr: 'fatal: destination path 'demo-ansible' already exists and is not an empty directory.'
+root - ERROR - starting to download repo no 38 named 47lining/nucleator-core
+root - ERROR - completed the download of repo 38
+root - ERROR - starting to download repo no 42 named 585-software/rocdev
+root - ERROR - completed the download of repo 42
+root - ERROR - starting to download repo no 59 named AAROC/AnsibleBootCamp
+root - ERROR - completed the download of repo 59
+root - ERROR - starting to download repo no 140 named aepifanov/mos_mu
+root - ERROR - completed the download of repo 140
+root - ERROR - starting to download repo no 141 named aepyornis/nyc-db
+root - ERROR - completed the download of repo 141
+root - ERROR - starting to download repo no 152 named afup/haphpy-birthday
+root - ERROR - completed the download of repo 152
+root - ERROR - starting to download repo no 173 named agoravoting/agora-dev-box
+root - ERROR - completed the download of repo 173
+root - ERROR - starting to download repo no 444 named ansible/ansible
+root - ERROR - completed the download of repo 444
+root - ERROR - starting to download repo no 445 named ansible/lightbulb
+root - ERROR - Could not create any directory named C:\mined_repos\ansible
+root - ERROR - completed the download of repo 445
+root - ERROR - starting to download repo no 455 named AnsibleShipyard/ansible-marathon
+root - ERROR - completed the download of repo 455
+root - ERROR - starting to download repo no 456 named AnsibleShipyard/ansible-mesos
+root - ERROR - Could not create any directory named C:\mined_repos\AnsibleShipyard
+root - ERROR - completed the download of repo 456
+root - ERROR - starting to download repo no 464 named ansistrano/deploy
+root - ERROR - completed the download of repo 464
+root - ERROR - starting to download repo no 465 named Answers4AWS/netflixoss-ansible
+root - ERROR - completed the download of repo 465
+root - ERROR - starting to download repo no 469 named Anthony25/ansible-role-postfix
+root - ERROR - completed the download of repo 469
+root - ERROR - starting to download repo no 486 named ANXS/postgresql
+root - ERROR - completed the download of repo 486
+root - ERROR - starting to download repo no 540 named ArdanaCLM/ardana-service
+root - ERROR - completed the download of repo 540
+root - ERROR - starting to download repo no 576 named artur-gajewski/symplate
+root - ERROR - completed the download of repo 576
+root - ERROR - starting to download repo no 638 named atosatto/ansible-minio
+root - ERROR - completed the download of repo 638
+root - ERROR - starting to download repo no 795 named benregn/cookiecutter-django-ansible
+root - ERROR - completed the download of repo 795
+root - ERROR - starting to download repo no 828 named BiBiServ/bibigrid
+root - ERROR - completed the download of repo 828
+root - ERROR - starting to download repo no 861 named bitrise-io/osx-box-bootstrap
+root - ERROR - completed the download of repo 861
+root - ERROR - starting to download repo no 892 named bloomberg/chef-bcpc
+root - ERROR - completed the download of repo 892
+root - ERROR - starting to download repo no 915 named bocoup/deployment-workflow
+root - ERROR - completed the download of repo 915
+root - ERROR - starting to download repo no 917 named bocoup/people
+root - ERROR - Could not create any directory named C:\mined_repos\bocoup
+root - ERROR - completed the download of repo 917
+root - ERROR - starting to download repo no 967 named brianshumate/ansible-consul
+root - ERROR - completed the download of repo 967
+root - ERROR - starting to download repo no 995 named bswartz/manila
+root - ERROR - completed the download of repo 995
+root - ERROR - starting to download repo no 1037 named Capgemini/Apollo
+root - ERROR - completed the download of repo 1037
+root - ERROR - starting to download repo no 1038 named Capgemini/kubeform
+root - ERROR - Could not create any directory named C:\mined_repos\Capgemini
+root - ERROR - completed the download of repo 1038
+root - ERROR - starting to download repo no 1044 named carlalexander/debops-wordpress
+root - ERROR - completed the download of repo 1044
+root - ERROR - starting to download repo no 1045 named carlbuchmann/ansible
+root - ERROR - completed the download of repo 1045
+root - ERROR - starting to download repo no 1066 named catalyst/catalystcloud-ansible
+root - ERROR - completed the download of repo 1066
+root - ERROR - starting to download repo no 1096 named centos-opstools/opstools-ansible
+root - ERROR - completed the download of repo 1096
+root - ERROR - starting to download repo no 1097 named CentOS-PaaS-SIG/aos-ci
+root - ERROR - completed the download of repo 1097
+root - ERROR - starting to download repo no 1098 named CentOS-PaaS-SIG/ci-pipeline
+root - ERROR - Could not create any directory named C:\mined_repos\CentOS-PaaS-SIG
+root - ERROR - completed the download of repo 1098
+root - ERROR - starting to download repo no 1099 named CentOS-PaaS-SIG/linch-pin
+root - ERROR - Could not create any directory named C:\mined_repos\CentOS-PaaS-SIG
+root - ERROR - completed the download of repo 1099
+root - ERROR - starting to download repo no 1100 named CentOS-PaaS-SIG/linchpin
+root - ERROR - Could not create any directory named C:\mined_repos\CentOS-PaaS-SIG
+root - ERROR - completed the download of repo 1100
+root - ERROR - starting to download repo no 1102 named ceph/ceph-ansible
+root - ERROR - completed the download of repo 1102
+root - ERROR - starting to download repo no 1103 named ceph/ceph-installer
+root - ERROR - Could not create any directory named C:\mined_repos\ceph
+root - ERROR - completed the download of repo 1103
+root - ERROR - starting to download repo no 1104 named ceph/mariner-installer
+root - ERROR - Could not create any directory named C:\mined_repos\ceph
+root - ERROR - completed the download of repo 1104
+root - ERROR - starting to download repo no 1123 named cfpb/pantheon
+root - ERROR - completed the download of repo 1123
+root - ERROR - starting to download repo no 1147 named chenshuchuan/configuration
+root - ERROR - completed the download of repo 1147
+root - ERROR - starting to download repo no 1187 named chuckbutler/docker-charm
+root - ERROR - completed the download of repo 1187
+root - ERROR - starting to download repo no 1205 named CiscoCloud/mantl
+root - ERROR - completed the download of repo 1205
+root - ERROR - starting to download repo no 1206 named CiscoCloud/microservices-infrastructure
+root - ERROR - Could not create any directory named C:\mined_repos\CiscoCloud
+root - ERROR - completed the download of repo 1206
+root - ERROR - starting to download repo no 1210 named CiscoSystems/os-sqe
+root - ERROR - completed the download of repo 1210
+root - ERROR - starting to download repo no 1211 named CiscoSystems/project-config-third-party
+root - ERROR - Could not create any directory named C:\mined_repos\CiscoSystems
+root - ERROR - completed the download of repo 1211
+root - ERROR - starting to download repo no 1214 named citrix/netscaler-ansible-modules
+root - ERROR - completed the download of repo 1214
+root - ERROR - starting to download repo no 1220 named cl1ck/buildit
+root - ERROR - completed the download of repo 1220
+root - ERROR - starting to download repo no 1226 named claresloggett/gvl_commandline_utilities
+root - ERROR - completed the download of repo 1226
+root - ERROR - starting to download repo no 1239 named cloudfoundry-incubator/bosh-openstack-cpi-release
+root - ERROR - completed the download of repo 1239
+root - ERROR - starting to download repo no 1241 named cloudify-cosmo/cloudify-ansible-plugin
+root - ERROR - completed the download of repo 1241
+root - ERROR - starting to download repo no 1245 named cloudmesh/sp17-i524
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://github.com/cloudmesh/sp17-i524/
+  stderr: 'Cloning into 'sp17-i524'...
+fatal: early EOF
+fatal: the remote end hung up unexpectedly
+fatal: index-pack failed
+error: RPC failed; curl 56 OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054'
+root - ERROR - starting to download repo no 1252 named cloudwatt/os_image_factory
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://github.com/cloudwatt/os_image_factory/
+  stderr: 'Cloning into 'os_image_factory'...
+fatal: unable to access 'https://github.com/cloudwatt/os_image_factory/': Could not resolve host: github.com'
+root - ERROR - starting to download repo no 1253 named clustervision/trinityX
+root - ERROR - completed the download of repo 1253
+root - ERROR - starting to download repo no 1256 named cmacrae/ansible-sensu
+root - ERROR - completed the download of repo 1256
+root - ERROR - starting to download repo no 1266 named cncf/demo
+root - ERROR - completed the download of repo 1266
+root - ERROR - starting to download repo no 1271 named cockpit-project/poc-sysmgmt-roles
+root - ERROR - completed the download of repo 1271
+root - ERROR - starting to download repo no 1272 named cockpit-project/system-api-roles
+root - ERROR - Could not create any directory named C:\mined_repos\cockpit-project
+root - ERROR - completed the download of repo 1272
+root - ERROR - starting to download repo no 1369 named credentials/irma_verification_server
+root - ERROR - completed the download of repo 1369
+root - ERROR - starting to download repo no 1385 named CSC-IT-Center-for-Science/pouta-blueprints
+root - ERROR - completed the download of repo 1385
+root - ERROR - starting to download repo no 1405 named CumulusNetworks/cumulus-linux-ansible-modules
+root - ERROR - completed the download of repo 1405
+root - ERROR - starting to download repo no 1416 named Cyb3rWard0g/ThreatHunter-Playbook
+root - ERROR - completed the download of repo 1416
+root - ERROR - starting to download repo no 1418 named CyberAnalyticDevTeam/SimpleRock
+root - ERROR - completed the download of repo 1418
+root - ERROR - starting to download repo no 1433 named d34dh0r53/os-ansible-deployment
+root - ERROR - completed the download of repo 1433
+root - ERROR - starting to download repo no 1487 named DATA-DOG/symfony-force
+root - ERROR - completed the download of repo 1487
+root - ERROR - starting to download repo no 1509 named david415/ansible-tor
+root - ERROR - completed the download of repo 1509
+root - ERROR - starting to download repo no 1557 named debops/ansible-apache
+root - ERROR - completed the download of repo 1557
+root - ERROR - starting to download repo no 1558 named debops/ansible-apt
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1558
+root - ERROR - starting to download repo no 1564 named debops/ansible-console
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1564
+root - ERROR - starting to download repo no 1570 named debops/ansible-docker
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1570
+root - ERROR - starting to download repo no 1577 named debops/ansible-ferm
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1577
+root - ERROR - starting to download repo no 1578 named debops/ansible-gitlab
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1578
+root - ERROR - starting to download repo no 1579 named debops/ansible-gitlab_runner
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1579
+root - ERROR - starting to download repo no 1581 named debops/ansible-ifupdown
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1581
+root - ERROR - starting to download repo no 1585 named debops/ansible-lxc
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1585
+root - ERROR - starting to download repo no 1591 named debops/ansible-nginx
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1591
+root - ERROR - starting to download repo no 1594 named debops/ansible-owncloud
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1594
+root - ERROR - starting to download repo no 1596 named debops/ansible-php
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1596
+root - ERROR - starting to download repo no 1597 named debops/ansible-pki
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1597
+root - ERROR - starting to download repo no 1610 named debops/ansible-sshd
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1610
+root - ERROR - starting to download repo no 1614 named debops/ansible-tinc
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1614
+root - ERROR - starting to download repo no 1616 named debops/debops
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1616
+root - ERROR - starting to download repo no 1617 named debops/debops-playbooks
+root - ERROR - Could not create any directory named C:\mined_repos\debops
+root - ERROR - completed the download of repo 1617
+root - ERROR - starting to download repo no 1637 named dell/idrac-ansible-module
+root - ERROR - completed the download of repo 1637
+root - ERROR - starting to download repo no 1643 named demisto/content
+root - ERROR - completed the download of repo 1643
+root - ERROR - starting to download repo no 1670 named devananda/bifrost
+root - ERROR - completed the download of repo 1670
+root - ERROR - starting to download repo no 1690 named dfarrell07/vagrant-opendaylight
+root - ERROR - completed the download of repo 1690
+root - ERROR - starting to download repo no 1755 named djaodjin/drop
+root - ERROR - completed the download of repo 1755
+root - ERROR - starting to download repo no 1769 named dlinknctu/OpenNet
+root - ERROR - completed the download of repo 1769
+root - ERROR - starting to download repo no 1835 named dpla/automation
+root - ERROR - completed the download of repo 1835
+root - ERROR - starting to download repo no 1856 named drupal-ukraine/advanced_forum
+root - ERROR - completed the download of repo 1856
+root - ERROR - starting to download repo no 1857 named drupal-ukraine/csua
+root - ERROR - Could not create any directory named C:\mined_repos\drupal-ukraine
+root - ERROR - completed the download of repo 1857
+root - ERROR - starting to download repo no 1858 named drupal-ukraine/dmaps
+root - ERROR - Could not create any directory named C:\mined_repos\drupal-ukraine
+root - ERROR - completed the download of repo 1858
+root - ERROR - starting to download repo no 1870 named drybjed/ansible-debops
+root - ERROR - completed the download of repo 1870
+root - ERROR - starting to download repo no 1871 named drybjed/ansible-dnsmasq
+root - ERROR - Could not create any directory named C:\mined_repos\drybjed
+root - ERROR - completed the download of repo 1871
+root - ERROR - starting to download repo no 1874 named drybjed/ansible-dovecot
+root - ERROR - Could not create any directory named C:\mined_repos\drybjed
+root - ERROR - completed the download of repo 1874
+root - ERROR - starting to download repo no 1875 named drybjed/ansible-elasticsearch
+root - ERROR - Could not create any directory named C:\mined_repos\drybjed
+root - ERROR - completed the download of repo 1875
+root - ERROR - starting to download repo no 1877 named drybjed/ansible-etherpad
+root - ERROR - Could not create any directory named C:\mined_repos\drybjed
+root - ERROR - completed the download of repo 1877
+root - ERROR - starting to download repo no 1884 named drybjed/ansible-mariadb
+root - ERROR - Could not create any directory named C:\mined_repos\drybjed
+root - ERROR - completed the download of repo 1884
+root - ERROR - starting to download repo no 1885 named drybjed/ansible-mariadb_server
+root - ERROR - Could not create any directory named C:\mined_repos\drybjed
+root - ERROR - completed the download of repo 1885
+root - ERROR - starting to download repo no 1888 named drybjed/ansible-ntp
+root - ERROR - Could not create any directory named C:\mined_repos\drybjed
+root - ERROR - completed the download of repo 1888
+root - ERROR - starting to download repo no 1891 named drybjed/ansible-postfix
+root - ERROR - Could not create any directory named C:\mined_repos\drybjed
+root - ERROR - completed the download of repo 1891
+root - ERROR - starting to download repo no 1892 named drybjed/ansible-postgresql
+root - ERROR - Could not create any directory named C:\mined_repos\drybjed
+root - ERROR - completed the download of repo 1892
+root - ERROR - starting to download repo no 1893 named drybjed/ansible-postgresql_server
+root - ERROR - Could not create any directory named C:\mined_repos\drybjed
+root - ERROR - completed the download of repo 1893
+root - ERROR - starting to download repo no 1894 named drybjed/ansible-slapd
+root - ERROR - Could not create any directory named C:\mined_repos\drybjed
+root - ERROR - completed the download of repo 1894
+root - ERROR - starting to download repo no 1898 named drybjed/ansible-users
+root - ERROR - Could not create any directory named C:\mined_repos\drybjed
+root - ERROR - completed the download of repo 1898
+root - ERROR - starting to download repo no 1903 named drybjed/test-suite
+root - ERROR - Could not create any directory named C:\mined_repos\drybjed
+root - ERROR - completed the download of repo 1903
+root - ERROR - starting to download repo no 1915 named Dub5/dub5-devenv
+root - ERROR - completed the download of repo 1915
+root - ERROR - starting to download repo no 1947 named EarthmanT/cloudify-ansible-plugin
+root - ERROR - completed the download of repo 1947
+root - ERROR - starting to download repo no 1982 named edx/configuration
+root - ERROR - completed the download of repo 1982
+root - ERROR - starting to download repo no 2009 named elcodi/bamboo
+root - ERROR - completed the download of repo 2009
+root - ERROR - starting to download repo no 2021 named elliotweiser/ansible-osx-command-line-tools
+root - ERROR - completed the download of repo 2021
+root - ERROR - starting to download repo no 2052 named enterprisemediawiki/meza
+root - ERROR - completed the download of repo 2052
+root - ERROR - starting to download repo no 2053 named enterprisemediawiki/Meza1
+root - ERROR - Could not create any directory named C:\mined_repos\enterprisemediawiki
+root - ERROR - completed the download of repo 2053
+root - ERROR - starting to download repo no 2065 named equalitie/eqpress
+root - ERROR - completed the download of repo 2065
+root - ERROR - starting to download repo no 2079 named ericmann/openconnect-vm
+root - ERROR - completed the download of repo 2079
+root - ERROR - starting to download repo no 2094 named ernestas-poskus/ansible-prometheus
+root - ERROR - completed the download of repo 2094
+root - ERROR - starting to download repo no 2120 named EuroPython/ep-config
+root - ERROR - completed the download of repo 2120
+root - ERROR - starting to download repo no 2125 named evercam/evercam-devops
+root - ERROR - completed the download of repo 2125
+root - ERROR - starting to download repo no 2139 named ezweb/git-up
+root - ERROR - completed the download of repo 2139
+root - ERROR - starting to download repo no 2142 named F5Networks/f5-ansible
+root - ERROR - completed the download of repo 2142
+root - ERROR - starting to download repo no 2143 named F5Networks/f5-ansible-modules
+root - ERROR - Could not create any directory named C:\mined_repos\F5Networks
+root - ERROR - completed the download of repo 2143
+root - ERROR - starting to download repo no 2222 named FiaasCo/borgbackup
+root - ERROR - completed the download of repo 2222
+root - ERROR - starting to download repo no 2298 named frappe/bench
+root - ERROR - completed the download of repo 2298
+root - ERROR - starting to download repo no 2307 named freedomofpress/securedrop
+root - ERROR - completed the download of repo 2307
+root - ERROR - starting to download repo no 2309 named freelinuxdistrodeployed/LDT
+root - ERROR - completed the download of repo 2309
+root - ERROR - starting to download repo no 2328 named fubarhouse/ansible-role-nodejs
+root - ERROR - completed the download of repo 2328
+root - ERROR - starting to download repo no 2331 named fubarhouse/fubarhouse.npm
+root - ERROR - Could not create any directory named C:\mined_repos\fubarhouse
+root - ERROR - completed the download of repo 2331
+root - ERROR - starting to download repo no 2337 named fultonj/tripleo-ceph-ansible
+root - ERROR - completed the download of repo 2337
+root - ERROR - starting to download repo no 2402 named galaxyproject/ansible-galaxy-tools
+root - ERROR - completed the download of repo 2402
+root - ERROR - starting to download repo no 2403 named galaxyproject/ansible-tools
+root - ERROR - Could not create any directory named C:\mined_repos\galaxyproject
+root - ERROR - completed the download of repo 2403
+root - ERROR - starting to download repo no 2404 named galaxyproject/infrastructure-playbook
+root - ERROR - Could not create any directory named C:\mined_repos\galaxyproject
+root - ERROR - completed the download of repo 2404
+root - ERROR - starting to download repo no 2405 named galaxyproject/starforge
+root - ERROR - Could not create any directory named C:\mined_repos\galaxyproject
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://github.com/galaxyproject/starforge/
+  stderr: 'Cloning into 'starforge'...
+fatal: cannot create directory at 'image/starforge/centos-rpmbuild:6': Invalid argument
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+'
+root - ERROR - starting to download repo no 2408 named Galeria-Kaufhof/private-postgres-rds
+root - ERROR - completed the download of repo 2408
+root - ERROR - starting to download repo no 2431 named gantsign/ansible-role-java
+root - ERROR - completed the download of repo 2431
+root - ERROR - starting to download repo no 2450 named gc3-uzh-ch/elasticluster
+root - ERROR - completed the download of repo 2450
+root - ERROR - starting to download repo no 2459 named geerlingguy/ansible-for-devops
+root - ERROR - completed the download of repo 2459
+root - ERROR - starting to download repo no 2460 named geerlingguy/ansible-role-drupal
+root - ERROR - Could not create any directory named C:\mined_repos\geerlingguy
+root - ERROR - completed the download of repo 2460
+root - ERROR - starting to download repo no 2461 named geerlingguy/ansible-role-jenkins
+root - ERROR - Could not create any directory named C:\mined_repos\geerlingguy
+root - ERROR - completed the download of repo 2461
+root - ERROR - starting to download repo no 2463 named geerlingguy/drupal-vm
+root - ERROR - Could not create any directory named C:\mined_repos\geerlingguy
+root - ERROR - completed the download of repo 2463
+root - ERROR - starting to download repo no 2464 named geerlingguy/raspberry-pi-dramble
+root - ERROR - Could not create any directory named C:\mined_repos\geerlingguy
+root - ERROR - completed the download of repo 2464
+root - ERROR - starting to download repo no 2469 named geneontology/noctua
+root - ERROR - completed the download of repo 2469
+root - ERROR - starting to download repo no 2477 named georchestra/ansible
+root - ERROR - completed the download of repo 2477
+root - ERROR - starting to download repo no 2503 named ginas/ginas
+root - ERROR - completed the download of repo 2503
+root - ERROR - starting to download repo no 2525 named glenjarvis/ansible_tutorial
+root - ERROR - completed the download of repo 2525
+root - ERROR - starting to download repo no 2530 named gluster/gdeploy
+root - ERROR - completed the download of repo 2530
+root - ERROR - starting to download repo no 2539 named gmccollister/ansible-virtd-docker-mariadb-bacula-nginx
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://github.com/gmccollister/ansible-virtd-docker-mariadb-bacula-nginx/
+  stderr: 'Cloning into 'ansible-virtd-docker-mariadb-bacula-nginx'...
+error: unable to create file public_keys/josephl@<SERVER>-ansibleremote@<SERVER>.pub: Invalid argument
+[KUpdating files:  67% (573/843)[KUpdating files:  68% (574/843)[KUpdating files:  69% (582/843)[KUpdating files:  70% (591/843)[KUpdating files:  71% (599/843)[KUpdating files:  72% (607/843)[KUpdating files:  73% (616/843)[KUpdating files:  74% (624/843)[KUpdating files:  75% (633/843)[KUpdating files:  76% (641/843)[KUpdating files:  77% (650/843)[KUpdating files:  78% (658/843)[KUpdating files:  79% (666/843)[KUpdating files:  80% (675/843)[KUpdating files:  81% (683/843)[KUpdating files:  82% (692/843)[KUpdating files:  83% (700/843)[KUpdating files:  84% (709/843)[KUpdating files:  85% (717/843)[KUpdating files:  86% (725/843)[KUpdating files:  87% (734/843)[KUpdating files:  88% (742/843)[KUpdating files:  89% (751/843)[KUpdating files:  90% (759/843)[KUpdating files:  91% (768/843)[KUpdating files:  92% (776/843)[KUpdating files:  93% (784/843)[KUpdating files:  94% (793/843)[KUpdating files:  95% (801/843)[KUpdating files:  96% (810/843)[KUpdating files:  97% (818/843)[KUpdating files:  98% (827/843)[KUpdating files:  99% (835/843)[KUpdating files: 100% (843/843)[KUpdating files: 100% (843/843), done.
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+'
+root - ERROR - starting to download repo no 2546 named go-gitea/infrastructure
+root - ERROR - completed the download of repo 2546
+root - ERROR - starting to download repo no 2587 named GraphStory/graph-kit-php
+root - ERROR - completed the download of repo 2587
+root - ERROR - starting to download repo no 2609 named grnet/access-ca-portal
+root - ERROR - completed the download of repo 2609
+root - ERROR - starting to download repo no 2611 named grnet/okeanos-LoD
+root - ERROR - Could not create any directory named C:\mined_repos\grnet
+root - ERROR - completed the download of repo 2611
+root - ERROR - starting to download repo no 2658 named gvlproject/gvl_commandline_utilities
+root - ERROR - completed the download of repo 2658
+root - ERROR - starting to download repo no 2737 named HHSIDEAlab/hhs_ansible
+root - ERROR - completed the download of repo 2737
+root - ERROR - starting to download repo no 2759 named HiSPARC/publicdb
+root - ERROR - completed the download of repo 2759
+root - ERROR - starting to download repo no 2760 named HiSPARC/pysparc
+root - ERROR - Could not create any directory named C:\mined_repos\HiSPARC
+root - ERROR - completed the download of repo 2760
+root - ERROR - starting to download repo no 2771 named hkim823/battleschool
+root - ERROR - completed the download of repo 2771
+root - ERROR - starting to download repo no 2774 named hlieberman/debian-ansible
+root - ERROR - completed the download of repo 2774
+root - ERROR - starting to download repo no 2776 named hmcmooc/ec2-edx-configuration
+root - ERROR - completed the download of repo 2776
+root - ERROR - starting to download repo no 2860 named IBM-Security/isam-ansible-roles
+root - ERROR - completed the download of repo 2860
+root - ERROR - starting to download repo no 2870 named idealista/airflow-role
+root - ERROR - completed the download of repo 2870
+root - ERROR - starting to download repo no 2877 named idi-ops/ansible-nodejs
+root - ERROR - completed the download of repo 2877
+root - ERROR - starting to download repo no 2915 named infOpen/ansible-role-airflow
+root - ERROR - completed the download of repo 2915
+root - ERROR - starting to download repo no 2920 named infOpen/ansible-role-ntp
+root - ERROR - Could not create any directory named C:\mined_repos\infOpen
+root - ERROR - completed the download of repo 2920
+root - ERROR - starting to download repo no 2925 named InformaticsMatters/squonk
+root - ERROR - completed the download of repo 2925
+root - ERROR - starting to download repo no 2937 named Inspq/ansible
+root - ERROR - completed the download of repo 2937
+root - ERROR - starting to download repo no 2940 named intel-onp/kolla
+root - ERROR - completed the download of repo 2940
+root - ERROR - starting to download repo no 2942 named internetarchive/brozzler
+root - ERROR - completed the download of repo 2942
+root - ERROR - starting to download repo no 2971 named Islandora-Devops/claw-playbook
+root - ERROR - completed the download of repo 2971
+root - ERROR - starting to download repo no 2974 named isucon/isucon6-final
+root - ERROR - completed the download of repo 2974
+root - ERROR - starting to download repo no 3430 named k8s-community/cluster-deploy
+root - ERROR - completed the download of repo 3430
+root - ERROR - starting to download repo no 3440 named kairen/kube-ansible
+root - ERROR - completed the download of repo 3440
+root - ERROR - starting to download repo no 3441 named kairen/kubernetes-ceph-ansible
+root - ERROR - Could not create any directory named C:\mined_repos\kairen
+root - ERROR - completed the download of repo 3441
+root - ERROR - starting to download repo no 3442 named kairen/vagrants
+root - ERROR - Could not create any directory named C:\mined_repos\kairen
+root - ERROR - completed the download of repo 3442
+root - ERROR - starting to download repo no 3444 named kalliope-project/kalliope
+root - ERROR - completed the download of repo 3444
+root - ERROR - starting to download repo no 3449 named KAMI911/ansible-role-tomcat
+root - ERROR - completed the download of repo 3449
+root - ERROR - starting to download repo no 3468 named Katello/katello-deploy
+root - ERROR - completed the download of repo 3468
+root - ERROR - starting to download repo no 3486 named keitarocorp/centos_provision
+root - ERROR - completed the download of repo 3486
+root - ERROR - starting to download repo no 3652 named kubernetes-incubator/kargo
+root - ERROR - completed the download of repo 3652
+root - ERROR - starting to download repo no 3653 named kubernetes-incubator/kubespray
+root - ERROR - Could not create any directory named C:\mined_repos\kubernetes-incubator
+root - ERROR - completed the download of repo 3653
+root - ERROR - starting to download repo no 3654 named kubernetes/test-infra
+root - ERROR - completed the download of repo 3654
+root - ERROR - starting to download repo no 3655 named kubespray/kargo
+root - ERROR - completed the download of repo 3655
+root - ERROR - starting to download repo no 3704 named lae/ansible-role-netbox
+root - ERROR - completed the download of repo 3704
+root - ERROR - starting to download repo no 3709 named laincloud/lain
+root - ERROR - completed the download of repo 3709
+root - ERROR - starting to download repo no 3733 named lazarus1331/jenkins2-master-role
+root - ERROR - completed the download of repo 3733
+root - ERROR - starting to download repo no 3762 named leapp-to/snactor
+root - ERROR - completed the download of repo 3762
+root - ERROR - starting to download repo no 3927 named LREN-CHUV/dev-setup
+root - ERROR - completed the download of repo 3927
+root - ERROR - starting to download repo no 3928 named LREN-CHUV/mip-microservices-infrastructure
+root - ERROR - Could not create any directory named C:\mined_repos\LREN-CHUV
+root - ERROR - completed the download of repo 3928
+root - ERROR - starting to download repo no 3940 named lttng/lttng-ci
+root - ERROR - completed the download of repo 3940
+root - ERROR - starting to download repo no 3954 named lueschem/edi
+root - ERROR - completed the download of repo 3954
+root - ERROR - starting to download repo no 4005 named magnet-cl/django-project-template-py3
+root - ERROR - completed the download of repo 4005
+root - ERROR - starting to download repo no 4019 named major/cis-rhel-ansible
+root - ERROR - completed the download of repo 4019
+root - ERROR - starting to download repo no 4036 named ManageIQ/manageiq
+root - ERROR - completed the download of repo 4036
+root - ERROR - starting to download repo no 4048 named mantl/mantl
+root - ERROR - completed the download of repo 4048
+root - ERROR - starting to download repo no 4079 named markkelnar/hgv
+root - ERROR - completed the download of repo 4079
+root - ERROR - starting to download repo no 4191 named mblaschke/vagrant-development
+root - ERROR - completed the download of repo 4191
+root - ERROR - starting to download repo no 4198 named mcapuccini/KubeNow
+root - ERROR - completed the download of repo 4198
+root - ERROR - starting to download repo no 4240 named metacloud/molecule
+root - ERROR - completed the download of repo 4240
+root - ERROR - starting to download repo no 4261 named mhamrah/ansible-mesos-playbook
+root - ERROR - completed the download of repo 4261
+root - ERROR - starting to download repo no 4332 named MindPointGroup/RHEL7-CIS
+root - ERROR - completed the download of repo 4332
+root - ERROR - starting to download repo no 4341 named Mirantis/solar
+root - ERROR - completed the download of repo 4341
+root - ERROR - starting to download repo no 4401 named MonashBioinformaticsPlatform/bio-ansible
+root - ERROR - completed the download of repo 4401
+root - ERROR - starting to download repo no 4425 named mozilla/123done
+root - ERROR - completed the download of repo 4425
+root - ERROR - starting to download repo no 4458 named msherron/drupal-vm
+root - ERROR - completed the download of repo 4458
+root - ERROR - starting to download repo no 4534 named napalm-automation/napalm-yang
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://github.com/napalm-automation/napalm-yang/
+  stderr: 'Cloning into 'napalm-yang'...
+[KUpdating files:  19% (397/2045)[KUpdating files:  20% (409/2045)[KUpdating files:  21% (430/2045)[KUpdating files:  22% (450/2045)[KUpdating files:  23% (471/2045)[KUpdating files:  24% (491/2045)fatal: cannot create directory at 'napalm_yang/models/openconfig/network_instances/network_instance/mpls/lsps/constrained_path/tunnels/tunnel/p2p_tunnel_attributes/p2p_primary_path/p2p_primary_path_/candidate_secondary_paths/candidate_secondary_path': Filename too long
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+'
+root - ERROR - starting to download repo no 4559 named nawawi/openstack
+root - ERROR - completed the download of repo 4559
+root - ERROR - starting to download repo no 4568 named NCSU-Libraries/circa
+root - ERROR - completed the download of repo 4568
+root - ERROR - starting to download repo no 4570 named NCSU-Libraries/quick_search
+root - ERROR - Could not create any directory named C:\mined_repos\NCSU-Libraries
+root - ERROR - completed the download of repo 4570
+root - ERROR - starting to download repo no 4579 named NeCTAR-RC/nectar-images
+root - ERROR - completed the download of repo 4579
+root - ERROR - starting to download repo no 4590 named neoncyrex/students
+root - ERROR - completed the download of repo 4590
+root - ERROR - starting to download repo no 4597 named neontribe/ntdr-pas
+root - ERROR - completed the download of repo 4597
+root - ERROR - starting to download repo no 4601 named NERC-CEH/datalab
+root - ERROR - completed the download of repo 4601
+root - ERROR - starting to download repo no 4615 named NETivism/ansible-docker
+root - ERROR - completed the download of repo 4615
+root - ERROR - starting to download repo no 4664 named nicolai86/ansible-rails-deployment
+root - ERROR - completed the download of repo 4664
+root - ERROR - starting to download repo no 4715 named noironetworks/neutron
+root - ERROR - completed the download of repo 4715
+root - ERROR - starting to download repo no 4729 named novatechweb/ansible-virtd-docker-mariadb-bacula-nginx
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://github.com/novatechweb/ansible-virtd-docker-mariadb-bacula-nginx/
+  stderr: 'Cloning into 'ansible-virtd-docker-mariadb-bacula-nginx'...
+error: unable to create file public_keys/josephl@<SERVER>-ansibleremote@<SERVER>.pub: Invalid argument
+[KUpdating files:  70% (592/843)[KUpdating files:  71% (599/843)[KUpdating files:  72% (607/843)[KUpdating files:  73% (616/843)[KUpdating files:  74% (624/843)[KUpdating files:  75% (633/843)[KUpdating files:  76% (641/843)[KUpdating files:  77% (650/843)[KUpdating files:  78% (658/843)[KUpdating files:  79% (666/843)[KUpdating files:  80% (675/843)[KUpdating files:  81% (683/843)[KUpdating files:  82% (692/843)[KUpdating files:  83% (700/843)[KUpdating files:  84% (709/843)[KUpdating files:  85% (717/843)[KUpdating files:  86% (725/843)[KUpdating files:  87% (734/843)[KUpdating files:  88% (742/843)[KUpdating files:  89% (751/843)[KUpdating files:  90% (759/843)[KUpdating files:  91% (768/843)[KUpdating files:  92% (776/843)[KUpdating files:  93% (784/843)[KUpdating files:  94% (793/843)[KUpdating files:  95% (801/843)[KUpdating files:  96% (810/843)[KUpdating files:  97% (818/843)[KUpdating files:  98% (827/843)[KUpdating files:  99% (835/843)[KUpdating files: 100% (843/843)[KUpdating files: 100% (843/843), done.
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+'
+root - ERROR - starting to download repo no 4772 named nusenu/ansible-relayor
+root - ERROR - completed the download of repo 4772
+root - ERROR - starting to download repo no 4857 named Open-I-Beam/swift-storlets
+root - ERROR - completed the download of repo 4857
+root - ERROR - starting to download repo no 4858 named open-power-ref-design-toolkit/cluster-genesis
+root - ERROR - completed the download of repo 4858
+root - ERROR - starting to download repo no 4859 named open-power-ref-design-toolkit/opsmgr
+root - ERROR - Could not create any directory named C:\mined_repos\open-power-ref-design-toolkit
+root - ERROR - completed the download of repo 4859
+root - ERROR - starting to download repo no 4860 named open-power-ref-design-toolkit/os-services
+root - ERROR - Could not create any directory named C:\mined_repos\open-power-ref-design-toolkit
+root - ERROR - completed the download of repo 4860
+root - ERROR - starting to download repo no 4861 named open-power-ref-design/opsmgr
+root - ERROR - completed the download of repo 4861
+root - ERROR - starting to download repo no 4862 named open-power-ref-design/os-services
+root - ERROR - Could not create any directory named C:\mined_repos\open-power-ref-design
+root - ERROR - completed the download of repo 4862
+root - ERROR - starting to download repo no 4867 named OpenConext/OpenConext-deploy
+root - ERROR - completed the download of repo 4867
+root - ERROR - starting to download repo no 4868 named opencord/platform-install
+root - ERROR - completed the download of repo 4868
+root - ERROR - starting to download repo no 4873 named opendevshop/devshop
+root - ERROR - completed the download of repo 4873
+root - ERROR - starting to download repo no 4883 named openshift/openshift-ansible
+root - ERROR - completed the download of repo 4883
+root - ERROR - starting to download repo no 4884 named openshift/openshift-ansible-contrib
+root - ERROR - Could not create any directory named C:\mined_repos\openshift
+root - ERROR - completed the download of repo 4884
+root - ERROR - starting to download repo no 4885 named openshift/openshift-tools
+root - ERROR - Could not create any directory named C:\mined_repos\openshift
+root - ERROR - completed the download of repo 4885
+root - ERROR - starting to download repo no 4891 named openstack-dev/bashate
+root - ERROR - completed the download of repo 4891
+root - ERROR - starting to download repo no 4892 named openstack-dev/devstack
+root - ERROR - Could not create any directory named C:\mined_repos\openstack-dev
+root - ERROR - completed the download of repo 4892
+root - ERROR - starting to download repo no 4893 named openstack-dev/grenade
+root - ERROR - Could not create any directory named C:\mined_repos\openstack-dev
+root - ERROR - completed the download of repo 4893
+root - ERROR - starting to download repo no 4894 named openstack-dev/pbr
+root - ERROR - Could not create any directory named C:\mined_repos\openstack-dev
+root - ERROR - completed the download of repo 4894
+root - ERROR - starting to download repo no 4895 named openstack-infra/openstack-zuul-jobs
+root - ERROR - completed the download of repo 4895
+root - ERROR - starting to download repo no 4896 named openstack-infra/project-config
+root - ERROR - Could not create any directory named C:\mined_repos\openstack-infra
+root - ERROR - completed the download of repo 4896
+root - ERROR - starting to download repo no 4897 named openstack-infra/shade
+root - ERROR - Could not create any directory named C:\mined_repos\openstack-infra
+root - ERROR - completed the download of repo 4897
+root - ERROR - starting to download repo no 4904 named openstack/bifrost
+root - ERROR - completed the download of repo 4904
+root - ERROR - starting to download repo no 4905 named openstack/castellan
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4905
+root - ERROR - starting to download repo no 4906 named openstack/cinder
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4906
+root - ERROR - starting to download repo no 4909 named openstack/diskimage-builder
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4909
+root - ERROR - starting to download repo no 4912 named openstack/glance
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4912
+root - ERROR - starting to download repo no 4913 named openstack/heat
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4913
+root - ERROR - starting to download repo no 4914 named openstack/heat-templates
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4914
+root - ERROR - starting to download repo no 4917 named openstack/ironic
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4917
+root - ERROR - starting to download repo no 4918 named openstack/kolla
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4918
+root - ERROR - starting to download repo no 4919 named openstack/magnum
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4919
+root - ERROR - starting to download repo no 4920 named openstack/manila
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4920
+root - ERROR - starting to download repo no 4921 named openstack/manila-image-elements
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4921
+root - ERROR - starting to download repo no 4922 named openstack/mistral
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4922
+root - ERROR - starting to download repo no 4926 named openstack/monasca-notification
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4926
+root - ERROR - starting to download repo no 4929 named openstack/networking-odl
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4929
+root - ERROR - starting to download repo no 4931 named openstack/neutron
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4931
+root - ERROR - starting to download repo no 4935 named openstack/nova
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4935
+root - ERROR - starting to download repo no 4936 named openstack/octavia
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4936
+root - ERROR - starting to download repo no 4937 named openstack/openstack-ansible
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4937
+root - ERROR - starting to download repo no 4938 named openstack/openstack-ansible-apt_package_pinning
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4938
+root - ERROR - starting to download repo no 4939 named openstack/openstack-ansible-galera_client
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4939
+root - ERROR - starting to download repo no 4940 named openstack/openstack-ansible-galera_server
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4940
+root - ERROR - starting to download repo no 4941 named openstack/openstack-ansible-lxc_container_create
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4941
+root - ERROR - starting to download repo no 4942 named openstack/openstack-ansible-lxc_hosts
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4942
+root - ERROR - starting to download repo no 4943 named openstack/openstack-ansible-memcached_server
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4943
+root - ERROR - starting to download repo no 4944 named openstack/openstack-ansible-openstack_hosts
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4944
+root - ERROR - starting to download repo no 4945 named openstack/openstack-ansible-plugins
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4945
+root - ERROR - starting to download repo no 4946 named openstack/openstack-ansible-rabbitmq_server
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4946
+root - ERROR - starting to download repo no 4947 named openstack/openstack-ansible-repo_server
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4947
+root - ERROR - starting to download repo no 4948 named openstack/openstack-ansible-rsyslog_client
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4948
+root - ERROR - starting to download repo no 4949 named openstack/openstack-ansible-rsyslog_server
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4949
+root - ERROR - starting to download repo no 4951 named openstack/os-vif
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4951
+root - ERROR - starting to download repo no 4952 named openstack/oslo.cache
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4952
+root - ERROR - starting to download repo no 4955 named openstack/packstack
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4955
+root - ERROR - starting to download repo no 4956 named openstack/puppet-openstack-integration
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4956
+root - ERROR - starting to download repo no 4959 named openstack/python-ironicclient
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4959
+root - ERROR - starting to download repo no 4961 named openstack/python-openstacksdk
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4961
+root - ERROR - starting to download repo no 4962 named openstack/python-tripleoclient
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4962
+root - ERROR - starting to download repo no 4967 named openstack/sahara
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4967
+root - ERROR - starting to download repo no 4970 named openstack/sahara-image-elements
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4970
+root - ERROR - starting to download repo no 4971 named openstack/sahara-scenario
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4971
+root - ERROR - starting to download repo no 4972 named openstack/sahara-tests
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4972
+root - ERROR - starting to download repo no 4973 named openstack/senlin
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4973
+root - ERROR - starting to download repo no 4978 named openstack/tacker
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4978
+root - ERROR - starting to download repo no 4979 named openstack/tempest
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4979
+root - ERROR - starting to download repo no 4980 named openstack/tooz
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4980
+root - ERROR - starting to download repo no 4982 named openstack/tripleo-common
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4982
+root - ERROR - starting to download repo no 4983 named openstack/tripleo-heat-templates
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4983
+root - ERROR - starting to download repo no 4984 named openstack/trove
+root - ERROR - Could not create any directory named C:\mined_repos\openstack
+root - ERROR - completed the download of repo 4984
+root - ERROR - starting to download repo no 5011 named os-cloud/openstack-ansible-galera_server
+root - ERROR - completed the download of repo 5011
+root - ERROR - starting to download repo no 5012 named os-cloud/openstack-ansible-lxc_hosts
+root - ERROR - Could not create any directory named C:\mined_repos\os-cloud
+root - ERROR - completed the download of repo 5012
+root - ERROR - starting to download repo no 5013 named os-cloud/openstack-ansible-pip_install
+root - ERROR - Could not create any directory named C:\mined_repos\os-cloud
+root - ERROR - completed the download of repo 5013
+root - ERROR - starting to download repo no 5015 named os-cloud/os-ansible-deployment
+root - ERROR - Could not create any directory named C:\mined_repos\os-cloud
+root - ERROR - completed the download of repo 5015
+root - ERROR - starting to download repo no 5018 named osic/ref-impl
+root - ERROR - completed the download of repo 5018
+root - ERROR - starting to download repo no 5024 named OSSystems/jenkins-job-builder
+root - ERROR - completed the download of repo 5024
+root - ERROR - starting to download repo no 5035 named oVirt/jenkins
+root - ERROR - completed the download of repo 5035
+root - ERROR - starting to download repo no 5053 named OXID-eSales/oxvm_base
+root - ERROR - completed the download of repo 5053
+root - ERROR - starting to download repo no 5076 named PaloAltoNetworks-BD/ansible-pan
+root - ERROR - completed the download of repo 5076
+root - ERROR - starting to download repo no 5089 named Pardus-Ahtapot/MYS
+root - ERROR - completed the download of repo 5089
+root - ERROR - starting to download repo no 5142 named pedrorib/istx
+root - ERROR - completed the download of repo 5142
+root - ERROR - starting to download repo no 5150 named Percona-QA/package-testing
+root - ERROR - completed the download of repo 5150
+root - ERROR - starting to download repo no 5188 named phansible/phansible
+root - ERROR - completed the download of repo 5188
+root - ERROR - starting to download repo no 5207 named phnmnl/cloud-deploy-kubenow
+root - ERROR - completed the download of repo 5207
+root - ERROR - starting to download repo no 5247 named pintostack/core
+root - ERROR - completed the download of repo 5247
+root - ERROR - starting to download repo no 5284 named pobrejuanito/configuration
+root - ERROR - completed the download of repo 5284
+root - ERROR - starting to download repo no 5286 named podarok/csua
+root - ERROR - completed the download of repo 5286
+root - ERROR - starting to download repo no 5341 named progmaticltd/homebox
+root - ERROR - completed the download of repo 5341
+root - ERROR - starting to download repo no 5353 named protobox/protobox
+root - ERROR - completed the download of repo 5353
+root - ERROR - starting to download repo no 5383 named pulp/devel
+root - ERROR - completed the download of repo 5383
+root - ERROR - starting to download repo no 5384 named puppetlabs/jenkins-job-builder
+root - ERROR - completed the download of repo 5384
+root - ERROR - starting to download repo no 5431 named quarkslab/irma
+root - ERROR - completed the download of repo 5431
+root - ERROR - starting to download repo no 5483 named ramondelafuente/elewant
+root - ERROR - completed the download of repo 5483
+root - ERROR - starting to download repo no 5484 named ramrexx/CloudForms_Essentials
+root - ERROR - completed the download of repo 5484
+root - ERROR - starting to download repo no 5511 named rcarmo/piku
+root - ERROR - completed the download of repo 5511
+root - ERROR - starting to download repo no 5514 named rcbops/ansible-lxc-rpc
+root - ERROR - completed the download of repo 5514
+root - ERROR - starting to download repo no 5516 named rcbops/rpc-openstack
+root - ERROR - Could not create any directory named C:\mined_repos\rcbops
+root - ERROR - completed the download of repo 5516
+root - ERROR - starting to download repo no 5521 named rdo-infra/ci-config
+root - ERROR - completed the download of repo 5521
+root - ERROR - starting to download repo no 5523 named rdo-infra/weirdo
+root - ERROR - Could not create any directory named C:\mined_repos\rdo-infra
+root - ERROR - completed the download of repo 5523
+root - ERROR - starting to download repo no 5526 named reactiveops/st2-pack-omnia
+root - ERROR - completed the download of repo 5526
+root - ERROR - starting to download repo no 5538 named redhat-cip/dci-ansible
+root - ERROR - completed the download of repo 5538
+root - ERROR - starting to download repo no 5539 named redhat-cip/rcip-openshift-ansible
+root - ERROR - Could not create any directory named C:\mined_repos\redhat-cip
+root - ERROR - completed the download of repo 5539
+root - ERROR - starting to download repo no 5540 named redhat-openstack/octario
+root - ERROR - completed the download of repo 5540
+root - ERROR - starting to download repo no 5541 named redhat-openstack/openshift-on-openstack
+root - ERROR - Could not create any directory named C:\mined_repos\redhat-openstack
+root - ERROR - completed the download of repo 5541
+root - ERROR - starting to download repo no 5542 named redhat-openstack/rdo-infra
+root - ERROR - Could not create any directory named C:\mined_repos\redhat-openstack
+root - ERROR - completed the download of repo 5542
+root - ERROR - starting to download repo no 5544 named redhat-openstack/weirdo
+root - ERROR - Could not create any directory named C:\mined_repos\redhat-openstack
+root - ERROR - completed the download of repo 5544
+root - ERROR - starting to download repo no 5545 named redhat-performance/satellite-performance
+root - ERROR - completed the download of repo 5545
+root - ERROR - starting to download repo no 5548 named RedHatQE/cinch
+root - ERROR - completed the download of repo 5548
+root - ERROR - starting to download repo no 5550 named RedHatSatellite/satellite-clone
+root - ERROR - completed the download of repo 5550
+root - ERROR - starting to download repo no 5584 named retr0h/ansible-etcd
+root - ERROR - completed the download of repo 5584
+root - ERROR - starting to download repo no 5601 named rfkrocktk/docker-puppetserver
+root - ERROR - completed the download of repo 5601
+root - ERROR - starting to download repo no 5618 named rhevm-qe-automation/ovirt-ansible
+root - ERROR - completed the download of repo 5618
+root - ERROR - starting to download repo no 5626 named rht-labs/ansible-stacks
+root - ERROR - completed the download of repo 5626
+root - ERROR - starting to download repo no 5691 named rocknsm/rock
+root - ERROR - completed the download of repo 5691
+root - ERROR - starting to download repo no 5692 named rocknsm/SimpleRock
+root - ERROR - Could not create any directory named C:\mined_repos\rocknsm
+root - ERROR - completed the download of repo 5692
+root - ERROR - starting to download repo no 5712 named rossmcdonald/influxdb
+root - ERROR - completed the download of repo 5712
+root - ERROR - starting to download repo no 5733 named rthallisey/clapper
+root - ERROR - completed the download of repo 5733
+root - ERROR - starting to download repo no 5831 named SatelliteQE/robottelo-ci
+root - ERROR - completed the download of repo 5831
+root - ERROR - starting to download repo no 5846 named sborenst/ansible_agnostic_deployer
+root - ERROR - completed the download of repo 5846
+root - ERROR - starting to download repo no 5904 named sensu/sensu-ansible
+root - ERROR - completed the download of repo 5904
+root - ERROR - starting to download repo no 5908 named SeqWare/seqware-sandbox
+root - ERROR - completed the download of repo 5908
+root - ERROR - starting to download repo no 5973 named shinesolutions/aem-aws-stack-builder
+root - ERROR - completed the download of repo 5973
+root - ERROR - starting to download repo no 6046 named silpion/ansible-generator
+root - ERROR - completed the download of repo 6046
+root - ERROR - starting to download repo no 6071 named simple-machines/ansible-template
+root - ERROR - completed the download of repo 6071
+root - ERROR - starting to download repo no 6076 named sinso/macbook-webdev-environment
+root - ERROR - completed the download of repo 6076
+root - ERROR - starting to download repo no 6111 named skydive-project/skydive
+root - ERROR - completed the download of repo 6111
+root - ERROR - starting to download repo no 6112 named skyscape-cloud-services/automation_examples
+root - ERROR - completed the download of repo 6112
+root - ERROR - starting to download repo no 6133 named smashingboxes/taperole
+root - ERROR - completed the download of repo 6133
+root - ERROR - starting to download repo no 6134 named smaslennikov/smaslennikov.github.io
+root - ERROR - completed the download of repo 6134
+root - ERROR - starting to download repo no 6210 named sottosviluppo/bamboo
+root - ERROR - completed the download of repo 6210
+root - ERROR - starting to download repo no 6226 named Specthram/dropshippers
+root - ERROR - completed the download of repo 6226
+root - ERROR - starting to download repo no 6262 named stackbuilders/sb-debian-base
+root - ERROR - completed the download of repo 6262
+root - ERROR - starting to download repo no 6263 named stackforge/blazar
+root - ERROR - completed the download of repo 6263
+root - ERROR - starting to download repo no 6266 named stackforge/kolla
+root - ERROR - Could not create any directory named C:\mined_repos\stackforge
+root - ERROR - completed the download of repo 6266
+root - ERROR - starting to download repo no 6270 named stackforge/os-ansible-deployment
+root - ERROR - Could not create any directory named C:\mined_repos\stackforge
+root - ERROR - completed the download of repo 6270
+root - ERROR - starting to download repo no 6273 named stackforge/packstack
+root - ERROR - Could not create any directory named C:\mined_repos\stackforge
+root - ERROR - completed the download of repo 6273
+root - ERROR - starting to download repo no 6276 named stackforge/python-openstacksdk
+root - ERROR - Could not create any directory named C:\mined_repos\stackforge
+root - ERROR - completed the download of repo 6276
+root - ERROR - starting to download repo no 6277 named stackforge/python-senlinclient
+root - ERROR - Could not create any directory named C:\mined_repos\stackforge
+root - ERROR - completed the download of repo 6277
+root - ERROR - starting to download repo no 6279 named stackforge/senlin
+root - ERROR - Could not create any directory named C:\mined_repos\stackforge
+root - ERROR - completed the download of repo 6279
+root - ERROR - starting to download repo no 6281 named stackforge/tacker
+root - ERROR - Could not create any directory named C:\mined_repos\stackforge
+root - ERROR - completed the download of repo 6281
+root - ERROR - starting to download repo no 6283 named stackforge/watcher
+root - ERROR - Could not create any directory named C:\mined_repos\stackforge
+root - ERROR - completed the download of repo 6283
+root - ERROR - starting to download repo no 6287 named StackStorm/st2contrib
+root - ERROR - completed the download of repo 6287
+root - ERROR - starting to download repo no 6407 named SUSE-Cloud/automation
+root - ERROR - completed the download of repo 6407
+root - ERROR - starting to download repo no 6519 named TDAF/is-user-valid
+root - ERROR - completed the download of repo 6519
+root - ERROR - starting to download repo no 6541 named tenforwardconsulting/subspace
+root - ERROR - completed the download of repo 6541
+root - ERROR - starting to download repo no 6587 named theodo/theodo-stack-generator
+root - ERROR - completed the download of repo 6587
+root - ERROR - starting to download repo no 6589 named theonion/ansible-roles
+root - ERROR - completed the download of repo 6589
+root - ERROR - starting to download repo no 6617 named ThoughtWorks-Chengdu-DevOps-Club/tw_devops_workshop
+root - ERROR - completed the download of repo 6617
+root - ERROR - starting to download repo no 6658 named TissueMAPS/TmDeploy
+root - ERROR - completed the download of repo 6658
+root - ERROR - starting to download repo no 6659 named TissueMAPS/TmSetup
+root - ERROR - Could not create any directory named C:\mined_repos\TissueMAPS
+root - ERROR - completed the download of repo 6659
+root - ERROR - starting to download repo no 6671 named tkurki/marinepi-provisioning
+root - ERROR - completed the download of repo 6671
+root - ERROR - starting to download repo no 6718 named trailofbits/algo
+root - ERROR - completed the download of repo 6718
+root - ERROR - starting to download repo no 6736 named trln/trln-ingest
+root - ERROR - completed the download of repo 6736
+root - ERROR - starting to download repo no 6776 named twosigma/satellite
+root - ERROR - completed the download of repo 6776
+root - ERROR - starting to download repo no 6791 named ucldc/ingest_deploy
+root - ERROR - completed the download of repo 6791
+root - ERROR - starting to download repo no 6792 named UCSC-MedBook/MedBook
+root - ERROR - completed the download of repo 6792
+root - ERROR - starting to download repo no 6794 named ucsdlib/horton
+root - ERROR - completed the download of repo 6794
+root - ERROR - starting to download repo no 6830 named unixsurfer/haproxystats
+root - ERROR - completed the download of repo 6830
+root - ERROR - starting to download repo no 6837 named uppsaladatavetare/foobar-kiosk
+root - ERROR - completed the download of repo 6837
+root - ERROR - starting to download repo no 6848 named UtrechtUniversity/yoda-ansible
+root - ERROR - completed the download of repo 6848
+root - ERROR - starting to download repo no 6881 named vccw-team/vccw
+root - ERROR - completed the download of repo 6881
+root - ERROR - starting to download repo no 6906 named viafoura/buri
+root - ERROR - completed the download of repo 6906
+root - ERROR - starting to download repo no 6958 named volanja/ansible_spec
+root - ERROR - completed the download of repo 6958
+root - ERROR - starting to download repo no 6964 named vrk-kpa/api-catalog
+root - ERROR - completed the download of repo 6964
+root - ERROR - starting to download repo no 6968 named VVard0g/ThreatHunter-Playbook
+root - ERROR - completed the download of repo 6968
+root - ERROR - starting to download repo no 7003 named webberig/slackHangBot
+root - ERROR - completed the download of repo 7003
+root - ERROR - starting to download repo no 7005 named webdevops/vagrant-development
+root - ERROR - completed the download of repo 7005
+root - ERROR - starting to download repo no 7006 named webdevops/vagrant-docker-vm
+root - ERROR - Could not create any directory named C:\mined_repos\webdevops
+root - ERROR - completed the download of repo 7006
+root - ERROR - starting to download repo no 7008 named webfp/tor-browser-crawler
+root - ERROR - completed the download of repo 7008
+root - ERROR - starting to download repo no 7070 named willthames/ansible-lint
+root - ERROR - completed the download of repo 7070
+root - ERROR - starting to download repo no 7071 named willthames/ansible-review
+root - ERROR - Could not create any directory named C:\mined_repos\willthames
+root - ERROR - completed the download of repo 7071
+root - ERROR - starting to download repo no 7122 named wso2/analytics-is
+root - ERROR - completed the download of repo 7122
+root - ERROR - starting to download repo no 7127 named wtsi-hgi/hgi-ansible
+root - ERROR - completed the download of repo 7127
+root - ERROR - starting to download repo no 7128 named wtsi-hgi/hgi-systems
+root - ERROR - Could not create any directory named C:\mined_repos\wtsi-hgi
+root - ERROR - completed the download of repo 7128
+root - ERROR - starting to download repo no 7130 named wunderkraut/WunderMachina
+root - ERROR - completed the download of repo 7130
+root - ERROR - starting to download repo no 7143 named xebia-france/kouign-amann-pi
+root - ERROR - completed the download of repo 7143
+root - ERROR - starting to download repo no 7185 named yanyao/newton
+root - ERROR - completed the download of repo 7185
+root - ERROR - starting to download repo no 7187 named yanyao/openstack-deployment
+root - ERROR - Could not create any directory named C:\mined_repos\yanyao
+root - ERROR - completed the download of repo 7187
+root - ERROR - starting to download repo no 7226 named younglim/hats-ci
+root - ERROR - completed the download of repo 7226
+root - ERROR - starting to download repo no 7248 named ypid/test-suite-ypid
+root - ERROR - completed the download of repo 7248
+root - ERROR - starting to download repo no 7329 named zsiciarz/vagrant-hbase
+root - ERROR - completed the download of repo 7329
+root - ERROR - starting to download repo no 1059367 named owlin/api2-ansible
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://gitlab.com/owlin/api2-ansible
+  stderr: 'Cloning into 'api2-ansible'...
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.com/owlin/api2-ansible.git/''
+root - ERROR - starting to download repo no 2144865 named CWHC-Geek-Squad/PeterMosmans.ansible-role-apache2
+root - ERROR - completed the download of repo 2144865
+root - ERROR - starting to download repo no 2354950 named dumonts/debian-ansible-roles
+root - ERROR - completed the download of repo 2354950
+root - ERROR - starting to download repo no 2856056 named monasca-installer/ansible-monasca-ui
+root - ERROR - completed the download of repo 2856056
+root - ERROR - starting to download repo no 2856063 named monasca-installer/ansible-storm
+root - ERROR - Could not create any directory named C:\mined_repos\monasca-installer
+root - ERROR - completed the download of repo 2856063
+root - ERROR - starting to download repo no 2856072 named monasca-installer/ansible-zookeeper
+root - ERROR - Could not create any directory named C:\mined_repos\monasca-installer
+root - ERROR - completed the download of repo 2856072
+root - ERROR - starting to download repo no 2856160 named monasca-installer/ansible-monasca-thresh
+root - ERROR - Could not create any directory named C:\mined_repos\monasca-installer
+root - ERROR - completed the download of repo 2856160
+root - ERROR - starting to download repo no 2856178 named monasca-installer/ansible-kafka
+root - ERROR - Could not create any directory named C:\mined_repos\monasca-installer
+root - ERROR - completed the download of repo 2856178
+root - ERROR - starting to download repo no 2856179 named monasca-installer/ansible-influxdb
+root - ERROR - Could not create any directory named C:\mined_repos\monasca-installer
+root - ERROR - completed the download of repo 2856179
+root - ERROR - starting to download repo no 2856182 named monasca-installer/ansible-monasca-schema
+root - ERROR - Could not create any directory named C:\mined_repos\monasca-installer
+root - ERROR - completed the download of repo 2856182
+root - ERROR - starting to download repo no 2856186 named monasca-installer/ansible-monasca-agent
+root - ERROR - Could not create any directory named C:\mined_repos\monasca-installer
+root - ERROR - completed the download of repo 2856186
+root - ERROR - starting to download repo no 2856191 named monasca-installer/ansible-monasca-notification
+root - ERROR - Could not create any directory named C:\mined_repos\monasca-installer
+root - ERROR - completed the download of repo 2856191
+root - ERROR - starting to download repo no 2856192 named monasca-installer/ansible-monasca-keystone
+root - ERROR - Could not create any directory named C:\mined_repos\monasca-installer
+root - ERROR - completed the download of repo 2856192
+root - ERROR - starting to download repo no 2856201 named monasca-installer/ansible-monasca-persister
+root - ERROR - Could not create any directory named C:\mined_repos\monasca-installer
+root - ERROR - completed the download of repo 2856201
+root - ERROR - starting to download repo no 2856205 named monasca-installer/ansible-monasca-api
+root - ERROR - Could not create any directory named C:\mined_repos\monasca-installer
+root - ERROR - completed the download of repo 2856205
+root - ERROR - starting to download repo no 2856218 named monasca-installer/ansible-monasca-log-api
+root - ERROR - Could not create any directory named C:\mined_repos\monasca-installer
+root - ERROR - completed the download of repo 2856218
+root - ERROR - starting to download repo no 2856221 named monasca-installer/ansible-monasca-log-agent
+root - ERROR - Could not create any directory named C:\mined_repos\monasca-installer
+root - ERROR - completed the download of repo 2856221
+root - ERROR - starting to download repo no 3332025 named BlackRidgeIntegrations/ansible-aws
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://gitlab.com/BlackRidgeIntegrations/ansible-aws
+  stderr: 'Cloning into 'ansible-aws'...
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.com/BlackRidgeIntegrations/ansible-aws.git/''
+root - ERROR - starting to download repo no 4414480 named creativefellas/ansible-creatilas
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://gitlab.com/creativefellas/ansible-creatilas
+  stderr: 'Cloning into 'ansible-creatilas'...
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.com/creativefellas/ansible-creatilas.git/''
+root - ERROR - starting to download repo no 4617545 named dumonts/debian9-ansible-roles
+root - ERROR - Could not create any directory named C:\mined_repos\dumonts
+root - ERROR - completed the download of repo 4617545
+root - ERROR - starting to download repo no 5993104 named Bo3535/Ansible-Projects
+root - ERROR - completed the download of repo 5993104
+root - ERROR - starting to download repo no 6075859 named PosCloud/infra-ansible
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://gitlab.com/PosCloud/infra-ansible
+  stderr: 'Cloning into 'infra-ansible'...
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.com/PosCloud/infra-ansible.git/''
+root - ERROR - starting to download repo no 6244491 named painless-software/ansible-role-software
+root - ERROR - completed the download of repo 6244491
+root - ERROR - starting to download repo no 6302845 named commonshost/ansible
+root - ERROR - completed the download of repo 6302845
+root - ERROR - starting to download repo no 7340156 named injenia/ansible-core
+root - ERROR - completed the download of repo 7340156
+root - ERROR - starting to download repo no 7461472 named epfl-sti/cluster.coreos.ansible
+root - ERROR - completed the download of repo 7461472
+root - ERROR - starting to download repo no 7591718 named adrift/ansible
+root - ERROR - completed the download of repo 7591718
+root - ERROR - starting to download repo no 7952947 named lean-delivery/ansible-role-endeca-mdex
+root - ERROR - completed the download of repo 7952947
+root - ERROR - starting to download repo no 8051370 named gantry/ansible
+root - ERROR - completed the download of repo 8051370
+root - ERROR - starting to download repo no 8072204 named lean-delivery/ansible-role-endeca-platformservices
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 8072204
+root - ERROR - starting to download repo no 8111505 named opendatahub/jupyterhub-ansible
+root - ERROR - completed the download of repo 8111505
+root - ERROR - starting to download repo no 8227050 named openwisp/ansible-openwisp2
+root - ERROR - completed the download of repo 8227050
+root - ERROR - starting to download repo no 8310496 named lean-delivery/ansible-role-zabbix-agent
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 8310496
+root - ERROR - starting to download repo no 8453850 named lean-delivery/ansible-role-jenkins
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 8453850
+root - ERROR - starting to download repo no 8519680 named akisys/ansible-akisys.security
+root - ERROR - completed the download of repo 8519680
+root - ERROR - starting to download repo no 8550992 named lean-delivery/ansible-role-solr-standalone
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 8550992
+root - ERROR - starting to download repo no 9013788 named fdroid/fdroid-gitlab-runner
+root - ERROR - completed the download of repo 9013788
+root - ERROR - starting to download repo no 9921818 named lean-delivery/ansible-role-jenkins-slave
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 9921818
+root - ERROR - starting to download repo no 10317922 named guardianproject-ops/ansible-gitlab-runner
+root - ERROR - completed the download of repo 10317922
+root - ERROR - starting to download repo no 10374373 named guardianproject-ops/ansible-docker-zammad
+root - ERROR - Could not create any directory named C:\mined_repos\guardianproject-ops
+root - ERROR - completed the download of repo 10374373
+root - ERROR - starting to download repo no 10538214 named ska-telescope/ansible-playbooks
+root - ERROR - completed the download of repo 10538214
+root - ERROR - starting to download repo no 10592334 named lean-delivery/ansible-role-java
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 10592334
+root - ERROR - starting to download repo no 10706943 named cyberark/ansible-conjur-host-identity
+root - ERROR - completed the download of repo 10706943
+root - ERROR - starting to download repo no 10750447 named lean-delivery/ansible-role-aem-node
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 10750447
+root - ERROR - starting to download repo no 10755533 named axiosdevops/azure-customerbuild-2.7
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://gitlab.com/axiosdevops/azure-customerbuild-2.7
+  stderr: 'Cloning into 'azure-customerbuild-2.7'...
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.com/axiosdevops/azure-customerbuild-2.7.git/''
+root - ERROR - starting to download repo no 10803365 named lean-delivery/ansible-role-aem-dispatcher
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 10803365
+root - ERROR - starting to download repo no 10974129 named lean-delivery/ansible-molecule-drivers
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 10974129
+root - ERROR - starting to download repo no 11162610 named eaasi/eaasi-ansible
+root - ERROR - completed the download of repo 11162610
+root - ERROR - starting to download repo no 11296000 named catalyst-samba/ansible-role-samba-common
+root - ERROR - completed the download of repo 11296000
+root - ERROR - starting to download repo no 11299150 named lean-delivery/ansible-development-kit
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 11299150
+root - ERROR - starting to download repo no 11316067 named catalyst-samba/ansible-role-openstack
+root - ERROR - Could not create any directory named C:\mined_repos\catalyst-samba
+root - ERROR - completed the download of repo 11316067
+root - ERROR - starting to download repo no 11333411 named catalyst-samba/ansible-role-rackspace
+root - ERROR - Could not create any directory named C:\mined_repos\catalyst-samba
+root - ERROR - completed the download of repo 11333411
+root - ERROR - starting to download repo no 11370279 named aiarena/aiarena-client-provisioning
+root - ERROR - completed the download of repo 11370279
+root - ERROR - starting to download repo no 11386637 named catalyst-samba/ansible-role-samba-dc
+root - ERROR - Could not create any directory named C:\mined_repos\catalyst-samba
+root - ERROR - completed the download of repo 11386637
+root - ERROR - starting to download repo no 11386907 named catalyst-samba/ansible-role-samba-traffic-runner
+root - ERROR - Could not create any directory named C:\mined_repos\catalyst-samba
+root - ERROR - completed the download of repo 11386907
+root - ERROR - starting to download repo no 11443342 named lean-delivery/ansible-role-sonarqube
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 11443342
+root - ERROR - starting to download repo no 11819441 named conclusionxforce/prutssessie-ansible-advanced
+root - ERROR - completed the download of repo 11819441
+root - ERROR - starting to download repo no 11992875 named inverse-inc/ansible-packetfence
+root - ERROR - completed the download of repo 11992875
+root - ERROR - starting to download repo no 12012121 named what-digital/vagrant-ansible
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://gitlab.com/what-digital/vagrant-ansible
+  stderr: 'Cloning into 'vagrant-ansible'...
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.com/what-digital/vagrant-ansible.git/''
+root - ERROR - starting to download repo no 12029374 named lean-delivery/ansible-role-solr-cluster
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 12029374
+root - ERROR - starting to download repo no 12147119 named positive-devops/ansible-skeleton
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://gitlab.com/positive-devops/ansible-skeleton
+  stderr: 'Cloning into 'ansible-skeleton'...
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+Missing or invalid credentials.
+Error: socket hang up
+    at connResetException (internal/errors.js:570:14)
+    at Socket.socketOnEnd (_http_client.js:440:23)
+    at Socket.emit (events.js:228:7)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {
+  code: 'ECONNRESET'
+}
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.com/positive-devops/ansible-skeleton.git/''
+root - ERROR - starting to download repo no 12735261 named foodsharing-dev/dragonfruit-ansible
+root - ERROR - completed the download of repo 12735261
+root - ERROR - starting to download repo no 12823071 named collective.tools/collective-tools-ansible
+root - ERROR - completed the download of repo 12823071
+root - ERROR - starting to download repo no 13173924 named coopdevs/odoo-ecos-inventory
+root - ERROR - Cmd('git') failed due to: exit code(128)
+  cmdline: git clone https://gitlab.com/coopdevs/odoo-ecos-inventory
+  stderr: 'Cloning into 'odoo-ecos-inventory'...
+warning: redirecting to https://gitlab.com/coopdevs/odoo-ecos-inventory.git/
+error: unable to create file  .gitlab/merge_request_templates /.gitkeep: No such file or directory
+error: unable to create file  .gitlab/merge_request_templates /modify-dbs.md: No such file or directory
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+'
+root - ERROR - starting to download repo no 13536818 named coregenomics/corelab2
+root - ERROR - completed the download of repo 13536818
+root - ERROR - starting to download repo no 13675716 named lean-delivery/ansible-role-ggr
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 13675716
+root - ERROR - starting to download repo no 13713453 named lean-delivery/ansible-role-consul-template
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 13713453
+root - ERROR - starting to download repo no 13723693 named lean-delivery/ansible-role-selenoid
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 13723693
+root - ERROR - starting to download repo no 14036158 named lean-delivery/ansible-role-filebeat
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 14036158
+root - ERROR - starting to download repo no 14158281 named tarantool/ansible-cartridge
+root - ERROR - completed the download of repo 14158281
+root - ERROR - starting to download repo no 14226676 named rngkll/ansible-role-krazor
+root - ERROR - completed the download of repo 14226676
+root - ERROR - starting to download repo no 14543840 named inverse-inc/ansible-role-gitlab-buildpkg-tools
+root - ERROR - Could not create any directory named C:\mined_repos\inverse-inc
+root - ERROR - completed the download of repo 14543840
+root - ERROR - starting to download repo no 15247738 named hkcota/likechain-azure-ansible
+root - ERROR - completed the download of repo 15247738
+root - ERROR - starting to download repo no 15363691 named nomadic-labs/monitoring-playbooks
+root - ERROR - completed the download of repo 15363691
+root - ERROR - starting to download repo no 15643042 named coopdevs/odoo-enllac-inventory
+root - ERROR - Could not create any directory named C:\mined_repos\coopdevs
+root - ERROR - completed the download of repo 15643042
+root - ERROR - starting to download repo no 15676843 named coopdevs/odoo-test-12-inventory
+root - ERROR - Could not create any directory named C:\mined_repos\coopdevs
+root - ERROR - completed the download of repo 15676843
+root - ERROR - starting to download repo no 15742195 named lean-delivery/ansible-beats
+root - ERROR - Could not create any directory named C:\mined_repos\lean-delivery
+root - ERROR - completed the download of repo 15742195
+root - ERROR - starting to download repo no 15802580 named eaasi/eaasi-client-ansible
+root - ERROR - Could not create any directory named C:\mined_repos\eaasi
+root - ERROR - completed the download of repo 15802580
+root - ERROR - starting to download repo no 16372759 named coopdevs/odoo-facto-inventory
+root - ERROR - Could not create any directory named C:\mined_repos\coopdevs
+root - ERROR - completed the download of repo 16372759
+root - ERROR - starting to download repo no 17005869 named balzar/cock_ansible
+root - ERROR - completed the download of repo 17005869
+root - ERROR - starting to download repo no 17475282 named eaasi/eaasi-portal-ansible
+root - ERROR - Could not create any directory named C:\mined_repos\eaasi
+root - ERROR - completed the download of repo 17475282
+root - ERROR - starting to download repo no 17772817 named alsim/yadd
+root - ERROR - completed the download of repo 17772817
+root - ERROR - starting to download repo no 17920732 named guardianproject-ops/ansible-jitsi
+root - ERROR - Could not create any directory named C:\mined_repos\guardianproject-ops
+root - ERROR - completed the download of repo 17920732
+root - ERROR - starting to download repo no 18444699 named osas/ansible-molecule-tests-template
+root - ERROR - completed the download of repo 18444699
+root - ERROR - starting to download repo no 19017073 named nomadic-labs/ansible-tezos-source-role
+root - ERROR - Could not create any directory named C:\mined_repos\nomadic-labs
+root - ERROR - completed the download of repo 19017073
+root - ERROR - starting to download repo no 19513194 named clouddrove/ansible-role-common
+root - ERROR - completed the download of repo 19513194
+root - ERROR - starting to download repo no 19610240 named nomadic-labs/ansible-tezos-source-run-role
+root - ERROR - Could not create any directory named C:\mined_repos\nomadic-labs
+root - ERROR - completed the download of repo 19610240
+root - ERROR - starting to download repo no 19649945 named appf-anu/elroy-ansible
+root - ERROR - completed the download of repo 19649945
+root - ERROR - starting to download repo no 20179252 named guardianproject-ops/ansible-matrix-ma1sd
+root - ERROR - Could not create any directory named C:\mined_repos\guardianproject-ops
+root - ERROR - completed the download of repo 20179252
+root - ERROR - starting to download repo no 20528210 named emulation-as-a-service/eaas-ansible
+root - ERROR - completed the download of repo 20528210
+root - ERROR - starting to download repo no 21141167 named osci/ansible-role-web_builder
+root - ERROR - completed the download of repo 21141167
+root - ERROR - starting to download repo no 21222256 named skyhuborg/ansible-tracker
+root - ERROR - completed the download of repo 21222256

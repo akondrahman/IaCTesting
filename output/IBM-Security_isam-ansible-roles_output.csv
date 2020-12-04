@@ -1,0 +1,5 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\IBM-Security\isam-ansible-roles\bootstrap_local\tests\test.yml,IBM-Security_isam-ansible-roles,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\IBM-Security\isam-ansible-roles\bootstrap_local\tests\host_vars\localhost.yml,IBM-Security_isam-ansible-roles,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\IBM-Security\isam-ansible-roles\set_ldap_user_attr\tests\test.yml,IBM-Security_isam-ansible-roles,0.0,1.0,0.0,0.0,1.0
+C:\mined_repos\IBM-Security\isam-ansible-roles\start_config\tests\test.yml,IBM-Security_isam-ansible-roles,0.0,0.0,0.0,0.0,1.0

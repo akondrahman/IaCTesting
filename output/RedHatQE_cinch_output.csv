@@ -1,0 +1,8 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\RedHatQE\cinch\tests\playbook.yml,RedHatQE_cinch,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\RedHatQE\cinch\tests\yamllint.yml,RedHatQE_cinch,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\RedHatQE\cinch\tests\cinch\inspec.yml,RedHatQE_cinch,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\RedHatQE\cinch\tests\test_cli.py,RedHatQE_cinch,0.0,0.0,0.0,2.0,1.0
+C:\mined_repos\RedHatQE\cinch\tests\__init__.py,RedHatQE_cinch,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\RedHatQE\cinch\tests\ansible_lint_rules\NoFormattingInWhenRule.py,RedHatQE_cinch,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\RedHatQE\cinch\tests\ansible_lint_rules\__init__.py,RedHatQE_cinch,0.0,0.0,0.0,0.0,1.0

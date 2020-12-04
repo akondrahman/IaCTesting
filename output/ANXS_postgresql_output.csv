@@ -1,0 +1,6 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\ANXS\postgresql\tests\playbook.yml,ANXS_postgresql,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\ANXS\postgresql\tests\vars.yml,ANXS_postgresql,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\ANXS\postgresql\tests\docker\site.yml,ANXS_postgresql,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\ANXS\postgresql\tests\docker\group_vars\all.yml,ANXS_postgresql,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\ANXS\postgresql\tests\docker\group_vars\postgresql.yml,ANXS_postgresql,0.0,0.0,0.0,0.0,1.0

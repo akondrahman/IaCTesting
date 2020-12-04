@@ -1,0 +1,6 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\internetarchive\brozzler\tests\test_brozzling.py,internetarchive_brozzler,0.0,0.0,4.0,31.0,1.0
+C:\mined_repos\internetarchive\brozzler\tests\test_cli.py,internetarchive_brozzler,0.0,0.0,3.0,1.0,1.0
+C:\mined_repos\internetarchive\brozzler\tests\test_cluster.py,internetarchive_brozzler,0.0,0.0,11.0,11.0,1.0
+C:\mined_repos\internetarchive\brozzler\tests\test_frontier.py,internetarchive_brozzler,0.0,0.0,15.0,95.0,1.0
+C:\mined_repos\internetarchive\brozzler\tests\test_units.py,internetarchive_brozzler,0.0,0.0,8.0,40.0,1.0

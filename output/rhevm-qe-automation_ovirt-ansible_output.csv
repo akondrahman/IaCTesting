@@ -1,0 +1,12 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\rhevm-qe-automation\ovirt-ansible\tests\containers-deploy.yml,rhevm-qe-automation_ovirt-ansible,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\rhevm-qe-automation\ovirt-ansible\tests\db-deploy-master.yml,rhevm-qe-automation_ovirt-ansible,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\rhevm-qe-automation\ovirt-ansible\tests\db-deploy.yml,rhevm-qe-automation_ovirt-ansible,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\rhevm-qe-automation\ovirt-ansible\tests\engine-cleanup.yml,rhevm-qe-automation_ovirt-ansible,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\rhevm-qe-automation\ovirt-ansible\tests\engine-deploy.yml,rhevm-qe-automation_ovirt-ansible,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\rhevm-qe-automation\ovirt-ansible\tests\engine-rename.yml,rhevm-qe-automation_ovirt-ansible,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\rhevm-qe-automation\ovirt-ansible\tests\requirements.yml,rhevm-qe-automation_ovirt-ansible,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\rhevm-qe-automation\ovirt-ansible\tests\test-3.6.yml,rhevm-qe-automation_ovirt-ansible,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\rhevm-qe-automation\ovirt-ansible\tests\test-4.0.yml,rhevm-qe-automation_ovirt-ansible,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\rhevm-qe-automation\ovirt-ansible\tests\test-4.1.yml,rhevm-qe-automation_ovirt-ansible,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\rhevm-qe-automation\ovirt-ansible\tests\test-4.2.yml,rhevm-qe-automation_ovirt-ansible,0.0,0.0,0.0,0.0,1.0

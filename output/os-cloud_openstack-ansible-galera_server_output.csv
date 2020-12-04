@@ -1,0 +1,10 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\os-cloud\openstack-ansible-galera_server\tests\ansible-role-requirements.yml,os-cloud_openstack-ansible-galera_server,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\os-cloud\openstack-ansible-galera_server\tests\galera_server-overrides.yml,os-cloud_openstack-ansible-galera_server,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\os-cloud\openstack-ansible-galera_server\tests\test-galera-server-functional.yml,os-cloud_openstack-ansible-galera_server,3.0,0.0,0.0,0.0,1.0
+C:\mined_repos\os-cloud\openstack-ansible-galera_server\tests\test.yml,os-cloud_openstack-ansible-galera_server,0.0,0.0,0.0,3.0,1.0
+C:\mined_repos\os-cloud\openstack-ansible-galera_server\tests\group_vars\all_containers.yml,os-cloud_openstack-ansible-galera_server,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\os-cloud\openstack-ansible-galera_server\tests\host_vars\container1.yml,os-cloud_openstack-ansible-galera_server,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\os-cloud\openstack-ansible-galera_server\tests\host_vars\container2.yml,os-cloud_openstack-ansible-galera_server,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\os-cloud\openstack-ansible-galera_server\tests\host_vars\container3.yml,os-cloud_openstack-ansible-galera_server,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\os-cloud\openstack-ansible-galera_server\tests\host_vars\localhost.yml,os-cloud_openstack-ansible-galera_server,0.0,0.0,0.0,0.0,1.0

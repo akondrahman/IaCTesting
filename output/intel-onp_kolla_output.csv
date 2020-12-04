@@ -1,0 +1,13 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\intel-onp\kolla\tests\clients.py,intel-onp_kolla,0.0,0.0,0.0,1.0,1.0
+C:\mined_repos\intel-onp\kolla\tests\test_build.py,intel-onp_kolla,0.0,0.0,0.0,1.0,1.0
+C:\mined_repos\intel-onp\kolla\tests\test_keystone.py,intel-onp_kolla,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\intel-onp\kolla\tests\test_set_config.py,intel-onp_kolla,0.0,0.0,8.0,1.0,1.0
+C:\mined_repos\intel-onp\kolla\tests\__init__.py,intel-onp_kolla,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\intel-onp\kolla\kolla\tests\base.py,intel-onp_kolla,0.0,0.0,0.0,2.0,1.0
+C:\mined_repos\intel-onp\kolla\kolla\tests\test_build.py,intel-onp_kolla,0.0,0.0,5.0,16.0,1.0
+C:\mined_repos\intel-onp\kolla\kolla\tests\test_hacking.py,intel-onp_kolla,0.0,0.0,2.0,0.0,1.0
+C:\mined_repos\intel-onp\kolla\kolla\tests\test_methods.py,intel-onp_kolla,0.0,0.0,0.0,1.0,1.0
+C:\mined_repos\intel-onp\kolla\kolla\tests\__init__.py,intel-onp_kolla,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\intel-onp\kolla\kolla\tests\common\test_config.py,intel-onp_kolla,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\intel-onp\kolla\kolla\tests\common\__init__.py,intel-onp_kolla,0.0,0.0,0.0,0.0,1.0

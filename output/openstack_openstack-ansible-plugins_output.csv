@@ -1,0 +1,14 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\openstack\openstack-ansible-plugins\tests\ansible-role-requirements.yml,openstack_openstack-ansible-plugins,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\openstack-ansible-plugins\tests\test-connection-plugin.yml,openstack_openstack-ansible-plugins,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\openstack-ansible-plugins\tests\test-filters.yml,openstack_openstack-ansible-plugins,0.0,1.0,0.0,0.0,1.0
+C:\mined_repos\openstack\openstack-ansible-plugins\tests\test-strategy-tagfilter.yml,openstack_openstack-ansible-plugins,4.0,3.0,0.0,0.0,1.0
+C:\mined_repos\openstack\openstack-ansible-plugins\tests\test.yml,openstack_openstack-ansible-plugins,0.0,0.0,0.0,4.0,1.0
+C:\mined_repos\openstack\openstack-ansible-plugins\tests\group_vars\all_containers.yml,openstack_openstack-ansible-plugins,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\openstack-ansible-plugins\tests\group_vars\hosts.yml,openstack_openstack-ansible-plugins,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\openstack-ansible-plugins\tests\host_vars\container1.yml,openstack_openstack-ansible-plugins,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\openstack-ansible-plugins\tests\host_vars\container2.yml,openstack_openstack-ansible-plugins,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\openstack-ansible-plugins\tests\host_vars\container3.yml,openstack_openstack-ansible-plugins,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\openstack-ansible-plugins\tests\host_vars\localhost.yml,openstack_openstack-ansible-plugins,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\openstack-ansible-plugins\tests\host_vars\localhost_alt.yml,openstack_openstack-ansible-plugins,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\openstack-ansible-plugins\tests\templates\test.yml,openstack_openstack-ansible-plugins,0.0,0.0,0.0,0.0,1.0

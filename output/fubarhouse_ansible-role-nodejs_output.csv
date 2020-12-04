@@ -1,0 +1,2 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\fubarhouse\ansible-role-nodejs\tests\playbook.yml,fubarhouse_ansible-role-nodejs,0,0,0,0,1

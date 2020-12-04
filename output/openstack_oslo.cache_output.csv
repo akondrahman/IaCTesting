@@ -1,0 +1,17 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\openstack\oslo.cache\playbooks\tests\functional\pre.yml,openstack_oslo.cache,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\test_cache.py,openstack_oslo.cache,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\__init__.py,openstack_oslo.cache,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\functional\test_base.py,openstack_oslo.cache,0.0,0.0,7.0,0.0,1.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\functional\__init__.py,openstack_oslo.cache,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\functional\dogpile_cache_bmemcached\test_cache_backend.py,openstack_oslo.cache,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\functional\dogpile_cache_bmemcached\__init__.py,openstack_oslo.cache,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\functional\etcd3gw\test_cache_backend.py,openstack_oslo.cache,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\functional\etcd3gw\__init__.py,openstack_oslo.cache,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\functional\memcache_pool\test_cache_backend.py,openstack_oslo.cache,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\functional\memcache_pool\__init__.py,openstack_oslo.cache,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\unit\test_cache_backend_mongo.py,openstack_oslo.cache,0.0,0.0,14.0,1.0,1.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\unit\test_cache_basics.py,openstack_oslo.cache,0.0,0.0,4.0,0.0,1.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\unit\test_connection_pool.py,openstack_oslo.cache,0.0,0.0,3.0,0.0,0.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\unit\test_dict_backend.py,openstack_oslo.cache,0.0,0.0,6.0,0.0,1.0
+C:\mined_repos\openstack\oslo.cache\oslo_cache\tests\unit\__init__.py,openstack_oslo.cache,0.0,0.0,0.0,0.0,1.0

@@ -1,0 +1,4 @@
+file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
+C:\mined_repos\rdo-infra\ci-config\ci-scripts\infra-setup\tests\nuke.yml,rdo-infra_ci-config,0.0,0.0,0.0,0.0,1.0
+C:\mined_repos\rdo-infra\ci-config\ci-scripts\infra-setup\roles\rrcockpit\files\compare_rpms\tests\test_diff_tripleo_builds.py,rdo-infra_ci-config,0.0,0.0,10.0,0.0,1.0
+C:\mined_repos\rdo-infra\ci-config\ci-scripts\infra-setup\roles\rrcockpit\files\compare_rpms\tests\__init__.py,rdo-infra_ci-config,0.0,0.0,0.0,0.0,1.0
