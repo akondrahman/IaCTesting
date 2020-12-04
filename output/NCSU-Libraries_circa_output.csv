@@ -1,8 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\NCSU-Libraries\circa\ansible\imported_roles\rvm.ruby\tests\assertions.yml,NCSU-Libraries_circa,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\NCSU-Libraries\circa\ansible\imported_roles\rvm.ruby\tests\docker-compose.yml,NCSU-Libraries_circa,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\NCSU-Libraries\circa\ansible\imported_roles\rvm.ruby\tests\root.yml,NCSU-Libraries_circa,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\NCSU-Libraries\circa\ansible\imported_roles\rvm.ruby\tests\user.yml,NCSU-Libraries_circa,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\NCSU-Libraries\circa\ansible\roles\geerlingguy.java\tests\test.yml,NCSU-Libraries_circa,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\NCSU-Libraries\circa\ansible\roles\rvm_io.ruby\tests\test.yml,NCSU-Libraries_circa,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\NCSU-Libraries\circa\ansible\imported_roles\geerlingguy.java\molecule\default\tests\test_default.py,NCSU-Libraries_circa,0.0,0.0,1.0,0.0,1.0

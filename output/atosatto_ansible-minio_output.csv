@@ -1,5 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\atosatto\ansible-minio\molecule\alternative\tests\test_minio_alternative.py,atosatto_ansible-minio,0.0,0.0,2.0,0.0,1.0
-C:\mined_repos\atosatto\ansible-minio\molecule\cluster\tests\test_minio_cluster.py,atosatto_ansible-minio,0.0,0.0,1.0,0.0,1.0
-C:\mined_repos\atosatto\ansible-minio\molecule\default\tests\test_minio_default.py,atosatto_ansible-minio,0.0,0.0,1.0,0.0,1.0
-C:\mined_repos\atosatto\ansible-minio\molecule\resources\tests\test_minio_common.py,atosatto_ansible-minio,0.0,0.0,1.0,0.0,1.0

@@ -1,6 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\redhat-openstack\openshift-on-openstack\tests\main.yml,redhat-openstack_openshift-on-openstack,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\redhat-openstack\openshift-on-openstack\tests\scaling.yml,redhat-openstack_openshift-on-openstack,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\redhat-openstack\openshift-on-openstack\tests\roles\checkstatus\tasks\main.yml,redhat-openstack_openshift-on-openstack,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\redhat-openstack\openshift-on-openstack\tests\roles\deploy\tasks\main.yml,redhat-openstack_openshift-on-openstack,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\redhat-openstack\openshift-on-openstack\tests\filter_plugins\oo_filters.py,redhat-openstack_openshift-on-openstack,0.0,0.0,0.0,0.0,1.0

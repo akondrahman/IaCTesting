@@ -1,6 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\openstack\openstack-ansible-openstack_hosts\tests\ansible-role-requirements.yml,openstack_openstack-ansible-openstack_hosts,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\openstack\openstack-ansible-openstack_hosts\tests\openstack_hosts-overrides.yml,openstack_openstack-ansible-openstack_hosts,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\openstack\openstack-ansible-openstack_hosts\tests\test-create-ca.yml,openstack_openstack-ansible-openstack_hosts,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\openstack\openstack-ansible-openstack_hosts\tests\test.yml,openstack_openstack-ansible-openstack_hosts,0.0,3.0,0.0,3.0,1.0
-C:\mined_repos\openstack\openstack-ansible-openstack_hosts\tests\group_vars\all.yml,openstack_openstack-ansible-openstack_hosts,0.0,0.0,0.0,0.0,1.0

@@ -1,3 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\elliotweiser\ansible-osx-command-line-tools\tests\playbook.yml,elliotweiser_ansible-osx-command-line-tools,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\elliotweiser\ansible-osx-command-line-tools\tests\test_default.py,elliotweiser_ansible-osx-command-line-tools,0.0,0.0,2.0,0.0,1.0

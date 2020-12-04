@@ -1,9 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\skyscape-cloud-services\automation_examples\ansible\roles\openstack_router\tests\test.yml,skyscape-cloud-services_automation_examples,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\skyscape-cloud-services\automation_examples\ansible\roles\openstack_subnet\tests\test.yml,skyscape-cloud-services_automation_examples,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\skyscape-cloud-services\automation_examples\ansible-examples\cor-frn-strongswan\roles\demo\tests\test.yaml,skyscape-cloud-services_automation_examples,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\skyscape-cloud-services\automation_examples\ansible-examples\cor-frn-strongswan\roles\repo-epel\tests\test.yml,skyscape-cloud-services_automation_examples,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\skyscape-cloud-services\automation_examples\ansible-examples\cor-frn-strongswan\roles\strongswan\tests\test_config.yml,skyscape-cloud-services_automation_examples,0.0,1.0,0.0,0.0,1.0
-C:\mined_repos\skyscape-cloud-services\automation_examples\ansible-examples\cor-frn-strongswan\roles\strongswan\tests\test_defaults.yml,skyscape-cloud-services_automation_examples,0.0,1.0,0.0,0.0,1.0
-C:\mined_repos\skyscape-cloud-services\automation_examples\ansible-examples\cor-frn-strongswan\roles\strongswan\tests\test_vagrant.yml,skyscape-cloud-services_automation_examples,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\skyscape-cloud-services\automation_examples\ansible-examples\glusterfs\roles\glusterfs\molecule\default\tests\test_default.py,skyscape-cloud-services_automation_examples,0.0,0.0,1.0,0.0,1.0

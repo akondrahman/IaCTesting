@@ -1,8 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\epfl-sti\cluster.coreos.ansible\roles\sti.calico\tests\test.yml,epfl-sti_cluster.coreos.ansible,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\epfl-sti\cluster.coreos.ansible\roles\sti.coreos-auto-update\tests\test.yml,epfl-sti_cluster.coreos.ansible,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\epfl-sti\cluster.coreos.ansible\roles\sti.etcd\tests\test.yml,epfl-sti_cluster.coreos.ansible,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\epfl-sti\cluster.coreos.ansible\roles\sti.kubernetes\tests\test.yml,epfl-sti_cluster.coreos.ansible,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\epfl-sti\cluster.coreos.ansible\roles\sti.network\tests\test.yml,epfl-sti_cluster.coreos.ansible,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\epfl-sti\cluster.coreos.ansible\roles\sti.ssh\tests\test.yml,epfl-sti_cluster.coreos.ansible,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\epfl-sti\cluster.coreos.ansible\roles\sti.tools\tests\test.yml,epfl-sti_cluster.coreos.ansible,0.0,0.0,0.0,0.0,1.0

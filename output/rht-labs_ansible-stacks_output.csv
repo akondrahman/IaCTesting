@@ -1,6 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\rht-labs\ansible-stacks\roles\create-identities\tests\create_idm.yml,rht-labs_ansible-stacks,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\rht-labs\ansible-stacks\roles\create-openshift-resources\tests\plays\automaton_api_test.yml,rht-labs_ansible-stacks,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\rht-labs\ansible-stacks\roles\create-openshift-resources\tests\plays\infographic_test.yml,rht-labs_ansible-stacks,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\rht-labs\ansible-stacks\roles\create-openshift-resources\tests\plays\jenkins_templates_test.yml,rht-labs_ansible-stacks,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\rht-labs\ansible-stacks\roles\create-openshift-resources\tests\plays\token_test.yml,rht-labs_ansible-stacks,0.0,0.0,0.0,0.0,1.0

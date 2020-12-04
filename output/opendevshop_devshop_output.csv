@@ -1,9 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\opendevshop\devshop\devmaster\tests\behat.yml,opendevshop_devshop,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\opendevshop\devshop\roles\geerlingguy.github-users\tests\test.yml,opendevshop_devshop,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\opendevshop\devshop\roles\geerlingguy.repo-remi\tests\requirements.yml,opendevshop_devshop,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\opendevshop\devshop\roles\geerlingguy.repo-remi\tests\test.yml,opendevshop_devshop,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\opendevshop\devshop\src\DevShop\Component\YamlTasks\tests\tests.yml,opendevshop_devshop,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\opendevshop\devshop\roles\geerlingguy.drush\molecule\default\tests\test_default.py,opendevshop_devshop,0.0,0.0,1.0,0.0,1.0
-C:\mined_repos\opendevshop\devshop\roles\geerlingguy.php\molecule\default\tests\test_default.py,opendevshop_devshop,0.0,0.0,1.0,0.0,1.0
-C:\mined_repos\opendevshop\devshop\roles\geerlingguy.php-mysql\molecule\default\tests\test_default.py,opendevshop_devshop,0.0,0.0,1.0,0.0,1.0

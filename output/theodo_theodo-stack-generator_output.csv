@@ -1,8 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\theodo\theodo-stack-generator\generators\server\templates\devops-symfony\provisioning\roles\composer\tests\requirements.yml,theodo_theodo-stack-generator,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\theodo\theodo-stack-generator\generators\server\templates\devops-symfony\provisioning\roles\composer\tests\test.yml,theodo_theodo-stack-generator,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\theodo\theodo-stack-generator\generators\server\templates\devops-symfony\provisioning\roles\fubarhouse.yarn\tests\test.yml,theodo_theodo-stack-generator,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\theodo\theodo-stack-generator\generators\server\templates\devops-symfony\provisioning\roles\ubuntu-postgresql\tests\playbook.yml,theodo_theodo-stack-generator,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\theodo\theodo-stack-generator\generators\server\templates\devops-symfony\provisioning\roles\ubuntu-postgresql\tests\vars.yml,theodo_theodo-stack-generator,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\theodo\theodo-stack-generator\generators\server\templates\devops-symfony\provisioning\vendor\roles\geerlingguy.nodejs\tests\test-latest.yml,theodo_theodo-stack-generator,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\theodo\theodo-stack-generator\generators\server\templates\devops-symfony\provisioning\vendor\roles\geerlingguy.nodejs\tests\test.yml,theodo_theodo-stack-generator,0.0,0.0,0.0,0.0,1.0

@@ -1,7 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\gantsign\ansible-role-java\molecule\java-max-lts\tests\conftest.py,gantsign_ansible-role-java,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\gantsign\ansible-role-java\molecule\java-max-lts\tests\test_role.py,gantsign_ansible-role-java,0.0,0.0,4.0,0.0,1.0
-C:\mined_repos\gantsign\ansible-role-java\molecule\java-max-non-lts\tests\conftest.py,gantsign_ansible-role-java,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\gantsign\ansible-role-java\molecule\java-max-non-lts\tests\test_role.py,gantsign_ansible-role-java,0.0,0.0,4.0,0.0,1.0
-C:\mined_repos\gantsign\ansible-role-java\molecule\java-min\tests\conftest.py,gantsign_ansible-role-java,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\gantsign\ansible-role-java\molecule\java-min\tests\test_role.py,gantsign_ansible-role-java,0.0,0.0,3.0,0.0,1.0

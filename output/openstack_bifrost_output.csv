@@ -1,9 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\openstack\bifrost\bifrost\tests\base.py,openstack_bifrost,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\openstack\bifrost\bifrost\tests\utils.py,openstack_bifrost,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\openstack\bifrost\bifrost\tests\__init__.py,openstack_bifrost,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\openstack\bifrost\bifrost\tests\functional\test_inventory_functional.py,openstack_bifrost,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\openstack\bifrost\bifrost\tests\functional\__init__.py,openstack_bifrost,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\openstack\bifrost\bifrost\tests\unit\test_cli.py,openstack_bifrost,0.0,0.0,1.0,2.0,1.0
-C:\mined_repos\openstack\bifrost\bifrost\tests\unit\test_inventory.py,openstack_bifrost,0.0,0.0,3.0,0.0,1.0
-C:\mined_repos\openstack\bifrost\bifrost\tests\unit\__init__.py,openstack_bifrost,0.0,0.0,0.0,0.0,1.0

@@ -1,2 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\MindPointGroup\RHEL7-CIS\tests\test.yml,MindPointGroup_RHEL7-CIS,0,0,0,0,1

@@ -1,7 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\debops\debops\ansible\roles\apparmor\tests\test.yml,debops_debops,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\debops\debops\lib\debops-api\tests\example_roles\ansible-unattended_upgrades\meta\ansigenome.yml,debops_debops,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\debops\debops\lib\debops-api\tests\example_roles\ansible-unattended_upgrades\meta\main.yml,debops_debops,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\debops\debops\tests\test_config.py,debops_debops,0.0,0.0,0.0,8.0,0.0
-C:\mined_repos\debops\debops\tests\__init__.py,debops_debops,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\debops\debops\lib\debops-api\tests\test_debops_api.py,debops_debops,0.0,0.0,0.0,0.0,1.0

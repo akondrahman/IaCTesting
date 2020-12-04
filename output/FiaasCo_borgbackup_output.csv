@@ -1,8 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\FiaasCo\borgbackup\molecule\generic_files\tests\test_all.py,FiaasCo_borgbackup,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\FiaasCo\borgbackup\molecule\generic_files\tests\test_client.py,FiaasCo_borgbackup,0.0,0.0,5.0,0.0,1.0
-C:\mined_repos\FiaasCo\borgbackup\molecule\generic_files\tests\test_client_extra_opts.py,FiaasCo_borgbackup,0.0,0.0,2.0,0.0,1.0
-C:\mined_repos\FiaasCo\borgbackup\molecule\generic_files\tests\test_client_restore.py,FiaasCo_borgbackup,0.0,0.0,2.0,0.0,1.0
-C:\mined_repos\FiaasCo\borgbackup\molecule\generic_files\tests\test_lamp.py,FiaasCo_borgbackup,0.0,0.0,2.0,4.0,1.0
-C:\mined_repos\FiaasCo\borgbackup\molecule\generic_files\tests\test_mgt.py,FiaasCo_borgbackup,0.0,0.0,1.0,0.0,1.0
-C:\mined_repos\FiaasCo\borgbackup\molecule\generic_files\tests\test_server.py,FiaasCo_borgbackup,0.0,0.0,1.0,0.0,1.0

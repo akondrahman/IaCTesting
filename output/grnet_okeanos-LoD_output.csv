@@ -1,7 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\grnet\okeanos-LoD\ansible\roles\apache-flink\tests\test.yml,grnet_okeanos-LoD,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\grnet\okeanos-LoD\ansible\roles\common\tests\test.yml,grnet_okeanos-LoD,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\grnet\okeanos-LoD\core\tests\test_ansible_manager.py,grnet_okeanos-LoD,0.0,0.0,1.0,0.0,1.0
-C:\mined_repos\grnet\okeanos-LoD\core\tests\test_provisioner.py,grnet_okeanos-LoD,0.0,0.0,0.0,19.0,1.0
-C:\mined_repos\grnet\okeanos-LoD\webapp\tests\test_user_files.py,grnet_okeanos-LoD,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\grnet\okeanos-LoD\webapp\tests\__init__.py,grnet_okeanos-LoD,0.0,0.0,0.0,0.0,1.0

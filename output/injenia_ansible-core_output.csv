@@ -1,5 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\injenia\ansible-core\playbooks\tests\infinity-database.yml,injenia_ansible-core,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\injenia\ansible-core\playbooks\tests\infinity-frontend.yml,injenia_ansible-core,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\injenia\ansible-core\playbooks\tests\suitecrm.yml,injenia_ansible-core,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\injenia\ansible-core\playbooks\roles\carl-source-server\molecule\default\tests\test_default.py,injenia_ansible-core,0.0,0.0,1.0,0.0,1.0

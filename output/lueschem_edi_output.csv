@@ -1,8 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\lueschem\edi\tests\data\test_documentation\all.yml,lueschem_edi,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\lueschem\edi\tests\data\test_documentation\configuration\base\documentation.yml,lueschem_edi,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\lueschem\edi\tests\data\test_documentation\raw_input\edi\build.yml,lueschem_edi,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\lueschem\edi\tests\data\test_documentation\raw_input\edi\packages-baseline.yml,lueschem_edi,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\lueschem\edi\tests\data\test_documentation\raw_input\edi\packages.yml,lueschem_edi,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\lueschem\edi\tests\data\test_output_node\output-node-base.yml,lueschem_edi,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\lueschem\edi\tests\data\test_output_node\output-node.yml,lueschem_edi,0.0,0.0,0.0,0.0,1.0

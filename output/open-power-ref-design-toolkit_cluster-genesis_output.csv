@@ -1,6 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\open-power-ref-design-toolkit\cluster-genesis\tests\commit_message_validate.py,open-power-ref-design-toolkit_cluster-genesis,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\open-power-ref-design-toolkit\cluster-genesis\tests\verify_copyright.py,open-power-ref-design-toolkit_cluster-genesis,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\open-power-ref-design-toolkit\cluster-genesis\tests\__init__.py,open-power-ref-design-toolkit_cluster-genesis,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\open-power-ref-design-toolkit\cluster-genesis\tests\unit\test_pup_osinstall.py,open-power-ref-design-toolkit_cluster-genesis,0.0,0.0,1.0,2.0,0.0
-C:\mined_repos\open-power-ref-design-toolkit\cluster-genesis\tests\unit\__init__.py,open-power-ref-design-toolkit_cluster-genesis,0.0,0.0,0.0,2.0,1.0

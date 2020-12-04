@@ -1,4 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\os-cloud\openstack-ansible-pip_install\tests\test-py2.yml,os-cloud_openstack-ansible-pip_install,0.0,1.0,0.0,0.0,1.0
-C:\mined_repos\os-cloud\openstack-ansible-pip_install\tests\test-py3.yml,os-cloud_openstack-ansible-pip_install,0.0,1.0,0.0,0.0,1.0
-C:\mined_repos\os-cloud\openstack-ansible-pip_install\tests\test.yml,os-cloud_openstack-ansible-pip_install,0.0,0.0,0.0,0.0,1.0

@@ -1,3 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\msherron\drupal-vm\tests\config.yml,msherron_drupal-vm,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\msherron\drupal-vm\tests\ubuntu-16-nginx.config.yml,msherron_drupal-vm,0.0,0.0,0.0,0.0,1.0

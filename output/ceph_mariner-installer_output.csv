@@ -1,9 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\ceph\mariner-installer\tests\functional\nightly-centos7\test.yml,ceph_mariner-installer,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\ceph\mariner-installer\tests\functional\nightly-centos7\vagrant_variables.yml,ceph_mariner-installer,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\ceph\mariner-installer\tests\functional\nightly-xenial\test.yml,ceph_mariner-installer,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\ceph\mariner-installer\tests\functional\nightly-xenial\vagrant_variables.yml,ceph_mariner-installer,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\ceph\mariner-installer\tests\functional\playbooks\setup.yml,ceph_mariner-installer,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\ceph\mariner-installer\tests\functional\playbooks\roles\installer\defaults\main.yml,ceph_mariner-installer,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\ceph\mariner-installer\tests\functional\playbooks\roles\installer\tasks\main.yml,ceph_mariner-installer,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\ceph\mariner-installer\ceph_installer\tests\config.py,ceph_mariner-installer,0.0,0.0,0.0,0.0,1.0

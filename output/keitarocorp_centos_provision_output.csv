@@ -1,5 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-C:\mined_repos\keitarocorp\centos_provision\roles\init\enable-repo-remi\tests\requirements.yml,keitarocorp_centos_provision,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\keitarocorp\centos_provision\roles\init\enable-repo-remi\tests\test.yml,keitarocorp_centos_provision,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\keitarocorp\centos_provision\roles\nginx\install-nginx\tests\test.yml,keitarocorp_centos_provision,0.0,0.0,0.0,0.0,1.0
-C:\mined_repos\keitarocorp\centos_provision\roles\init\enable-firewall\molecule\default\tests\test_default.py,keitarocorp_centos_provision,0.0,0.0,1.0,0.0,1.0
