@@ -1,4 +1,4 @@
-import requests, json, pymysql, re
+import pymysql
 from datetime import datetime
 db_conn = pymysql.connect("localhost","root","","test", charset='utf8' )
 cursor = db_conn.cursor()
@@ -25,12 +25,11 @@ def find_monthly_commit_frequency(repo):
         else:
             monthly_commit_frequency = int(repo[3])
         print(f'Monthly commit frequency is {monthly_commit_frequency}\n====')
-        update_query = "update github_repos set monthly_commit_frequency = %s, repo_lifetime_in_month = %s where id = %s"
-        # print(update_query)
-        val = (monthly_commit_frequency, dev_months , repo[0])
-        cursor.execute(update_query, val)
-        db_conn.commit()
-
+        # update_query = "update github_repos set commit_frequency = %s and repo_lifetime_in_month = %s where id = %s"
+        update_query = "update github_repos set commit_frequency = 2 and repo_lifetime_in_month = 1 where id = 1"
+        # val = (monthly_commit_frequency, dev_months ,repo[0])
+        # cursor.execute(update_query, val)
+        cursor.execute(update_query)
         print(db_conn.commit())
 
 
@@ -43,7 +42,7 @@ def find_monthly_commit_frequency(repo):
 def get_all_github_repo_id():
     
     try:
-        cursor.execute('select id, repo_creation_date, last_commit_date, total_commits from github_repos where repo_creation_date is not null and last_commit_date is not null')
+        cursor.execute('select id, repo_creation_date, last_commit_date, total_commits from github_repos where repo_creation_date is not null and last_commit_date is not null limit 2 ')
         rows = cursor.fetchall()
     except:
         print(Exception)
