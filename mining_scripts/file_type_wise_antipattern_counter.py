@@ -1,4 +1,4 @@
-import glob, os, pymysql
+import  pymysql
 db_conn = pymysql.connect("localhost","root","","test", charset='utf8' )
 cursor = db_conn.cursor()
 
@@ -8,7 +8,7 @@ cursor = db_conn.cursor()
 def get_all_project_names():
    
     try:
-        cursor.execute('select  * from project_wise_file_count limit 2')
+        cursor.execute('select  * from project_wise_file_count')
         rows = cursor.fetchall()
     except:
         print(Exception)
@@ -29,16 +29,19 @@ def get_all_project_meta(project_name):
 
 
 def update_db(project, py_SAL , py_LOT , py_AR , py_ED , py_NEC , yml_SAL , yml_LOT , yml_AR , yml_ED , yml_NEC):
-    update_query = "update file_type_wise_antpatterns set py_SAL =%s py_LOT =%s py_AR =%s py_ED =%s py_NEC =%s yml_SAL =%s yml_LOT =%s yml_AR =%s yml_ED =%s yml_NEC =%s where project_name = %s"
+    update_query = "update file_type_wise_antpatterns set py_SAL =%s, py_LOT =%s, py_AR =%s, py_ED =%s, py_NEC =%s, yaml_SAL =%s, yaml_LOT =%s, yaml_AR =%s, yaml_ED =%s, yaml_NEC =%s where project_name = %s"
     val = (py_SAL , py_LOT , py_AR , py_ED , py_NEC , yml_SAL , yml_LOT , yml_AR , yml_ED , yml_NEC, project )
-    cursor.execute(update_query, val)
-    db_conn.commit()   
+    try:
+        cursor.execute(update_query, val)
+        db_conn.commit()   
+    except Exception as e:
+        print(e)
 
 def get_anti_pattern_count (project_name, file_name):
     try:
         select_query ='select * from iac_anti_patterns where project_name=%s and file_name=%s'
         cursor.execute(select_query, (project_name,file_name))
-        rows = cursor.fetchall()
+        rows = list(cursor.fetchall())
         print(rows)
 
     except Exception as e:
@@ -69,26 +72,26 @@ for project in projects:
             # print(f"Entered here {anti_pattern_counts[5]}")
             # print(f"Entered here {anti_pattern_counts[6]}")
             # print(f"Entered here {anti_pattern_counts[7]}")
-            
-            py_SAL = py_SAL + anti_pattern_counts[3]
-            py_LOT = py_LOT + anti_pattern_counts[4]
-            py_AR = py_AR + anti_pattern_counts[5]
-            py_ED = py_ED + anti_pattern_counts[6]
-            py_NEC = py_NEC + anti_pattern_counts[7]
+            print(f'***Anti Patter Details: {anti_pattern_counts[0][5]}***')
+            py_SAL = py_SAL + anti_pattern_counts[0][3]
+            py_LOT = py_LOT + anti_pattern_counts[0][4]
+            py_AR = py_AR + anti_pattern_counts[0][5]
+            py_ED = py_ED + anti_pattern_counts[0][6]
+            py_NEC = py_NEC + anti_pattern_counts[0][7]
 
 
             
         if file_name.endswith(".yml") or file_name.endswith(".yaml"):
             anti_pattern_counts = get_anti_pattern_count (project[1], file_name)
             print("Entered here")
-            yml_SAL = yml_SAL + anti_pattern_counts[3]
-            yml_LOT = yml_LOT + anti_pattern_counts[4]
-            yml_AR = yml_AR + anti_pattern_counts[5]
-            yml_ED = yml_ED + anti_pattern_counts[6]
-            yml_NEC = yml_NEC + anti_pattern_counts[7]
+            yml_SAL = yml_SAL + anti_pattern_counts[0][3]
+            yml_LOT = yml_LOT + anti_pattern_counts[0][4]
+            yml_AR = yml_AR + anti_pattern_counts[0][5]
+            yml_ED = yml_ED + anti_pattern_counts[0][6]
+            yml_NEC = yml_NEC + anti_pattern_counts[0][7]
 
             
         if file_name.endswith(".ini"):
             continue
-    print(f'count of py_SAL , py_LOT , py_AR , py_ED , py_NEC , yml_SAL , yml_LOT , yml_AR , yml_ED , yml_NEC is {py_SAL}, {py_LOT}, {py_AR },{py_ED },{py_NEC}, {yml_SAL}, {yml_LOT}, {yml_AR}, {yml_ED}, {yml_NEC}')
-    # update_db(project[1], py_SAL , py_LOT , py_AR , py_ED , py_NEC , yml_SAL , yml_LOT , yml_AR , yml_ED , yml_NEC)
+    print(f'{project[1]} has count of py_SAL , py_LOT , py_AR , py_ED , py_NEC , yml_SAL , yml_LOT , yml_AR , yml_ED , yml_NEC is {py_SAL}, {py_LOT}, {py_AR },{py_ED },{py_NEC}, {yml_SAL}, {yml_LOT}, {yml_AR}, {yml_ED}, {yml_NEC}')
+    update_db(project[1], py_SAL , py_LOT , py_AR , py_ED , py_NEC , yml_SAL , yml_LOT , yml_AR , yml_ED , yml_NEC)
