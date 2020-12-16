@@ -18,7 +18,7 @@ def main():
     project_name = input ("Please enter the project name: ")
     print(project_name)
     
-    
+    print("Testing branch")
     
     files = Util().get_files(base_dir)
 #    print(files['yaml'])
