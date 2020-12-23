@@ -22,6 +22,7 @@ class Util:
     def __write_to_arr(self, file_path):
 
         name, extension = os.path.splitext(file_path)
+#        print(f'name: {name}, extension: {extension}')
        
         if extension == ".py":
             self.__python_files.append(file_path)
@@ -31,7 +32,8 @@ class Util:
             self.__yaml_files.append(file_path)
 #            print(f'YML file: {file_path}')
 
-        if name == "tox" and extension == ".ini":
+        if extension == ".ini":
+#            print(file_path)
             self.__tox_files.append(file_path)
 #            print(f'Tox file: {file_path}')
         
@@ -43,7 +45,9 @@ class Util:
         
         for (dirpath, dirnames, filenames) in os.walk(base_dir):
             for filename in filenames:
-                if filename == "tox.ini":           
+                
+                if filename == "tox.ini": 
+#                    print(filename)
                     self.__write_to_arr(os.path.normpath(os.path.join(base_dir, dirpath, filename)))
             
             for dirname in dirnames:
