@@ -19,6 +19,7 @@ class TestEnvNotCleanedYamlDetector(AntiPatternDetector ):
         cleaned_up_roles = {}
         total_roles = []
         for role in playbook:
+                        
             try:
                 role_vars = role['vars']
                 for role_var in role_vars:
@@ -29,6 +30,23 @@ class TestEnvNotCleanedYamlDetector(AntiPatternDetector ):
                     
             except:
                 continue
+            
+            try:
+                try:
+                    tasks = role['tasks']
+                except:
+                    tasks = role['post_tasks']
+                    for task in tasks:
+                        task_name = task['name']
+                        if self.__find_clean_up_task(task_name):
+                            cleaned_up_roles['role_name'] = role['name']
+                            cleaned_up_roles['var_name'] = role_var
+                            total_roles.append(cleaned_up_roles)
+                            
+        
+            except:
+                continue
+                
 
         
         return total_roles
@@ -38,7 +56,9 @@ class TestEnvNotCleanedYamlDetector(AntiPatternDetector ):
         clean_up_substrings = ['cleanup']
         return Util.is_substring(clean_up_substrings, long_string)
 
-
+    def __find_clean_up_task(self, long_string):
+        clean_up_subscrings = ['clean', 'teardown']
+        return Util.is_substring(clean_up_subscrings, long_string)
         
         
     

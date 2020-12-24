@@ -14,9 +14,9 @@ class Util:
     def __init__(self):
 
         self.__files = {}
-        self.__python_files =[]
+#        self.__python_files =[]
         self.__yaml_files = []
-        self.__tox_files = []
+#        self.__tox_files = []
         
         
     def __write_to_arr(self, file_path):
@@ -24,17 +24,17 @@ class Util:
         name, extension = os.path.splitext(file_path)
 #        print(f'name: {name}, extension: {extension}')
        
-        if extension == ".py":
-            self.__python_files.append(file_path)
+#        if extension == ".py":
+#            self.__python_files.append(file_path)
 #            print(f'Python file: {file_path}')
         
         if extension in [".yml", ".yaml"]:
             self.__yaml_files.append(file_path)
 #            print(f'YML file: {file_path}')
 
-        if extension == ".ini":
+#        if extension == ".ini":
 #            print(file_path)
-            self.__tox_files.append(file_path)
+#            self.__tox_files.append(file_path)
 #            print(f'Tox file: {file_path}')
         
         
@@ -44,11 +44,12 @@ class Util:
     def __traverse(self, base_dir):
         
         for (dirpath, dirnames, filenames) in os.walk(base_dir):
-            for filename in filenames:
-                
-                if filename == "tox.ini": 
+#            for filename in filenames:
+#                
+#                if filename == "tox.ini": 
 #                    print(filename)
-                    self.__write_to_arr(os.path.normpath(os.path.join(base_dir, dirpath, filename)))
+#                    self.__write_to_arr(os.path.normpath(os.path.join(base_dir, dirpath, filename)))
+#                    pass
             
             for dirname in dirnames:
                 if dirname == "tests":
@@ -65,9 +66,9 @@ class Util:
         
         self.__traverse(base_dir)
 
-        self.__files["python"] = self.__python_files
+#        self.__files["python"] = self.__python_files
         self.__files["yaml"] = self.__yaml_files
-        self.__files["tox"] = self.__tox_files
+#        self.__files["tox"] = self.__tox_files
         
 #        print (f'Pyhon files: {self.__files["python"]}')
 #        print (f'\n ==\n Yaml files: {self.__files["yaml"]}')
