@@ -59,19 +59,19 @@ class IaCTestingAntipatterns:
              
             
             
-        for tox_file in tox_files:
-            configs = Util.get_tox_configs(tox_file)
-            
-            self.__external_dependency_tox_detector.detect_anti_pattern(configs, tox_file, self._project_name)
-        
-        
-        for python_file in python_files:
-            parsed_file = Util.get_python_tokenized_file(python_file)
-            
-            self.__test_env_not_cleaned_python_detector.detect_anti_pattern(parsed_file, python_file, self._project_name)
-            self.__external_dependency_python_detector.detect_anti_pattern(parsed_file, python_file, self._project_name)
-            self.__assertion_roulette_python_detector.detect_anti_pattern(parsed_file, python_file, self._project_name)
-        
-    
-    
-    
+#        for tox_file in tox_files:
+#            configs = Util.get_tox_configs(tox_file)
+#            
+#            self.__external_dependency_tox_detector.detect_anti_pattern(configs, tox_file, self._project_name)
+#        
+#        
+#        for python_file in python_files:
+#            parsed_file = Util.get_python_tokenized_file(python_file)
+#            
+#            self.__test_env_not_cleaned_python_detector.detect_anti_pattern(parsed_file, python_file, self._project_name)
+#            self.__external_dependency_python_detector.detect_anti_pattern(parsed_file, python_file, self._project_name)
+#            self.__assertion_roulette_python_detector.detect_anti_pattern(parsed_file, python_file, self._project_name)
+#        
+#    
+#    
+#    
