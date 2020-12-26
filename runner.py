@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.DEBUG,filename='app.log', filemode='w', format
 db_conn = pymysql.connect("localhost","root","","test", charset='utf8' )
 cursor = db_conn.cursor()
 
-
+#not fo openstack
 def get_all_github_repo_id():
     
     try:
