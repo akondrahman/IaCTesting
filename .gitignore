@@ -6,3 +6,4 @@ Created on Fri Oct  9 23:26:52 2020
 """
 
 **/__pycache__
+*.log
