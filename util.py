@@ -79,9 +79,15 @@ class Util:
     
     def get_playbook( yaml_file_path):
         with open(yaml_file_path, 'r') as f:
-            playbook = yaml.load(f)
+            try:
+                playbook = yaml.load(f)
+            except Exception as e:
+                print (e)
+                return None
         
         return playbook
+    
+    
     
     def get_tox_configs(tox_file_path):
         configs = configparser.ConfigParser()
@@ -127,10 +133,15 @@ class Util:
         
         return any (sstr in long_string for sstr in substrings)
         
-#        for substring in substrings:
-#            if substring in long_string:
-#                return True
-#        return False
+    def is_substring_v2( substrings, long_string):
+        
+#        print(f"long string:{long_string}")
+        for substring in substrings:
+            print(f"subsrting: {substring}")
+            if substring in long_string:
+                
+                return True
+        return False
 #        
     def has_pattern_regex(pattern, long_string):
         return re.search(pattern, long_string) != None

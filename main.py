@@ -21,7 +21,7 @@ def main():
     print("Testing branch")
     
     files = Util().get_files(base_dir)
-    print(files)
+#    print(files)
     
 #    quit()
     
