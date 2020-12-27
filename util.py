@@ -14,25 +14,27 @@ class Util:
     def __init__(self):
 
         self.__files = {}
-        self.__python_files =[]
+#        self.__python_files =[]
         self.__yaml_files = []
-        self.__tox_files = []
+#        self.__tox_files = []
         
         
     def __write_to_arr(self, file_path):
 
         name, extension = os.path.splitext(file_path)
+#        print(f'name: {name}, extension: {extension}')
        
-        if extension == ".py":
-            self.__python_files.append(file_path)
+#        if extension == ".py":
+#            self.__python_files.append(file_path)
 #            print(f'Python file: {file_path}')
         
         if extension in [".yml", ".yaml"]:
             self.__yaml_files.append(file_path)
 #            print(f'YML file: {file_path}')
 
-        if name == "tox" and extension == ".ini":
-            self.__tox_files.append(file_path)
+#        if extension == ".ini":
+#            print(file_path)
+#            self.__tox_files.append(file_path)
 #            print(f'Tox file: {file_path}')
         
         
@@ -42,9 +44,12 @@ class Util:
     def __traverse(self, base_dir):
         
         for (dirpath, dirnames, filenames) in os.walk(base_dir):
-            for filename in filenames:
-                if filename == "tox.ini":           
-                    self.__write_to_arr(os.path.normpath(os.path.join(base_dir, dirpath, filename)))
+#            for filename in filenames:
+#                
+#                if filename == "tox.ini": 
+#                    print(filename)
+#                    self.__write_to_arr(os.path.normpath(os.path.join(base_dir, dirpath, filename)))
+#                    pass
             
             for dirname in dirnames:
                 if dirname == "tests":
@@ -61,9 +66,9 @@ class Util:
         
         self.__traverse(base_dir)
 
-        self.__files["python"] = self.__python_files
+#        self.__files["python"] = self.__python_files
         self.__files["yaml"] = self.__yaml_files
-        self.__files["tox"] = self.__tox_files
+#        self.__files["tox"] = self.__tox_files
         
 #        print (f'Pyhon files: {self.__files["python"]}')
 #        print (f'\n ==\n Yaml files: {self.__files["yaml"]}')
@@ -74,9 +79,15 @@ class Util:
     
     def get_playbook( yaml_file_path):
         with open(yaml_file_path, 'r') as f:
-            playbook = yaml.load(f)
+            try:
+                playbook = yaml.load(f)
+            except Exception as e:
+                print (e)
+                return None
         
         return playbook
+    
+    
     
     def get_tox_configs(tox_file_path):
         configs = configparser.ConfigParser()
@@ -122,10 +133,15 @@ class Util:
         
         return any (sstr in long_string for sstr in substrings)
         
-#        for substring in substrings:
-#            if substring in long_string:
-#                return True
-#        return False
+    def is_substring_v2( substrings, long_string):
+        
+#        print(f"long string:{long_string}")
+        for substring in substrings:
+            print(f"subsrting: {substring}")
+            if substring in long_string:
+                
+                return True
+        return False
 #        
     def has_pattern_regex(pattern, long_string):
         return re.search(pattern, long_string) != None
