@@ -17,6 +17,18 @@ class AssertionRouletteYamlDetector(AntiPatternDetector ):
         
         has_assertion_roulette = False
         
+        try:
+           for pl in playbook:
+                tasks = pl["tasks"]
+                for task in tasks:
+                    asserts = task['assert']['that']
+                    if len(asserts) > 1:
+                        has_assertion_roulette = True
+                        self.__anti_pattern_count += 1
+        except:
+            pass
+
+
         for roles in playbook:
             try:
                 try:
