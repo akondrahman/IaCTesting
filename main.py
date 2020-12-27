@@ -27,7 +27,7 @@ def main(base_dir, project_name):
     
     
     files = Util().get_files(base_dir)
-#    print(files['yaml'])
+    # print(files['yaml'])
     
 #    quit()
     

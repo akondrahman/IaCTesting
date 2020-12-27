@@ -39,9 +39,9 @@ class IaCTestingAntipatterns:
     
     def get_anti_pattern_list(self):
         
-        python_files = self.__files['python']
+        # python_files = self.__files['python']
         yaml_files = self.__files['yaml']
-        tox_files = self.__files['tox']
+        # tox_files = self.__files['tox']
         
         for yaml_file in yaml_files:
             playbook = Util.get_playbook(yaml_file)
@@ -49,6 +49,7 @@ class IaCTestingAntipatterns:
 #            print(playbook)
             
             if playbook == None:
+                print("No playbook found")
                 continue
             
             self.__skip_linting_yaml_detector.detect_anti_pattern(playbook, yaml_file, self._project_name)
