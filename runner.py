@@ -19,7 +19,7 @@ cursor = db_conn.cursor()
 def get_all_github_repo_id():
     
     try:
-        cursor.execute('select * from final_repos')
+        cursor.execute('select * from openstack_total_repos')
         rows = cursor.fetchall()
     except:
         print(Exception)
@@ -28,17 +28,17 @@ def get_all_github_repo_id():
     return rows
 
 repos = get_all_github_repo_id()
-base_dir = r"C:\mined_repos"
-# base_dir = r"C:\Users\mehedi.md.hasan\PythonWorkspace\ostk-ansi\open-stack-new-repos"
+#base_dir = r"C:\mined_repos"
+base_dir = r"C:\Users\mehedi.md.hasan\PythonWorkspace\ostk-ansi\open-stack-new-repos"
 for repo in repos:
     top_dir = repo[1].split("/")[0]
     project_dir = repo[1].split("/")[1]
-    full_dir = base_dir+"\\"+top_dir+"\\"+project_dir
-    # full_dir = base_dir+"\\"+project_dir
+#    full_dir = base_dir+"\\"+top_dir+"\\"+project_dir
+    full_dir = base_dir+"\\"+project_dir
     project_name = top_dir+"_"+project_dir
 #    project_name = str(repo[0])
     print(f'full directory is {full_dir}')
-#    print(project_name)
+    print(project_name)
     
     
     try:
