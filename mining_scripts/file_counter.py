@@ -44,7 +44,7 @@ def count_test_files(base_dir):
 def get_all_repos():
    
     try:
-        cursor.execute('select id, project_name from project_wise_antipatterns')
+        cursor.execute('select * from final_repos limit 2')
         rows = cursor.fetchall()
     except:
         print(Exception)
@@ -71,25 +71,28 @@ repos = get_all_repos()
 
 for repo in repos:
     base_dir = create_bas_dir(repo[1])
-    
-    for filename in os.listdir(base_dir):
-        if filename.endswith(".git"):
-            print(f'Base Directory is : {base_dir}')
-            update_db(base_dir)
-        else:
-            ll = repo[1].split("_")
-            if len(ll) == 2:
-                l2_base_dir = base_dir + "\\" + ll[1]
-                print(f'Base Directory is : {l2_base_dir}')
-                update_db(l2_base_dir)
-            else:
-                ll2 = ll[1: len(ll)]
-                l3 = "_"
-                l3 = l3.join(ll2)    
-                print(l3)
-                l3_base_dir = base_dir + "\\"+l3
-                print(f'Base Directory is : {l3_base_dir}')
-                update_db(l3_base_dir)
+    cpt = sum([len(files) for r, d, files in os.walk(base_dir)])
+    print(f"total file count is {cpt}")
+
+# For test file counting used below block    
+    # for filename in os.listdir(base_dir):
+    #     if filename.endswith(".git"):
+    #         print(f'Base Directory is : {base_dir}')
+    #         update_db(base_dir)
+    #     else:
+    #         ll = repo[1].split("_")
+    #         if len(ll) == 2:
+    #             l2_base_dir = base_dir + "\\" + ll[1]
+    #             print(f'Base Directory is : {l2_base_dir}')
+    #             update_db(l2_base_dir)
+    #         else:
+    #             ll2 = ll[1: len(ll)]
+    #             l3 = "_"
+    #             l3 = l3.join(ll2)    
+    #             print(l3)
+    #             l3_base_dir = base_dir + "\\"+l3
+    #             print(f'Base Directory is : {l3_base_dir}')
+    #             update_db(l3_base_dir)
 
             
 
