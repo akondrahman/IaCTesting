@@ -8,7 +8,6 @@ import, var_files,pip_install_upper_constraints_proto
 """
 
 from antipattern import AntiPattern, AntiPatternLogger, AntiPatternDetector
-from util import Util
 
 class ExternalDependencyYamlDetector(AntiPatternDetector ):
     

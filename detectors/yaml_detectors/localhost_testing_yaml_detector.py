@@ -23,7 +23,7 @@ class LocalhostTestingYamlDetector(AntiPatternDetector ):
 #            print(f'role name is {role}')
             try:
                 hostmapping = {}
-                hostmapping['role_name'] = role['name']
+#                hostmapping['role_name'] = role['name']
                 hostmapping ['host_name'] = role['hosts']
                 
                 if hostmapping ['host_name'] == 'localhost':
