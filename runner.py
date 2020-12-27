@@ -35,8 +35,8 @@ for repo in repos:
     project_dir = repo[1].split("/")[1]
     full_dir = base_dir+"\\"+top_dir+"\\"+project_dir
     # full_dir = base_dir+"\\"+project_dir
-    project_name = top_dir+"_"+project_dir
-#    project_name = str(repo[0])
+    # project_name = top_dir+"_"+project_dir
+    project_name = str(repo[0])
     print(f'full directory is {full_dir}')
 #    print(project_name)
     
