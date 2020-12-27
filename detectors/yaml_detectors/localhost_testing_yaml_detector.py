@@ -23,7 +23,7 @@ class LocalhostTestingYamlDetector(AntiPatternDetector ):
 #            print(f'role name is {role}')
             try:
                 hostmapping = {}
-                hostmapping['role_name'] = role['name']
+#                hostmapping['role_name'] = role['name']
                 hostmapping ['host_name'] = role['hosts']
                 
                 if hostmapping ['host_name'] == 'localhost':
@@ -33,13 +33,14 @@ class LocalhostTestingYamlDetector(AntiPatternDetector ):
                 else:
                     hostmapping['is_local_host'] = 0
                     remote_test_roles.append(hostmapping)
-            except:
+            except Exception as e:
+                print(e)
                 continue
         
         role_names['local'] = local_test_roles
         role_names['remote'] = remote_test_roles
             
-        
+        print(role_names)
         return role_names
     
     
