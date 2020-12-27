@@ -70,8 +70,18 @@ def create_bas_dir(project_name):
 repos = get_all_repos()
 
 for repo in repos:
-    base_dir = create_bas_dir(repo[1])
-    cpt = sum([len(files) for r, d, files in os.walk(base_dir)])
+
+    top_dir = repo[1].split("/")[0]
+    project_dir = repo[1].split("/")[1]
+    full_dir = base_dir+"\\"+top_dir+"\\"+project_dir
+    # full_dir = base_dir+"\\"+project_dir
+    project_name = top_dir+"_"+project_dir
+#    project_name = str(repo[0])
+    print(f'full directory is {full_dir}')
+#    print(project_name)
+
+    # base_dir = create_bas_dir(repo[1])
+    cpt = sum([len(files) for r, d, files in os.walk(full_dir)])
     print(f"total file count is {cpt}")
 
 # For test file counting used below block    
