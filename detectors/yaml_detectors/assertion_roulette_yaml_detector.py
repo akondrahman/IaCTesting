@@ -25,9 +25,11 @@ class AssertionRouletteYamlDetector(AntiPatternDetector ):
                     if len(asserts) > 1:
                         has_assertion_roulette = True
                         self.__anti_pattern_count += 1
-        except:
+        except Exception as e:
+            print(e)
             pass
-
+        
+        
 
         for roles in playbook:
             try:
@@ -41,9 +43,20 @@ class AssertionRouletteYamlDetector(AntiPatternDetector ):
                             has_assertion_roulette = True
                             self.__anti_pattern_count += 1
         
-            except:
-                continue
+            except Exception as e:
+                print(e)
+                pass
+                
+            try:
+                asserts = roles['assert']['that']
+                if len(asserts) > 1:
+                    has_assertion_roulette = True
+                    self.__anti_pattern_count += 1
             
+            except Exception as e:
+                print(e)
+                continue
+                
         
         return has_assertion_roulette
     
