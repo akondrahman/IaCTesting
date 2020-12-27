@@ -16,21 +16,10 @@ class TestEnvNotCleanedYamlDetector(AntiPatternDetector ):
     
     def __find_cleaned_up_roles(self, playbook):
         
-        cleaned_up_roles = {}
-        total_roles = []
+        total_installation_tasks = 0
+        total_cleanup_tasks = 0     
         for role in playbook:
-                        
-            try:
-                role_vars = role['vars']
-                for role_var in role_vars:
-                    if self.__find_clean_up_var(role_var):
-                        cleaned_up_roles['role_name'] = role['name']
-                        cleaned_up_roles['var_name'] = role_var
-                        total_roles.append(cleaned_up_roles)
-                    
-            except:
-                continue
-            
+                                   
             try:
                 try:
                     tasks = role['tasks']
@@ -38,27 +27,32 @@ class TestEnvNotCleanedYamlDetector(AntiPatternDetector ):
                     tasks = role['post_tasks']
                     for task in tasks:
                         task_name = task['name']
-                        if self.__find_clean_up_task(task_name):
-                            cleaned_up_roles['role_name'] = role['name']
-                            cleaned_up_roles['var_name'] = role_var
-                            total_roles.append(cleaned_up_roles)
-                            
-        
+                        if self.__check_installation_task(task_name):
+                            total_installation_tasks += 1
+                        if self.__check_clean_up_task(task_name):
+                            total_cleanup_tasks += 1
+
             except:
                 continue
-                
+            
+            if total_installation_tasks > 0 and total_cleanup_tasks < 1:
+                return total_installation_tasks
+            if total_installation_tasks > 0 and total_cleanup_tasks > 0:
+                return (total_installation_tasks - total_cleanup_tasks)
+            
 
         
-        return total_roles
+        return total_installation_tasks
     
-    
-    def __find_clean_up_var(self, long_string):
-        clean_up_substrings = ['cleanup']
-        return Util.is_substring(clean_up_substrings, long_string)
+    def __check_installation_task(self, task_name):
+        installation_subscrings = ['install', 'installation']
+        return Util.is_substring(installation_subscrings, task_name)
+        
 
-    def __find_clean_up_task(self, long_string):
-        clean_up_subscrings = ['clean', 'teardown']
-        return Util.is_substring(clean_up_subscrings, long_string)
+    
+    def __check_clean_up_task(self, task_name):
+        clean_up_subscrings = ['uninstall','clean', 'teardown', 'cleanup', 'cleanUp']
+        return Util.is_substring(clean_up_subscrings, task_name)
         
         
     
@@ -66,10 +60,10 @@ class TestEnvNotCleanedYamlDetector(AntiPatternDetector ):
         cleaned_up_roles = self.__find_cleaned_up_roles(playbook)
 #        print(f'{file_path}====={tags}======')
         
-        if len(cleaned_up_roles)<1:
+        if cleaned_up_roles>0:
 #            print("Antipattern found")
 #            print(f'boolean ==={self.__find_skip_lint()}====')
-            self.__anti_pattern_count = 1
+            self.__anti_pattern_count = cleaned_up_roles
             anti_pattern = AntiPattern()
             antipattern_logger = AntiPatternLogger()
             anti_pattern.add_observer(antipattern_logger)
