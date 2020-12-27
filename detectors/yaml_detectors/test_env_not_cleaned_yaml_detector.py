@@ -34,7 +34,9 @@ class TestEnvNotCleanedYamlDetector(AntiPatternDetector ):
 
             except:
                 continue
-            
+            print(f"total installation is {total_installation_tasks}")
+            print(f"total removal is {total_cleanup_tasks}")
+                
             if total_installation_tasks > 0 and total_cleanup_tasks < 1:
                 return total_installation_tasks
             if total_installation_tasks > 0 and total_cleanup_tasks > 0:
@@ -51,7 +53,7 @@ class TestEnvNotCleanedYamlDetector(AntiPatternDetector ):
 
     
     def __check_clean_up_task(self, task_name):
-        clean_up_subscrings = ['uninstall','clean', 'teardown', 'cleanup', 'cleanUp']
+        clean_up_subscrings = ['uninstall','clean', 'teardown', 'cleanup', 'cleanUp', 'remove']
         return Util.is_substring(clean_up_subscrings, task_name)
         
         
