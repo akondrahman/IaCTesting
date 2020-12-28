@@ -23,5 +23,5 @@ def find_test_folders(base_dir):
 # count_test_files(r"C:\mined_repos\guardianproject-ops")
 
 
-base_dir = r"C:\mined_repos-2"
+base_dir = r"C:\mined_repos\skyscape-cloud-services"
 find_test_folders(base_dir)
