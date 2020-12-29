@@ -16,6 +16,7 @@ class AssertionRouletteYamlDetector(AntiPatternDetector ):
     def __find_assertion_roulette(self, playbook):
         
         has_assertion_roulette = False
+        asserion_roulette_count = 0
         
         try:
            for pl in playbook:
@@ -23,11 +24,13 @@ class AssertionRouletteYamlDetector(AntiPatternDetector ):
                 for task in tasks:
                     asserts = task['assert']['that']
                     if len(asserts) > 1:
-                        has_assertion_roulette = True
-                        self.__anti_pattern_count += 1
-        except:
+                        
+                        asserion_roulette_count += 1
+        except Exception as e:
+            print(e)
             pass
-
+        
+        
 
         for roles in playbook:
             try:
@@ -38,14 +41,25 @@ class AssertionRouletteYamlDetector(AntiPatternDetector ):
                     for task in tasks:
                         asserts = task['assert']['that']
                         if len(asserts) > 1:
-                            has_assertion_roulette = True
-                            self.__anti_pattern_count += 1
+                            
+                            asserion_roulette_count += 1
         
-            except:
-                continue
+            except Exception as e:
+                print(e)
+                pass
+                
+            try:
+                asserts = roles['assert']['that']
+                if len(asserts) > 1:
+                    
+                    asserion_roulette_count += 1
             
+            except Exception as e:
+                print(e)
+                continue
+                
         
-        return has_assertion_roulette
+        return asserion_roulette_count
     
     
     
@@ -53,8 +67,10 @@ class AssertionRouletteYamlDetector(AntiPatternDetector ):
         
     
     def detect_anti_pattern(self, playbook, file_path, project_name):
-            
-        if (self.__find_assertion_roulette(playbook)):
+        assrt_count = self.__find_assertion_roulette(playbook)
+        self.__anti_pattern_count = assrt_count
+        
+        if (assrt_count>0):
             anti_pattern = AntiPattern()
             antipattern_logger = AntiPatternLogger()
             anti_pattern.add_observer(antipattern_logger)
