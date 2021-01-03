@@ -11,20 +11,4 @@ for file_name in df['file_name']:
     # print(os.path.exists(file))
     val = os.path.exists(file_name)
     
-    if val == True:
-        head, tail = os.path.split(file_name)
-        project_name = file_name.split("\\")[2]
-        # print(project_name)
-        new_file_name = project_name + "_" + tail
-        # print(head)
-        # print(tail)
-        print(new_file_name)
-        copyfile(file_name,os.path.join(dest_folder,new_file_name))
-
-        logging.debug("file %s is transferred as: %s", file_name,new_file_name)
-
-    else:
-        logging.debug("file %s could not be transferred as")
-
-
     
