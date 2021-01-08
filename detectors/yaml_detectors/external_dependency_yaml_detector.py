@@ -38,11 +38,12 @@ class ExternalDependencyYamlDetector(AntiPatternDetector ):
     
     def __find_roles_using_url(self, file_path):
         no_url = 0
-        s = "http"
+        s1 = "http:"
+        s2 = "https:"
         with open(file_path) as f:
             for ll in f:
                 if not ll.startswith("#"):
-                    status = s in ll
+                    status = (s1 in ll) or (s2 in ll)
                     # print (status)
                     if status == True:
                         no_url += 1
