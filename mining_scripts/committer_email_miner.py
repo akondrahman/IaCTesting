@@ -17,7 +17,7 @@ cursor = db_conn.cursor()
 def get_all_github_repo_id():
     
     try:
-        cursor.execute('select * from final_repos where id>6000' )
+        cursor.execute('select distinct(project_name)  from iac_anti_patterns_v2 where Skip_Ansible_Lint>0 or External_Dependency>0 or Assertion_Roulette>0 or Local_Only_Test >0 or No_ENV_CleanUp>0' )
         rows = cursor.fetchall()
     except:
         print(Exception)
@@ -25,55 +25,90 @@ def get_all_github_repo_id():
         
     return rows
 
-def update_test_commit_summary(repo_id, repo_name, total_commit_count, test_commit_count):
-    ins_query = 'insert into test_commit_summary (repo_id, repo_name, total_commits, test_commits) values (%s, %s, %s, %s)'
-    val = (repo_id, repo_name, total_commit_count, test_commit_count)
+def update_emails(full_email, email_domain):
+    ins_query = 'insert into emails (email, domain) values (%s, %s)'
+    val = (full_email, email_domain)
     try:
         cursor.execute(ins_query, val)
         db_conn.commit()
-        print(f'Updated repo {repo_name}')
+        print(f'Updated email for {full_email}')
     except Exception as e:
         print (e)
 
 
 
-def is_substring( substrings, long_string):
-    return substrings in long_string
+# def is_substring( substrings, long_string):
+#     return substrings in long_string
 
-def find_committer_email(repo_id, repo_name, repo_dir):
-    repo = Repo(repo_dir)
+def find_committer_email(repo_dir):
+    print(repo_dir)
+    try:
+        repo = Repo(repo_dir)
+    except Exception as e:
+        print(e)
+        pass
     contributors = []
     
-    commits = list(repo.iter_commits())
+    try:
+        commits = list(repo.iter_commits())
+        for commit in commits:
+            author = commit.author.email
+            # print(author)
+            if author not in contributors:
+                email_domain = author.split("@")[1]
+                if email_domain != "users.noreply.github.com":
+                    try:
+                        update_emails(author, email_domain)
+                    except Exception as e:
+                        print(e)
+                        continue
 
-    for commit in commits:
-        author = commit.author.email
-        if author not in contributors:
-            contributors.append(author)
+
+    except Exception as e:
+        print (e)
+        pass
+
         
     
     return contributors
-    
+
+def update_contributor_list(repo_dir, repo_name):
+    write_file = open("contributors_email.txt", "a+")
+    try:
+        emails = find_committer_email(repo_dir)
+        # print(emails)
+        if len(emails)>0:
+            write_file.write("Repository Name: %s\n"%repo_name)
+            write_file.write("Contributor List %s\n"%emails)
+    except Exception as e:
+        print(e)
+        pass
 
 
-repo_dir = r"C:\Users\mehedi.md.hasan\PythonWorkspace\ostk-ansi\ansible-role-container-registry"
-repo_name = "ansible-role-container-registry"
-repo_id = 10283
 
-emails = find_committer_email(repo_id, repo_name, repo_dir)
-print(emails)
+# repo_dir = r"C:\Users\mehedi.md.hasan\PythonWorkspace\ostk-ansi\ansible-role-container-registry"
+# repo_name = "ansible-role-container-registry"
+# repo_id = 10283
 
-# repos = get_all_github_repo_id()
-# base_dir = r"C:\mined_repos"
-# for repo in repos:
-#     top_dir = repo[1].split("/")[0]
-#     project_dir = repo[1].split("/")[1]
-#     full_dir = base_dir + "\\" + top_dir + "\\" + project_dir
-#     print(full_dir)
-#     try:
-#         analyze_test_commits(repo[0], project_dir, full_dir)
-#     except Exception as e:
-#         print(e)
-#         continue
+# emails = find_committer_email(repo_id, repo_name, repo_dir)
+# print(emails)
+
+repos = get_all_github_repo_id()
+base_dir = r"C:\mined_repos-orig"
+repo_list = []
+for repo in repos:
+
+    if not repo[0] in repo_list:
+        repo_list.append(repo[0])
+        print(repo[0])
+        top_dir = repo[0].split("/")[0]
+        project_dir = repo[0].split("/")[1]
+        full_dir = base_dir + "\\" + top_dir + "\\" + project_dir
+        print(full_dir)
+        try:
+            update_contributor_list(full_dir, project_dir)
+        except Exception as e:
+            # print(e)
+            continue
 
     
