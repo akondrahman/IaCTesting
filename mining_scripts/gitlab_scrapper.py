@@ -8,7 +8,7 @@ cursor = db_conn.cursor()
 gl = gitlab.Gitlab('https://gitlab.com', private_token='ym_J9_F6GBXf4yF2ToQs')
 
 def gitlab_search(per_page_item, page_number):
-    search_str = 'ansible'
+    search_str = 'puppet'
     search_scope = 'projects'
     search_results = gl.search(search_scope, search_str, page=page_number, per_page = per_page_item)
     # cur_page = search_results.current_page
@@ -25,7 +25,7 @@ def gitlab_search(per_page_item, page_number):
         repo_creation_date = search_result['created_at']
         last_commit_date = search_result['last_activity_at']
         repo_lifetime_in_month = find_month_gap(repo_creation_date, last_commit_date)
-        insert_query = "insert into gitlab_repos set id = %s, repo_name = %s, repo_url = %s, repo_creation_date = %s, last_commit_date = %s, repo_lifetime_in_month = %s"
+        insert_query = "insert into gitlab_repos_puppet set id = %s, repo_name = %s, repo_url = %s, repo_creation_date = %s, last_commit_date = %s, repo_lifetime_in_month = %s"
         val = (project_id, repo_name, repo_url, repo_creation_date, last_commit_date, repo_lifetime_in_month)
         
         try:
@@ -54,7 +54,7 @@ def find_month_gap(start_date, end_date):
 
 def find_total_repos():
     repo_count = 0
-    for i in range(500,600):
+    for i in range(500,1000):
             per_page = 20
             page_number = i + 1
             search_return = gitlab_search(per_page, page_number)

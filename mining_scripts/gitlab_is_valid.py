@@ -16,7 +16,7 @@ gl = gitlab.Gitlab('https://gitlab.com', private_token='ym_J9_F6GBXf4yF2ToQs')
 def get_all_gitlab_repo_id():
    
     try:
-        cursor.execute('select * from gitlab_repos does_repo_exist is null')
+        cursor.execute('select * from gitlab_repos_puppet where does_repo_exist is null')
         rows = cursor.fetchall()
     except:
         print(Exception)
@@ -47,7 +47,7 @@ def update_does_repo_exist_info():
     for repo in repos:
             is_valid = is_valid_repo(repo[0])
             print(f'Updating repo {repo[0]} with is_valid  {is_valid}')
-            update_query = 'update gitlab_repos set does_repo_exist = %s where id = %s'
+            update_query = 'update gitlab_repos_puppet set does_repo_exist = %s where id = %s'
             val = (is_valid,repo[0])
             cursor.execute(update_query, val)
             db_conn.commit()

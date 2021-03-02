@@ -9,7 +9,7 @@ gl = gitlab.Gitlab('https://gitlab.com', private_token='ym_J9_F6GBXf4yF2ToQs')
 def get_all_gitlab_repo_id():
    
     try:
-        cursor.execute('select * from gitlab_repos where repo_lifetime_in_month>0')
+        cursor.execute('select * from gitlab_repos_puppet where repo_lifetime_in_month>0')
         rows = cursor.fetchall()
     except:
         print(Exception)
@@ -29,7 +29,7 @@ def update_developer_count():
         except:
             developer_count = 0
         print(f'Updating developer count of repo {repo[0]} with value {developer_count}')
-        update_query = "update gitlab_repos set no_of_developers = %s where id = %s"
+        update_query = "update gitlab_repos_puppet set no_of_developers = %s where id = %s"
         val = (developer_count ,repo[0])
         cursor.execute(update_query, val)
         db_conn.commit()

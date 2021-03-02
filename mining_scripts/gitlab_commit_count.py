@@ -9,7 +9,7 @@ gl = gitlab.Gitlab('https://gitlab.com', private_token='ym_J9_F6GBXf4yF2ToQs')
 def get_all_gitlab_repo_id():
    
     try:
-        cursor.execute('select id, repo_lifetime_in_month from gitlab_repos where repo_lifetime_in_month>0 and no_of_developers>0')
+        cursor.execute('select id, repo_lifetime_in_month from gitlab_repos_puppet where repo_lifetime_in_month>0 and no_of_developers>0')
         rows = cursor.fetchall()
     except:
         print(Exception)
@@ -57,7 +57,7 @@ def update_total_commits_n_frequency():
                 monthly_commit_frequency = total_commit_count
 
             print(f'Updating repo {repo[0]} with total commit {total_commit_count} and monthly commit frequency as {monthly_commit_frequency}')
-            update_query = 'update gitlab_repos set total_commits = %s, monthly_commit_frequency = %s where id = %s'
+            update_query = 'update gitlab_repos_puppet set total_commits = %s, monthly_commit_frequency = %s where id = %s'
             val = (total_commit_count,monthly_commit_frequency ,repo[0])
             cursor.execute(update_query, val)
             db_conn.commit()
