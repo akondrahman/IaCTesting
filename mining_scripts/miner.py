@@ -152,7 +152,7 @@ for repo in repos:
     print(repo[6])
     print (f'\n ***Repo ID is {repo[0]} ***\n\n')
     if repo[0]>1126 and repo[0]<1450:
-        update_repo_repo_details(repo, 1)
+        update_repo_details(repo, 1)
 #
 #
 #get_contributors("antirez/redis")
