@@ -1,3 +1,0 @@
-file_name,project_name,Skip_Ansible_Lint,Local_Only_Test,Assertion_Roulette,External_Dependency,No_ENV_CleanUp
-D:\Personal\Research\ansible-consul\tests\test.yml,0.0,0.0,1.0,0.0,0.0,0.0
-D:\Personal\Research\ansible-consul\tests\test_vars.yml,0.0,0.0,0.0,0.0,7.0,0.0
