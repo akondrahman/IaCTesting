@@ -11,7 +11,8 @@ def main():
     
     
     
-    base_dir= input("Please enter the directory: ")
+    # base_dir= input("Please enter the directory: ")
+    base_dir = r"/src/"
     print("\n")
     
     

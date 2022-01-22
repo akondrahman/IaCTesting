@@ -41,7 +41,7 @@ class LocalhostTestingYamlDetector(AntiPatternDetector ):
         role_names['local'] = local_test_roles
         role_names['remote'] = remote_test_roles
             
-        print(role_names)
+        # print(role_names)
         return role_names
     
     

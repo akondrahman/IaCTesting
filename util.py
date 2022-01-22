@@ -80,7 +80,7 @@ class Util:
     def get_playbook( yaml_file_path):
         with open(yaml_file_path, 'r') as f:
             try:
-                playbook = yaml.load(f)
+                playbook = yaml.safe_load(f)
             except Exception as e:
                 print (e)
                 return None
@@ -103,7 +103,7 @@ class Util:
     def write_to_file(self,anti_pattern_name, test_file_name, anti_pattern_count, project_name):
         print(f'{test_file_name} has {anti_pattern_name} upto {anti_pattern_count} times')
         headers = ['project_name','file_name','Skip_Ansible_Lint', 'Local_Only_Test', 'Assertion_Roulette', 'External_Dependency', 'No_ENV_CleanUp' ]
-        outfile = project_name + "_output.csv"
+        outfile = r"/src/" + project_name + "_output.csv"
         if path.exists(outfile) and (time.time() - os.path.getctime(outfile))<3600:
             print (f'appending in current output file')
             self.update_csv_line_panda(outfile,project_name, test_file_name, anti_pattern_name, anti_pattern_count)
