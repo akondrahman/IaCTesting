@@ -27,7 +27,8 @@ class AssertionRouletteYamlDetector(AntiPatternDetector ):
                         
                         asserion_roulette_count += 1
         except Exception as e:
-            print(e)
+            # print("Ëntered in asserion_roulette_count except")
+            # print(e)
             pass
         
         
@@ -45,7 +46,7 @@ class AssertionRouletteYamlDetector(AntiPatternDetector ):
                             asserion_roulette_count += 1
         
             except Exception as e:
-                print(e)
+                # print(e)
                 pass
                 
             try:
@@ -55,7 +56,7 @@ class AssertionRouletteYamlDetector(AntiPatternDetector ):
                     asserion_roulette_count += 1
             
             except Exception as e:
-                print(e)
+                # print(e)
                 continue
                 
         

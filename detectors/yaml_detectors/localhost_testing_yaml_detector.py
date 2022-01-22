@@ -20,7 +20,7 @@ class LocalhostTestingYamlDetector(AntiPatternDetector ):
         remote_test_roles = []
         
         for role in playbook:
-#            print(f'role name is {role}')
+            # print(f'role name is {role}')
             try:
                 hostmapping = {}
 #                hostmapping['role_name'] = role['name']
@@ -34,7 +34,8 @@ class LocalhostTestingYamlDetector(AntiPatternDetector ):
                     hostmapping['is_local_host'] = 0
                     remote_test_roles.append(hostmapping)
             except Exception as e:
-                print(e)
+                # print("Entered in the localhost try catch")
+                # print(e)
                 continue
         
         role_names['local'] = local_test_roles

@@ -163,9 +163,14 @@ class Util:
              
         except:
             print("new line is being created")
-            df.loc[test_file_name, 1:6 ] = 0
-            df.loc[test_file_name, 'project_name'] = project_name
             
+            df.loc[test_file_name, 'project_name'] = project_name
+            df.at[test_file_name, 'Skip_Ansible_Lint'] = 0
+            df.at[test_file_name, 'Local_Only_Test'] = 0
+            df.at[test_file_name, 'Assertion_Roulette'] = 0
+            df.at[test_file_name, 'External_Dependency'] = 0
+            df.at[test_file_name, 'No_ENV_CleanUp'] = 0
+            df.at[test_file_name, 'project_name'] = 0
             
             df.at[test_file_name, column_name] = new_value
 #        df.at[test_file_name, column_name] = new_value
