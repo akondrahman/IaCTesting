@@ -1,0 +1,6 @@
+mock==4.0.3
+networking_ovn==7.4.1
+neutron_lib==2.18.1
+nltk==3.6.1
+pandas==1.2.4
+PyYAML==6.0
