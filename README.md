@@ -8,7 +8,39 @@ Mehedi Hassan (Lead) , Akond Rahman
 
 ### Details 
 
-> Coming soon 
+> Test Pattern Miner for Ansible(TAMA) 
+
+# What is TAMA
+**T**est P**a**ttern **M**iner for **A**nsible  is a tool that identifies testing pattern instances that correlate with the appearance of bugs in Ansible test scripts. TAMA parses the relevant test YAML files of a repository where Ansible has been used and indicates some patterns like `Assertion Roulette`, `Linter Strangler`, `Local Only Testing` and `Remote Mystery Guest`.
+
+# How to Use TAMA
+## Pull TAMA
+Download docker image from docker hub with below command:
+
+`docker pull talismanic/tama`
+
+## Run TAMA
+Run the docker container binding the volume of the IaC (ansible) Project. For example, if project directory is /usr/project/name then we will run the following command:
+
+`docker run -v /usr/project/name:/src -it talismanic/tama`
+
+## Give your project name
+TAMA will ask for the name of the project. Give it a name as per your wish.
+
+## Check the findings
+TAMA will scan the ansible test files and produce the output in the Ansible project directory. File name convention will be
+`projectName_output.csv`
+
+
+# Supported Tags
+As we are under active development, currently we only support the `:latest` tag.
+
+# Maintained By
+[Paser Group](https://akondrahman.github.io/paser/)
+
+Tennessee Tech University.
+
+
 
 > First step, detect testing anti-patterns 
 ### Categories which will be focussed:
@@ -43,7 +75,7 @@ https://github.com/akondrahman/IaCTesting/blob/18b98460e0c059ad79aee81f2359f3d5d
 In the above two examples we can see that multiple mention of assertion without proper debug message. So if any of those fails it will not be identifiable which one failed and why failed.
 
 
-#### External dependency
+#### Remote Mystery Guest
 ###### Definition 
 ....Will Be Updated Later....
 
@@ -71,19 +103,7 @@ install_command =
 ```
 In the above snippet, we are seeing that files from internet is being downloaded for preparing test environment.
 
-#### Violation of execute and verify
-
-###### Definition 
-....Will Be Updated Later....
-
-Example 01:
-
-
-
-4. Not collecting facts from remote host
-5. Mishandled privilege escalation
-
-#### Localhost testing
+#### Local Only Testing
 
 ###### Definition 
 ....Will Be Updated Later....
@@ -138,33 +158,8 @@ https://github.com/akondrahman/IaCTesting/blob/fc4e7ab85bf04234869f00d4e4e173c4d
 
 In the first example we can see that the role *Prepare web server on localhost to serve python packages* is running the task in localhost environment. Whereas in the second example we can see that role *Verify not using a build host* has executed the task in container1 environment. So example 1 has antipattern of testing only in localhost.
 
-#### Not cleaning the test tnv
-###### Definition 
-....Will Be Updated Later....
 
-Example 01:
-https://github.com/akondrahman/IaCTesting/blob/b82895f06f85108a76ca27fc3d83cc7c4da4b65b/categ_ansible_test_code.txt#L7480
-
-```
-    def tearDown(self):
-        test_inventory.cleanup()
- ```
- 
- ```
-def cleanup():
-    for f_name in CLEANUP:
-        f_file = path.join(TARGET_DIR, f_name)
-        if os.path.exists(f_file):
-            os.remove(f_file)
-```
-In this example, test script is actually calling a cleanup() function which is ultimately removing the test files from the redirectory. But in any scenarios we see that set environment has not been properly cleaned up after testing is completed or before starting testing.
-
-#### Sensitive Data Leakage
-###### Definition 
-....Will Be Updated Later....
-
-
-#### Skipping the Linter
+#### Linter Strangler
 ###### Definition 
 ....Will Be Updated Later....
 
