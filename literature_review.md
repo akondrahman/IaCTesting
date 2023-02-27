@@ -6,6 +6,7 @@
   booktitle={Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering},
   pages={4--15},
   year={2016}
+  workshop 6
 }
 ```
 This research emphasized on the importance of tools to automatically detect test smells as most of the times practitioners have little or no awareness about the smells in test code. Also it proved that, there are some relationships between production code smell and test code smell.
