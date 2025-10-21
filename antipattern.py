@@ -31,6 +31,8 @@ class AntiPatternObservable():
     
     def __init__(self):
         self.__observers = []
+        # Here I am making a change to test the codacy action
+        self.random_variable = 0
     
     def add_observer(self, oberver):
         self.__observers.append(oberver)
